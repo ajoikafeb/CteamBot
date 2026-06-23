@@ -1,0 +1,97 @@
+{
+  "saved_at": 1781673005,
+  "saved_at_iso": "2026-06-17T05:10:05.064364+00:00",
+  "data": {
+    "levels": [
+      {
+        "wallet": "0xE099Abf9FBa59fEE933aeBeb605761f69E8F500e",
+        "level": 1,
+        "eligible": true,
+        "can_mint": false,
+        "minted": true,
+        "failure_code": "already_minted",
+        "failure_label": "This credential level has already been minted",
+        "tasks": [
+          {
+            "key": "follow_x",
+            "label": "Follow X",
+            "required": 1,
+            "progress": 1,
+            "completed": true
+          },
+          {
+            "key": "join_discord",
+            "label": "Join Discord",
+            "required": 1,
+            "progress": 1,
+            "completed": true
+          },
+          {
+            "key": "valid_prediction",
+            "label": "Complete valid interaction on the 0G chain",
+            "required": 2,
+            "progress": 477,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "wallet": "0xE099Abf9FBa59fEE933aeBeb605761f69E8F500e",
+        "level": 2,
+        "eligible": true,
+        "can_mint": false,
+        "minted": true,
+        "failure_code": "already_minted",
+        "failure_label": "This credential level has already been minted",
+        "tasks": [
+          {
+            "key": "hold_orbit",
+            "label": "Hold Orbit SBT",
+            "required": 1,
+            "progress": 1,
+            "completed": true
+          },
+          {
+            "key": "valid_invitations",
+            "label": "Complete valid invitations on evoevo",
+            "required": 8,
+            "progress": 6,
+            "completed": false
+          },
+          {
+            "key": "valid_predictions",
+            "label": "Complete 5 valid interactions on the 0G chain",
+            "required": 5,
+            "progress": 477,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "wallet": "0xE099Abf9FBa59fEE933aeBeb605761f69E8F500e",
+        "level": 3,
+        "eligible": false,
+        "can_mint": false,
+        "failure_code": "requirements_incomplete",
+        "failure_label": "Credential requirements are not complete yet",
+        "tasks": [
+          {
+            "key": "hold_vector",
+            "label": "Hold Vector SBT",
+            "required": 1,
+            "progress": 1,
+            "completed": true
+          },
+          {
+            "key": "zenith_whitelist",
+            "label": "Be selected into the Zenith whitelist",
+            "required": 1,
+            "progress": 0,
+            "completed": false
+          }
+        ]
+      }
+    ],
+    "wallet": "0xE099Abf9FBa59fEE933aeBeb605761f69E8F500e"
+  }
+}

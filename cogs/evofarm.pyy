@@ -1,0 +1,1132 @@
+
+# cogs/evo_farm.py
+# Simple Discord slash commands for EvoEvo farm.
+#
+# Commands:
+# /farm add        -> tambah data farm via modal, data terenkripsi di server
+# /farm import     -> import farm data JSON
+# /farm feed       -> screening feed per user, simpan data per user
+# /farm start      -> start farm all / selected wallet names
+# /farm stat       -> lihat status farm
+# /farm stop       -> stop farm
+# /farm wallets    -> list wallet
+# /farm config     -> setting wallet
+
+import asyncio
+import json
+import random
+from typing import Optional
+
+import discord
+from discord import app_commands
+from discord.ext import commands
+
+from evo_farm_core import (
+    EvoCore,
+    FarmStore,
+    DEFAULT_SETTINGS,
+    CHAIN_ID,
+    POINT_PER_TX,
+    mask_wallet,
+    mask_agent,
+    short_hash,
+    normalize_bearer,
+    normalize_private_key,
+    derive_wallet_address,
+    create_session,
+    safe_name,
+    save_json,
+    load_json,
+    feed_file,
+    used_file,
+    history_file,
+    load_used,
+    mark_used,
+    add_history,
+    now_iso,
+    log_user_error,
+)
+
+
+RUNNERS = {}
+
+
+def split_wallet_names(value: Optional[str]):
+    if not value or str(value).strip().lower() in ["all", "*"]:
+        return None
+    return [x.strip() for x in str(value).split(",") if x.strip()]
+
+
+def wallet_label(wallet):
+    agents = ", ".join(str(x) for x in wallet.get("agent_ids", [])) or "-"
+    return f"`{wallet.get('name')}` `{mask_wallet(wallet.get('wallet_address'))}` agents: `{agents}`"
+
+
+def code_block(text: str, lang="txt"):
+    text = str(text or "")
+    if len(text) > 3900:
+        text = text[:3900] + "\n..."
+    return f"```{lang}\n{text}\n```"
+
+
+
+def fmt_int(value):
+    try:
+        if value is None:
+            return "-"
+        return f"{int(value):,}"
+    except Exception:
+        return "-"
+
+
+def fmt_og(value):
+    try:
+        if value is None:
+            return "-"
+        return f"{float(value):,.6f} OG"
+    except Exception:
+        return "-"
+
+
+def fmt_rank_points(item):
+    if not item:
+        return "Not in Top 100"
+    rank = item.get("rank")
+    points = item.get("points")
+    if rank is None and points is None:
+        return "-"
+    return f"#{rank or '-'} • {fmt_int(points)} pts"
+
+
+def count_history_for_wallet(history_rows, wallet_name: str):
+    ok = 0
+    last_tx = "-"
+    last_time = "-"
+    for row in history_rows or []:
+        if str(row.get("wallet") or "").lower() != str(wallet_name or "").lower():
+            continue
+        ok += 1
+        last_tx = row.get("tx_hash") or last_tx
+        last_time = row.get("time") or last_time
+    return ok, last_tx, last_time
+
+
+def count_feed_for_wallet(feed_rows, wallet_name: str):
+    total = 0
+    platform = 0
+    source = 0
+    for row in feed_rows or []:
+        if str(row.get("wallet_name") or "").lower() != str(wallet_name or "").lower():
+            continue
+        total += 1
+        src = str(row.get("source") or "")
+        if src == "platform":
+            platform += 1
+        elif src:
+            source += 1
+    return total, platform, source
+
+
+def short_config(settings):
+    settings = settings or {}
+    return (
+        f"cooldown `{settings.get('cooldown_min', '-')}-{settings.get('cooldown_max', '-')}s` • "
+        f"refresh `{settings.get('refresh_min', '-')}-{settings.get('refresh_max', '-')}s` • "
+        f"tx/agent `{settings.get('tx_per_agent', '-')}` • "
+        f"feed `{settings.get('feed_limit', '-')}`"
+    )
+
+
+def make_points_text(points_summary):
+    points_summary = points_summary or {}
+    me = points_summary.get("me") or {}
+    lb = points_summary.get("leaderboard") or {}
+
+    lines = []
+    if me.get("ok"):
+        lines.append(f"Total: `{fmt_int(me.get('total_points'))}`")
+        lines.append(f"User: `{fmt_int(me.get('user_points'))}`")
+        lines.append(f"Agent: `{fmt_int(me.get('agent_points'))}`")
+        if me.get("worldcup_points") is not None:
+            lines.append(f"World Cup: `{fmt_int(me.get('worldcup_points'))}`")
+    else:
+        lines.append(f"Me Points: `ERR {str(me.get('error') or '-')[:80]}`")
+
+    lines.append(f"Daily: `{fmt_rank_points(lb.get('daily'))}`")
+    lines.append(f"Weekly: `{fmt_rank_points(lb.get('weekly'))}`")
+    lines.append(f"All Time: `{fmt_rank_points(lb.get('total'))}`")
+
+    errors = points_summary.get("errors") or []
+    if errors:
+        lines.append(f"Note: `{str(errors[0])[:80]}`")
+
+    return "\n".join(lines)
+
+
+def make_og_text(og_data):
+    og_data = og_data or {}
+    if og_data.get("ok"):
+        return f"`{fmt_og(og_data.get('og'))}`\nWei: `{fmt_int(og_data.get('wei'))}`"
+    return f"`ERR {str(og_data.get('error') or '-')[:100]}`"
+
+
+
+def _wallet_choices_for_user(user_id: int, current: str):
+    """Return autocomplete choices untuk wallet milik user.
+
+    Support input banyak wallet pakai koma:
+    - kalau user mengetik "w1,w", autocomplete hanya memfilter bagian setelah koma.
+    """
+    try:
+        store = FarmStore()
+        wallets = store.list_wallets(user_id)
+    except Exception:
+        wallets = []
+
+    current = str(current or "")
+    prefix = ""
+    needle = current
+    if "," in current:
+        prefix = current.rsplit(",", 1)[0].strip()
+        needle = current.rsplit(",", 1)[-1].strip()
+
+    needle_l = needle.lower()
+    choices = []
+
+    # Pilihan all tetap dimunculkan untuk command yang support all.
+    if "all".startswith(needle_l):
+        choices.append(app_commands.Choice(name="all", value="all"))
+
+    for wallet in wallets:
+        name = str(wallet.get("name") or "").strip()
+        if not name:
+            continue
+        if needle_l and needle_l not in name.lower():
+            continue
+        value = f"{prefix},{name}" if prefix else name
+        label = f"{name} • {mask_wallet(wallet.get('wallet_address'))}"
+        choices.append(app_commands.Choice(name=label[:100], value=value[:100]))
+        if len(choices) >= 25:
+            break
+
+    return choices[:25]
+
+
+async def wallet_autocomplete(interaction: discord.Interaction, current: str):
+    return _wallet_choices_for_user(interaction.user.id, current)
+
+
+async def wallet_single_autocomplete(interaction: discord.Interaction, current: str):
+    """Autocomplete untuk command yang hanya menerima 1 wallet."""
+    try:
+        store = FarmStore()
+        wallets = store.list_wallets(interaction.user.id)
+    except Exception:
+        wallets = []
+    needle = str(current or "").lower()
+    choices = []
+    for wallet in wallets:
+        name = str(wallet.get("name") or "").strip()
+        if not name:
+            continue
+        if needle and needle not in name.lower():
+            continue
+        label = f"{name} • {mask_wallet(wallet.get('wallet_address'))}"
+        choices.append(app_commands.Choice(name=label[:100], value=name[:100]))
+        if len(choices) >= 25:
+            break
+    return choices[:25]
+
+
+
+async def safe_followup_error(interaction: discord.Interaction, title: str, error: Exception | str):
+    msg = f"❌ {title}: `{str(error)[:1700]}`"
+    try:
+        if interaction.response.is_done():
+            await interaction.followup.send(msg, ephemeral=True)
+        else:
+            await interaction.response.send_message(msg, ephemeral=True)
+    except Exception:
+        pass
+
+
+class EditFarmModal(discord.ui.Modal, title="Edit Farm Wallet"):
+    new_name = discord.ui.TextInput(
+        label="Nama wallet baru (optional)",
+        style=discord.TextStyle.short,
+        required=False,
+        max_length=80,
+        placeholder="Kosongkan kalau tidak diganti",
+    )
+    bearer = discord.ui.TextInput(
+        label="Bearer baru (optional)",
+        style=discord.TextStyle.paragraph,
+        required=False,
+        max_length=2000,
+        placeholder="Kosongkan kalau tidak diganti",
+    )
+    private_key = discord.ui.TextInput(
+        label="Private key baru (optional)",
+        style=discord.TextStyle.short,
+        required=False,
+        max_length=160,
+        placeholder="Kosongkan kalau tidak diganti",
+    )
+
+    def __init__(self, cog, wallet_name: str):
+        super().__init__(timeout=300)
+        self.cog = cog
+        self.wallet_name = wallet_name
+
+    async def on_submit(self, interaction: discord.Interaction):
+        try:
+            await interaction.response.defer(ephemeral=True, thinking=True)
+            await asyncio.wait_for(
+                self.cog.edit_wallet_from_values(
+                    interaction,
+                    self.wallet_name,
+                    str(self.new_name.value or ""),
+                    str(self.bearer.value or ""),
+                    str(self.private_key.value or ""),
+                ),
+                timeout=45,
+            )
+        except asyncio.TimeoutError:
+            log_user_error(interaction.user.id, "farm edit modal timeout", "edit_wallet_from_values timeout")
+            await safe_followup_error(
+                interaction,
+                "Edit wallet timeout",
+                "Resolver/API terlalu lama. Coba ulang beberapa saat lagi."
+            )
+        except Exception as e:
+            log_user_error(interaction.user.id, "farm edit modal exception", repr(e))
+            await safe_followup_error(interaction, "Edit wallet error", e)
+
+    async def on_error(self, interaction: discord.Interaction, error: Exception):
+        log_user_error(interaction.user.id, "farm edit modal on_error", repr(error))
+        await safe_followup_error(interaction, "Edit modal error", error)
+
+
+class AddFarmModal(discord.ui.Modal, title="Add Farm Data"):
+    bearer = discord.ui.TextInput(
+        label="Bearer Token",
+        style=discord.TextStyle.paragraph,
+        required=True,
+        max_length=2000,
+        placeholder="Paste bearer token di sini",
+    )
+    private_key = discord.ui.TextInput(
+        label="Private Key",
+        style=discord.TextStyle.short,
+        required=True,
+        max_length=160,
+        placeholder="0x... atau 64 hex",
+    )
+
+    def __init__(self, cog, wallet_name: str):
+        super().__init__(timeout=300)
+        self.cog = cog
+        self.wallet_name = wallet_name
+
+    async def on_submit(self, interaction: discord.Interaction):
+        try:
+            await interaction.response.defer(ephemeral=True, thinking=True)
+            await asyncio.wait_for(
+                self.cog.add_wallet_from_values(
+                    interaction,
+                    self.wallet_name,
+                    str(self.bearer.value),
+                    str(self.private_key.value),
+                ),
+                timeout=45,
+            )
+        except asyncio.TimeoutError:
+            log_user_error(interaction.user.id, "farm add modal timeout", "add_wallet_from_values timeout")
+            await safe_followup_error(
+                interaction,
+                "Add wallet timeout",
+                "Resolver agent/API terlalu lama. Coba ulang, atau pakai `/farm add_raw`."
+            )
+        except Exception as e:
+            log_user_error(interaction.user.id, "farm add modal exception", repr(e))
+            await safe_followup_error(interaction, "Add wallet error", e)
+
+    async def on_error(self, interaction: discord.Interaction, error: Exception):
+        log_user_error(interaction.user.id, "farm add modal on_error", repr(error))
+        await safe_followup_error(interaction, "Modal error", error)
+
+
+class UserFarmRunner:
+    def __init__(self, cog, user_id: int, wallets: list):
+        self.cog = cog
+        self.user_id = int(user_id)
+        self.wallets = wallets
+        self.stop_event = asyncio.Event()
+        self.tasks = []
+        self.state = {
+            "running": False,
+            "wallets": {},
+            "ok": 0,
+            "fail": 0,
+            "started_at": now_iso(),
+        }
+
+    async def start(self):
+        self.state["running"] = True
+        for wallet in self.wallets:
+            name = wallet["name"]
+            self.state["wallets"][name] = {
+                "current": "starting",
+                "ok": 0,
+                "fail": 0,
+                "last_tx": "-",
+                "last_error": "-",
+                "agents": len(wallet.get("agent_ids", [])),
+            }
+            self.tasks.append(asyncio.create_task(self.wallet_loop(wallet)))
+
+    async def stop(self):
+        self.stop_event.set()
+        for task in self.tasks:
+            task.cancel()
+        await asyncio.gather(*self.tasks, return_exceptions=True)
+        self.state["running"] = False
+
+    async def wallet_loop(self, wallet: dict):
+        name = wallet["name"]
+        settings = wallet.get("settings", {})
+        cooldown_min = int(settings.get("cooldown_min", DEFAULT_SETTINGS["cooldown_min"]))
+        cooldown_max = int(settings.get("cooldown_max", DEFAULT_SETTINGS["cooldown_max"]))
+        refresh_min = int(settings.get("refresh_min", DEFAULT_SETTINGS["refresh_min"]))
+        refresh_max = int(settings.get("refresh_max", DEFAULT_SETTINGS["refresh_max"]))
+        tx_per_agent = int(settings.get("tx_per_agent", DEFAULT_SETTINGS["tx_per_agent"]))
+
+        while not self.stop_event.is_set():
+            try:
+                self.state["wallets"][name]["current"] = "screen feed"
+                feed_rows, counters = await asyncio.to_thread(self.cog.core.screen_feed_for_wallet, wallet)
+                self.cog.save_user_feed(self.user_id, feed_rows, append=True)
+
+                used = load_used(self.user_id)
+                if not feed_rows:
+                    self.state["wallets"][name]["current"] = "no feed"
+                    await asyncio.sleep(random.randint(refresh_min, refresh_max))
+                    continue
+
+                for agent_id in wallet.get("agent_ids", []):
+                    if self.stop_event.is_set():
+                        break
+                    sent_for_agent = 0
+                    for op in feed_rows:
+                        if self.stop_event.is_set() or sent_for_agent >= tx_per_agent:
+                            break
+                        opinion_id = int(op["opinion_id"])
+                        if str(opinion_id) in used:
+                            continue
+
+                        self.state["wallets"][name]["current"] = f"memory {opinion_id}"
+                        memory, err = await asyncio.to_thread(
+                            self.cog.core.request_memory_data,
+                            wallet,
+                            int(agent_id),
+                            opinion_id,
+                        )
+                        if err:
+                            self.state["wallets"][name]["fail"] += 1
+                            self.state["fail"] += 1
+                            self.state["wallets"][name]["last_error"] = str(err)[:120]
+                            continue
+
+                        self.state["wallets"][name]["current"] = f"tx {opinion_id}"
+                        try:
+                            result = await asyncio.to_thread(self.cog.core.send_tx, wallet, memory)
+                        except Exception as e:
+                            self.state["wallets"][name]["fail"] += 1
+                            self.state["fail"] += 1
+                            self.state["wallets"][name]["last_error"] = str(e)[:120]
+                            continue
+
+                        if result.get("ok"):
+                            row = {
+                                "time": now_iso(),
+                                "wallet": name,
+                                "wallet_address": wallet.get("wallet_address"),
+                                "agent_id": int(agent_id),
+                                "opinion_id": opinion_id,
+                                "tx_hash": result.get("tx_hash"),
+                                "gas_used": result.get("gas_used"),
+                            }
+                            mark_used(self.user_id, opinion_id, row)
+                            add_history(self.user_id, row)
+                            used[str(opinion_id)] = row
+                            self.state["wallets"][name]["ok"] += 1
+                            self.state["ok"] += 1
+                            self.state["wallets"][name]["last_tx"] = result.get("tx_hash")
+                            sent_for_agent += 1
+                        else:
+                            self.state["wallets"][name]["fail"] += 1
+                            self.state["fail"] += 1
+                            self.state["wallets"][name]["last_error"] = f"receipt status {result.get('status')}"
+
+                        await asyncio.sleep(random.randint(cooldown_min, cooldown_max))
+
+                self.state["wallets"][name]["current"] = "cooldown"
+                await asyncio.sleep(random.randint(refresh_min, refresh_max))
+
+            except asyncio.CancelledError:
+                raise
+            except Exception as e:
+                self.state["wallets"][name]["current"] = "error"
+                self.state["wallets"][name]["last_error"] = str(e)[:120]
+                await asyncio.sleep(max(10, refresh_min))
+
+
+class EvoFarm(commands.GroupCog, name="farm", description="EvoEvo farm sederhana"):
+    def __init__(self, bot: commands.Bot):
+        self.bot = bot
+        self.store = FarmStore()
+        self.core = EvoCore()
+
+    def save_user_feed(self, user_id: int, rows: list, append=True):
+        path = feed_file(user_id)
+        if append:
+            old = load_json(path, [])
+            if not isinstance(old, list):
+                old = []
+            # dedupe by wallet+agent+opinion_id
+            combined = old + rows
+        else:
+            combined = rows
+
+        seen = set()
+        out = []
+        for row in combined:
+            key = (row.get("wallet_name"), row.get("agent_id"), row.get("opinion_id"))
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append(row)
+
+        save_json(path, out[-2000:])
+
+    def selected_wallets(self, user_id: int, wallet_names: Optional[str] = None):
+        wallets = self.store.list_wallets(user_id)
+        names = split_wallet_names(wallet_names)
+        if names is None:
+            return wallets
+        wanted = {x.lower() for x in names}
+        return [w for w in wallets if str(w.get("name", "")).lower() in wanted]
+
+    async def edit_wallet_from_values(
+        self,
+        interaction: discord.Interaction,
+        wallet_name: str,
+        new_name: str = "",
+        bearer: str = "",
+        private_key: str = "",
+    ):
+        wallet_name = str(wallet_name or "").strip()
+        new_name = str(new_name or "").strip()
+        bearer = str(bearer or "").strip()
+        private_key = str(private_key or "").strip()
+
+        if not wallet_name:
+            await interaction.followup.send("❌ Nama wallet wajib diisi.", ephemeral=True)
+            return
+
+        if not new_name and not bearer and not private_key:
+            await interaction.followup.send("⚠️ Tidak ada data yang diubah.", ephemeral=True)
+            return
+
+        data = self.store.load(interaction.user.id)
+        wallets = data.get("wallets", [])
+        target = None
+        old_name_l = wallet_name.lower()
+
+        for wallet in wallets:
+            if str(wallet.get("name", "")).lower() == old_name_l:
+                target = wallet
+                break
+
+        if not target:
+            await interaction.followup.send("❌ Wallet tidak ditemukan.", ephemeral=True)
+            return
+
+        changes = []
+
+        if new_name:
+            safe_new_name = safe_name(new_name)
+            # Cegah duplicate nama wallet.
+            for other in wallets:
+                if other is target:
+                    continue
+                if str(other.get("name", "")).lower() == safe_new_name.lower():
+                    await interaction.followup.send(f"❌ Nama wallet `{safe_new_name}` sudah dipakai.", ephemeral=True)
+                    return
+            target["name"] = safe_new_name
+            changes.append("nama")
+
+        if bearer:
+            target["bearer"] = normalize_bearer(bearer)
+            changes.append("bearer")
+
+        if private_key:
+            pk = normalize_private_key(private_key)
+            if not pk:
+                await interaction.followup.send("❌ Private key tidak valid. Format harus 64 hex, boleh dengan/tanpa 0x.", ephemeral=True)
+                return
+            address = derive_wallet_address(pk)
+            if not address:
+                await interaction.followup.send("❌ Gagal derive address dari private key.", ephemeral=True)
+                return
+            target["private_key"] = pk
+            target["wallet_address"] = address
+            changes.append("privatekey/address")
+
+        # Kalau bearer/privatekey berubah, resolve ulang agent.
+        if bearer or private_key:
+            await interaction.followup.send("⏳ Update tersimpan, auto-resolve agent ulang...", ephemeral=True)
+            wallet_for_resolve = dict(target)
+            wallet_for_resolve["_session"] = create_session()
+            agents, err = await asyncio.to_thread(self.core.resolve_agents, wallet_for_resolve)
+            if err:
+                log_user_error(interaction.user.id, "farm edit resolve_agents", err, {"wallet": wallet_name})
+                target["agent_ids"] = []
+                changes.append(f"agent resolve gagal: {err}")
+            else:
+                target["agent_ids"] = agents
+                changes.append("agent_ids")
+
+        self.store.update_wallets(interaction.user.id, wallets)
+
+        await interaction.followup.send(
+            "✅ Wallet berhasil diupdate.\n"
+            f"Wallet: `{target.get('name')}`\n"
+            f"Address: `{mask_wallet(target.get('wallet_address'))}`\n"
+            f"Agents: `{', '.join(str(x) for x in target.get('agent_ids', [])) or '-'}`\n"
+            f"Changed: `{', '.join(changes)}`",
+            ephemeral=True,
+        )
+
+    async def add_wallet_from_values(self, interaction: discord.Interaction, wallet_name: str, bearer: str, private_key: str):
+        wallet_name = str(wallet_name or "").strip()
+        if not wallet_name:
+            await interaction.followup.send("❌ Nama wallet wajib diisi.", ephemeral=True)
+            return
+
+        try:
+            # Kirim progress kecil agar Discord tidak kelihatan stuck.
+            await interaction.followup.send("⏳ Validasi private key, bearer, dan auto-resolve agent...", ephemeral=True)
+
+            wallet, err = await asyncio.to_thread(self.core.build_wallet, wallet_name, bearer, private_key)
+            if err:
+                log_user_error(interaction.user.id, "farm add build_wallet", err, {"wallet_name": wallet_name})
+                await interaction.followup.send(f"❌ Gagal add wallet: `{err}`", ephemeral=True)
+                return
+
+            self.store.upsert_wallet(interaction.user.id, wallet)
+
+            await interaction.followup.send(
+                "✅ Farm data tersimpan terenkripsi di server.\n"
+                f"Wallet: `{wallet['name']}`\n"
+                f"Address: `{mask_wallet(wallet['wallet_address'])}`\n"
+                f"Agent IDs: `{', '.join(str(x) for x in wallet.get('agent_ids', [])) or '-'}`",
+                ephemeral=True,
+            )
+        except Exception as e:
+            log_user_error(interaction.user.id, "farm add add_wallet_from_values exception", repr(e), {"wallet_name": wallet_name})
+            await interaction.followup.send(f"❌ Add wallet error: `{str(e)[:1700]}`", ephemeral=True)
+
+    @app_commands.command(name="add", description="Tambah farm data. Bearer/private key diinput via modal, agent ID otomatis.")
+    @app_commands.describe(nama_wallet="Nama wallet di data farm kamu")
+    async def add(self, interaction: discord.Interaction, nama_wallet: str):
+        try:
+            await interaction.response.send_modal(AddFarmModal(self, nama_wallet))
+        except Exception as e:
+            log_user_error(interaction.user.id, "farm add send_modal", repr(e))
+            await safe_followup_error(interaction, "Gagal membuka modal", e)
+
+    @app_commands.command(name="add_raw", description="Fallback add farm data tanpa modal jika modal stuck. Gunakan ephemeral.")
+    @app_commands.describe(
+        nama_wallet="Nama wallet",
+        bearer="Bearer token EvoEvo",
+        privatekey="Private key 64 hex / 0x..."
+    )
+    async def add_raw(self, interaction: discord.Interaction, nama_wallet: str, bearer: str, privatekey: str):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+        try:
+            await asyncio.wait_for(
+                self.add_wallet_from_values(interaction, nama_wallet, bearer, privatekey),
+                timeout=45,
+            )
+        except asyncio.TimeoutError:
+            log_user_error(interaction.user.id, "farm add_raw timeout", "add_raw timeout")
+            await interaction.followup.send("❌ Add raw timeout. API/agent resolver terlalu lama.", ephemeral=True)
+        except Exception as e:
+            log_user_error(interaction.user.id, "farm add_raw exception", repr(e))
+            await interaction.followup.send(f"❌ Add raw error: `{str(e)[:1700]}`", ephemeral=True)
+
+    @app_commands.command(name="edit", description="Edit farm wallet: update nama, bearer, atau private key via modal.")
+    @app_commands.describe(wallet="Pilih wallet yang ingin diedit")
+    @app_commands.autocomplete(wallet=wallet_single_autocomplete)
+    async def edit(self, interaction: discord.Interaction, wallet: str):
+        try:
+            await interaction.response.send_modal(EditFarmModal(self, wallet))
+        except Exception as e:
+            log_user_error(interaction.user.id, "farm edit send_modal", repr(e))
+            await safe_followup_error(interaction, "Gagal membuka edit modal", e)
+
+    @app_commands.command(name="edit_raw", description="Fallback edit tanpa modal. Kosongkan field yang tidak ingin diganti.")
+    @app_commands.describe(
+        wallet="Nama wallet yang ingin diedit",
+        new_name="Nama baru optional",
+        bearer="Bearer baru optional",
+        privatekey="Private key baru optional"
+    )
+    @app_commands.autocomplete(wallet=wallet_single_autocomplete)
+    async def edit_raw(
+        self,
+        interaction: discord.Interaction,
+        wallet: str,
+        new_name: Optional[str] = None,
+        bearer: Optional[str] = None,
+        privatekey: Optional[str] = None,
+    ):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+        try:
+            await asyncio.wait_for(
+                self.edit_wallet_from_values(
+                    interaction,
+                    wallet,
+                    new_name or "",
+                    bearer or "",
+                    privatekey or "",
+                ),
+                timeout=45,
+            )
+        except asyncio.TimeoutError:
+            log_user_error(interaction.user.id, "farm edit_raw timeout", "edit_raw timeout")
+            await interaction.followup.send("❌ Edit raw timeout. API/agent resolver terlalu lama.", ephemeral=True)
+        except Exception as e:
+            log_user_error(interaction.user.id, "farm edit_raw exception", repr(e))
+            await interaction.followup.send(f"❌ Edit raw error: `{str(e)[:1700]}`", ephemeral=True)
+
+    @app_commands.command(name="import_data", description="Import farm data JSON lama. Data akan disimpan terenkripsi.")
+    @app_commands.describe(file="File JSON berisi wallet farm lama")
+    async def import_data(self, interaction: discord.Interaction, file: discord.Attachment):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+
+        try:
+            raw = await file.read()
+            data = json.loads(raw.decode("utf-8"))
+        except Exception as e:
+            await interaction.followup.send(f"❌ Gagal baca JSON: `{str(e)[:160]}`", ephemeral=True)
+            return
+
+        entries = data if isinstance(data, list) else data.get("wallets") or data.get("accounts") or [data]
+        if not isinstance(entries, list):
+            await interaction.followup.send("❌ Format JSON tidak valid.", ephemeral=True)
+            return
+
+        ok = 0
+        fail = []
+        for idx, item in enumerate(entries, start=1):
+            if not isinstance(item, dict):
+                continue
+            name = item.get("name") or item.get("wallet_name") or f"wallet_{idx}"
+            bearer = item.get("bearer") or item.get("token")
+            pk = item.get("private_key") or item.get("privateKey") or item.get("pk")
+            wallet, err = await asyncio.to_thread(self.core.build_wallet, name, bearer, pk)
+            if err:
+                fail.append(f"{name}: {err}")
+                continue
+            self.store.upsert_wallet(interaction.user.id, wallet)
+            ok += 1
+
+        msg = f"✅ Import selesai. OK: `{ok}`"
+        if fail:
+            msg += "\nFail:\n" + code_block("\n".join(fail[:10]))
+        await interaction.followup.send(msg, ephemeral=True)
+
+    @app_commands.autocomplete(wallet=wallet_autocomplete)
+    @app_commands.command(name="feed", description="Screening feed per user dan simpan feed_data per user.")
+    @app_commands.describe(wallet="Nama wallet, bisa lebih dari satu pakai koma. Kosong/all = semua wallet.")
+    async def feed(self, interaction: discord.Interaction, wallet: Optional[str] = None):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+
+        wallets = self.selected_wallets(interaction.user.id, wallet)
+        if not wallets:
+            await interaction.followup.send("❌ Wallet tidak ditemukan. Pakai `/farm add` dulu.", ephemeral=True)
+            return
+
+        total = 0
+        lines = []
+        all_rows = []
+        for w in wallets:
+            rows, counters = await asyncio.to_thread(self.core.screen_feed_for_wallet, w)
+            all_rows.extend(rows)
+            total += len(rows)
+            lines.append(
+                f"{w['name']} | agents={len(w.get('agent_ids', []))} | "
+                f"feed={len(rows)} | platform={counters.get('platform', 0)} | source={counters.get('source_agent', 0)}"
+            )
+
+        self.save_user_feed(interaction.user.id, all_rows, append=False)
+        await interaction.followup.send(
+            f"✅ Screening feed selesai. Total feed tersimpan: `{total}`\n" + code_block("\n".join(lines)),
+            ephemeral=True,
+        )
+
+    @app_commands.autocomplete(wallet=wallet_autocomplete)
+    @app_commands.command(name="start", description="Start farm untuk all wallet atau pilih nama wallet.")
+    @app_commands.describe(wallet="Nama wallet, bisa lebih dari satu pakai koma. Kosong/all = semua wallet.")
+    async def start(self, interaction: discord.Interaction, wallet: Optional[str] = None):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+        user_id = interaction.user.id
+
+        if user_id in RUNNERS and RUNNERS[user_id].state.get("running"):
+            await interaction.followup.send("⚠️ Farm kamu sudah running. Pakai `/farm stop` dulu kalau mau restart.", ephemeral=True)
+            return
+
+        wallets = self.selected_wallets(user_id, wallet)
+        if not wallets:
+            await interaction.followup.send("❌ Wallet tidak ditemukan. Pakai `/farm add` dulu.", ephemeral=True)
+            return
+
+        runner = UserFarmRunner(self, user_id, wallets)
+        RUNNERS[user_id] = runner
+        await runner.start()
+
+        names = ", ".join(w["name"] for w in wallets)
+        await interaction.followup.send(f"✅ Farm started untuk wallet: `{names}`", ephemeral=True)
+
+    @app_commands.command(name="stop", description="Stop farm user kamu.")
+    async def stop(self, interaction: discord.Interaction):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+        runner = RUNNERS.get(interaction.user.id)
+        if not runner or not runner.state.get("running"):
+            await interaction.followup.send("⚠️ Tidak ada farm yang sedang running.", ephemeral=True)
+            return
+        await runner.stop()
+        await interaction.followup.send("✅ Farm stopped.", ephemeral=True)
+
+    @app_commands.autocomplete(wallet=wallet_autocomplete)
+    @app_commands.command(name="stat", description="Lihat status farm lengkap: points, OG, feed, TX, config.")
+    @app_commands.describe(wallet="Filter nama wallet, bisa lebih dari satu pakai koma. Kosong/all = semua wallet.")
+    async def stat(self, interaction: discord.Interaction, wallet: Optional[str] = None):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+
+        user_id = interaction.user.id
+        runner = RUNNERS.get(user_id)
+        selected_wallets = self.selected_wallets(user_id, wallet)
+
+        if not selected_wallets:
+            await interaction.followup.send("❌ Wallet tidak ditemukan. Pakai `/farm add` dulu.", ephemeral=True)
+            return
+
+        feed_rows = load_json(feed_file(user_id), [])
+        if not isinstance(feed_rows, list):
+            feed_rows = []
+
+        used_map = load_json(used_file(user_id), {})
+        if not isinstance(used_map, dict):
+            used_map = {}
+
+        history_rows = load_json(history_file(user_id), [])
+        if not isinstance(history_rows, list):
+            history_rows = []
+
+        # Fetch live points + OG balance. Diparalelkan biar /farm stat tidak terlalu lambat.
+        live_results = await asyncio.gather(
+            *[asyncio.to_thread(self.core.fetch_wallet_live_stats, w) for w in selected_wallets],
+            return_exceptions=True,
+        )
+
+        live_by_name = {}
+        for wallet_obj, result in zip(selected_wallets, live_results):
+            if isinstance(result, Exception):
+                live_by_name[wallet_obj.get("name")] = {
+                    "points": {"me": {"ok": False, "error": str(result)[:120]}, "leaderboard": {}, "errors": []},
+                    "og": {"ok": False, "error": str(result)[:120]},
+                }
+            else:
+                live_by_name[wallet_obj.get("name")] = result or {}
+
+        runner_state = runner.state if runner else {}
+        running = bool(runner_state.get("running")) if runner else False
+
+        # Summary totals
+        session_ok = int(runner_state.get("ok", 0) or 0) if runner else 0
+        session_fail = int(runner_state.get("fail", 0) or 0) if runner else 0
+        total_agents = sum(len(w.get("agent_ids", [])) for w in selected_wallets)
+
+        history_ok_total = 0
+        total_og = 0.0
+        total_real_points = 0
+        total_real_points_known = False
+
+        for w in selected_wallets:
+            ok_count, _, _ = count_history_for_wallet(history_rows, w.get("name"))
+            history_ok_total += ok_count
+
+            live = live_by_name.get(w.get("name"), {})
+            og = live.get("og") or {}
+            if og.get("ok") and og.get("og") is not None:
+                total_og += float(og.get("og") or 0)
+
+            me = (live.get("points") or {}).get("me") or {}
+            if me.get("ok") and me.get("total_points") is not None:
+                total_real_points += int(me.get("total_points") or 0)
+                total_real_points_known = True
+
+        embed = discord.Embed(
+            title="🟢 EvoEvo Farm Status" if running else "⚪ EvoEvo Farm Status",
+            description=(
+                f"User: {interaction.user.mention}\n"
+                f"Status: `{'RUNNING' if running else 'STOPPED'}`\n"
+                f"Filter: `{wallet or 'all'}`"
+            ),
+            color=0x22C55E if running else 0x94A3B8,
+        )
+        embed.add_field(name="Wallets", value=f"`{len(selected_wallets)}`", inline=True)
+        embed.add_field(name="Agents", value=f"`{total_agents}`", inline=True)
+        embed.add_field(name="Saved Feed", value=f"`{len(feed_rows)}`", inline=True)
+        embed.add_field(name="Used Opinions", value=f"`{len(used_map)}`", inline=True)
+        embed.add_field(name="Session OK / Fail", value=f"`{session_ok}` / `{session_fail}`", inline=True)
+        embed.add_field(name="Session Est Points", value=f"`{fmt_int(session_ok * POINT_PER_TX)}`", inline=True)
+        embed.add_field(name="History TX OK", value=f"`{fmt_int(history_ok_total)}`", inline=True)
+        embed.add_field(name="History Est Points", value=f"`{fmt_int(history_ok_total * POINT_PER_TX)}`", inline=True)
+        embed.add_field(name="Real Points", value=f"`{fmt_int(total_real_points)}`" if total_real_points_known else "`-`", inline=True)
+        embed.add_field(name="Total OG", value=f"`{fmt_og(total_og)}`", inline=True)
+
+        if runner:
+            embed.add_field(name="Started At", value=f"`{runner_state.get('started_at', '-')}`", inline=False)
+
+        embed.set_footer(text="Real Points dari /v1/me/points • OG dari RPC 0G • data farm terenkripsi per user")
+
+        embeds = [embed]
+
+        for w in selected_wallets:
+            name = w.get("name", "-")
+            state = (runner_state.get("wallets", {}) or {}).get(name, {}) if runner else {}
+            live = live_by_name.get(name, {})
+            settings = w.get("settings", {}) or {}
+
+            history_ok, hist_last_tx, hist_last_time = count_history_for_wallet(history_rows, name)
+            feed_total, feed_platform, feed_source = count_feed_for_wallet(feed_rows, name)
+
+            agents = ", ".join(str(x) for x in w.get("agent_ids", [])) or "-"
+            if len(agents) > 180:
+                agents = agents[:180] + "..."
+
+            current = state.get("current") or ("stopped" if not running else "-")
+            wallet_ok = int(state.get("ok", 0) or 0)
+            wallet_fail = int(state.get("fail", 0) or 0)
+            last_tx = state.get("last_tx") or hist_last_tx or "-"
+            last_error = state.get("last_error") or "-"
+
+            detail = discord.Embed(
+                title=f"👛 {name}",
+                description=f"Address: `{mask_wallet(w.get('wallet_address'))}`\nAgents: `{agents}`",
+                color=0x38BDF8,
+            )
+            detail.add_field(
+                name="Runtime",
+                value=(
+                    f"Current: `{current}`\n"
+                    f"Session OK/Fail: `{wallet_ok}` / `{wallet_fail}`\n"
+                    f"Session Est: `{fmt_int(wallet_ok * POINT_PER_TX)} pts`\n"
+                    f"Last TX: `{short_hash(last_tx)}`"
+                ),
+                inline=False,
+            )
+            detail.add_field(
+                name="Points Lengkap",
+                value=make_points_text(live.get("points")),
+                inline=False,
+            )
+            detail.add_field(
+                name="Token OG",
+                value=make_og_text(live.get("og")),
+                inline=False,
+            )
+            detail.add_field(
+                name="Local Data",
+                value=(
+                    f"Saved Feed: `{fmt_int(feed_total)}` "
+                    f"(Platform `{fmt_int(feed_platform)}` / Source `{fmt_int(feed_source)}`)\n"
+                    f"History TX OK: `{fmt_int(history_ok)}`\n"
+                    f"History Est Points: `{fmt_int(history_ok * POINT_PER_TX)}`\n"
+                    f"Last History Time: `{hist_last_time}`"
+                ),
+                inline=False,
+            )
+            detail.add_field(name="Config", value=short_config(settings), inline=False)
+
+            if last_error and last_error != "-":
+                detail.add_field(name="Last Error", value=f"`{str(last_error)[:900]}`", inline=False)
+
+            embeds.append(detail)
+
+        # Discord max 10 embeds per message.
+        for i in range(0, len(embeds), 10):
+            await interaction.followup.send(embeds=embeds[i:i+10], ephemeral=True)
+
+    @app_commands.command(name="delete", description="Hapus wallet farm dari data terenkripsi kamu.")
+    @app_commands.describe(
+        wallet="Nama wallet yang ingin dihapus",
+        confirm="Wajib true untuk konfirmasi hapus"
+    )
+    @app_commands.autocomplete(wallet=wallet_single_autocomplete)
+    async def delete(self, interaction: discord.Interaction, wallet: str, confirm: bool = False):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+
+        wallet = str(wallet or "").strip()
+        if not wallet:
+            await interaction.followup.send("❌ Nama wallet wajib diisi.", ephemeral=True)
+            return
+
+        data = self.store.load(interaction.user.id)
+        wallets = data.get("wallets", [])
+        target = None
+
+        for item in wallets:
+            if str(item.get("name", "")).lower() == wallet.lower():
+                target = item
+                break
+
+        if not target:
+            await interaction.followup.send("❌ Wallet tidak ditemukan.", ephemeral=True)
+            return
+
+        # Jangan hapus saat farm user masih running, karena runner menyimpan copy wallet di memory.
+        runner = RUNNERS.get(interaction.user.id)
+        if runner and runner.state.get("running"):
+            running_wallets = {
+                str(w.get("name", "")).lower()
+                for w in getattr(runner, "wallets", []) or []
+            }
+            if wallet.lower() in running_wallets:
+                await interaction.followup.send(
+                    "⚠️ Wallet ini sedang dipakai farm yang running.\n"
+                    "Stop dulu dengan `/farm stop`, lalu ulangi `/farm delete`.",
+                    ephemeral=True,
+                )
+                return
+
+        if not confirm:
+            await interaction.followup.send(
+                "⚠️ Konfirmasi hapus wallet dibutuhkan.\n"
+                f"Wallet: `{target.get('name')}`\n"
+                f"Address: `{mask_wallet(target.get('wallet_address'))}`\n"
+                f"Agents: `{', '.join(str(x) for x in target.get('agent_ids', [])) or '-'}`\n\n"
+                "Ulangi command dengan:\n"
+                "`confirm: true`",
+                ephemeral=True,
+            )
+            return
+
+        new_wallets = [
+            item for item in wallets
+            if str(item.get("name", "")).lower() != wallet.lower()
+        ]
+
+        self.store.update_wallets(interaction.user.id, new_wallets)
+
+        await interaction.followup.send(
+            "✅ Wallet berhasil dihapus dari data farm terenkripsi.\n"
+            f"Deleted: `{target.get('name')}` `{mask_wallet(target.get('wallet_address'))}`",
+            ephemeral=True,
+        )
+
+    @app_commands.command(name="wallets", description="List wallet farm kamu.")
+    async def wallets(self, interaction: discord.Interaction):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+        wallets = self.store.list_wallets(interaction.user.id)
+        if not wallets:
+            await interaction.followup.send("Belum ada wallet. Pakai `/farm add` dulu.", ephemeral=True)
+            return
+        lines = []
+        for w in wallets:
+            lines.append(
+                f"{w.get('name')} | {mask_wallet(w.get('wallet_address'))} | "
+                f"agents={','.join(str(x) for x in w.get('agent_ids', [])) or '-'}"
+            )
+        await interaction.followup.send(code_block("\n".join(lines)), ephemeral=True)
+
+    @app_commands.autocomplete(wallet=wallet_single_autocomplete)
+    @app_commands.command(name="config", description="Lihat/set config wallet.")
+    @app_commands.describe(
+        wallet="Nama wallet yang ingin diubah",
+        cooldown_min="Cooldown minimal antar TX",
+        cooldown_max="Cooldown maksimal antar TX",
+        refresh_min="Refresh minimal antar loop",
+        refresh_max="Refresh maksimal antar loop",
+        tx_per_agent="Maksimal TX per agent per cycle",
+        feed_limit="Jumlah feed yang disimpan/scan",
+    )
+    async def config(
+        self,
+        interaction: discord.Interaction,
+        wallet: str,
+        cooldown_min: Optional[int] = None,
+        cooldown_max: Optional[int] = None,
+        refresh_min: Optional[int] = None,
+        refresh_max: Optional[int] = None,
+        tx_per_agent: Optional[int] = None,
+        feed_limit: Optional[int] = None,
+    ):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+
+        data = self.store.load(interaction.user.id)
+        wallets = data.get("wallets", [])
+        target = None
+        for w in wallets:
+            if str(w.get("name", "")).lower() == wallet.lower():
+                target = w
+                break
+
+        if not target:
+            await interaction.followup.send("❌ Wallet tidak ditemukan.", ephemeral=True)
+            return
+
+        settings = target.setdefault("settings", dict(DEFAULT_SETTINGS))
+        changed = []
+        for key, value in {
+            "cooldown_min": cooldown_min,
+            "cooldown_max": cooldown_max,
+            "refresh_min": refresh_min,
+            "refresh_max": refresh_max,
+            "tx_per_agent": tx_per_agent,
+            "feed_limit": feed_limit,
+        }.items():
+            if value is not None:
+                settings[key] = int(value)
+                changed.append(key)
+
+        if changed:
+            self.store.update_wallets(interaction.user.id, wallets)
+
+        lines = [f"{k}: {v}" for k, v in settings.items()]
+        await interaction.followup.send(
+            f"✅ Config `{wallet}` {'updated' if changed else 'current'}:\n" + code_block("\n".join(lines)),
+            ephemeral=True,
+        )
+
+
+    @app_commands.command(name="errors", description="Lihat error terakhir farm kamu.")
+    async def errors(self, interaction: discord.Interaction):
+        await interaction.response.defer(ephemeral=True, thinking=True)
+        from evo_farm_core import discord_error_file, load_json
+        rows = load_json(discord_error_file(interaction.user.id), [])
+        if not rows:
+            await interaction.followup.send("Tidak ada error log.", ephemeral=True)
+            return
+        lines = []
+        for row in rows[-10:]:
+            lines.append(f"{row.get('time')} | {row.get('where')} | {row.get('error')}")
+        await interaction.followup.send(code_block("\n".join(lines)), ephemeral=True)
+
+
+async def setup(bot: commands.Bot):
+    await bot.add_cog(EvoFarm(bot))

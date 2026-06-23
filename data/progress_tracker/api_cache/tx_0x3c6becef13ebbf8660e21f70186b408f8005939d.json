@@ -1,0 +1,33 @@
+{
+  "saved_at": 1781836900,
+  "saved_at_iso": "2026-06-19T02:41:40.047758+00:00",
+  "data": {
+    "address": "3c6becef13ebbf8660e21f70186b408f8005939d",
+    "tx_count": "0",
+    "updated_at_block": null,
+    "balance": "0",
+    "token_count": 0,
+    "nft_count": 0,
+    "delegations_count": 0,
+    "erc20_count": 0,
+    "erc721_count": 0,
+    "erc1155_count": 0,
+    "labels": [],
+    "public_tags": [],
+    "private_tags": [],
+    "watchlist_names": [],
+    "name": null,
+    "is_contract": false,
+    "contract": null,
+    "is_token": false,
+    "token": null,
+    "has_tokens": false,
+    "has_token_transfers": false,
+    "has_logs": false,
+    "has_validated_blocks": false,
+    "has_internal_transactions": false,
+    "internal_transactions_count": 0,
+    "has_transactions": false,
+    "source": "db"
+  }
+}

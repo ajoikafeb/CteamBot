@@ -1,0 +1,245 @@
+{
+  "saved_at": 1782193329,
+  "saved_at_iso": "2026-06-23T05:42:09.581570+00:00",
+  "data": {
+    "current_epoch_id": "epoch-2",
+    "epoch_levels": [
+      {
+        "epoch_id": "epoch-1",
+        "level": 1,
+        "level_key": "orbit",
+        "name": "Orbit Credential",
+        "cap": 20000,
+        "minted": 19996,
+        "remaining": 4,
+        "is_current": false,
+        "wallet_minted": true,
+        "token_id": "296",
+        "tx_hash": "0x2b9fcaba10b4b24b222658da8be818481c2991fea205bada0f171fa9b5a72c1d",
+        "minted_at": "2026-05-27T18:00:39.90091+08:00"
+      },
+      {
+        "epoch_id": "epoch-1",
+        "level": 2,
+        "level_key": "vector",
+        "name": "Vector Credential",
+        "cap": 4000,
+        "minted": 4000,
+        "remaining": 0,
+        "is_current": false,
+        "wallet_minted": true,
+        "token_id": "4669",
+        "tx_hash": "0x151baf8fcb7f686d98abd792fa686dc71c24dec4d4600c8548a34db78cc6afae",
+        "minted_at": "2026-05-28T00:54:15.26619+08:00"
+      },
+      {
+        "epoch_id": "epoch-1",
+        "level": 3,
+        "level_key": "zenith",
+        "name": "Zenith Credential",
+        "cap": 140,
+        "minted": 111,
+        "remaining": 29,
+        "is_current": false,
+        "wallet_minted": false
+      },
+      {
+        "epoch_id": "epoch-2",
+        "level": 1,
+        "level_key": "orbit",
+        "name": "Orbit Credential",
+        "cap": 15000,
+        "minted": 814,
+        "remaining": 14186,
+        "is_current": true,
+        "wallet_minted": false
+      },
+      {
+        "epoch_id": "epoch-2",
+        "level": 2,
+        "level_key": "vector",
+        "name": "Vector Credential",
+        "cap": 3000,
+        "minted": 137,
+        "remaining": 2863,
+        "is_current": true,
+        "wallet_minted": false
+      },
+      {
+        "epoch_id": "epoch-2",
+        "level": 3,
+        "level_key": "zenith",
+        "name": "Zenith Credential",
+        "cap": 90,
+        "minted": 18,
+        "remaining": 72,
+        "is_current": true,
+        "wallet_minted": true,
+        "token_id": "24142",
+        "tx_hash": "0x42e27f23ccd7a49a94bd12ebc51a6a8bb47598c76887aa9d1a30b4db6fc53bee",
+        "minted_at": "2026-06-18T15:15:58.456455+08:00"
+      },
+      {
+        "epoch_id": "epoch-3",
+        "level": 1,
+        "level_key": "orbit",
+        "name": "Orbit Credential",
+        "cap": 10000,
+        "minted": 0,
+        "remaining": 10000,
+        "is_current": false,
+        "wallet_minted": false
+      },
+      {
+        "epoch_id": "epoch-3",
+        "level": 2,
+        "level_key": "vector",
+        "name": "Vector Credential",
+        "cap": 2000,
+        "minted": 0,
+        "remaining": 2000,
+        "is_current": false,
+        "wallet_minted": false
+      },
+      {
+        "epoch_id": "epoch-3",
+        "level": 3,
+        "level_key": "zenith",
+        "name": "Zenith Credential",
+        "cap": 50,
+        "minted": 0,
+        "remaining": 50,
+        "is_current": false,
+        "wallet_minted": false
+      },
+      {
+        "epoch_id": "epoch-4",
+        "level": 1,
+        "level_key": "orbit",
+        "name": "Orbit Credential",
+        "cap": 5000,
+        "minted": 0,
+        "remaining": 5000,
+        "is_current": false,
+        "wallet_minted": false
+      },
+      {
+        "epoch_id": "epoch-4",
+        "level": 2,
+        "level_key": "vector",
+        "name": "Vector Credential",
+        "cap": 1000,
+        "minted": 0,
+        "remaining": 1000,
+        "is_current": false,
+        "wallet_minted": false
+      },
+      {
+        "epoch_id": "epoch-4",
+        "level": 3,
+        "level_key": "zenith",
+        "name": "Zenith Credential",
+        "cap": 20,
+        "minted": 0,
+        "remaining": 20,
+        "is_current": false,
+        "wallet_minted": false
+      }
+    ],
+    "levels": [
+      {
+        "wallet": "0x6b7cfad1915767d17f2c0821FFFc3285F2CCc362",
+        "level": 1,
+        "eligible": true,
+        "can_mint": false,
+        "minted": true,
+        "failure_code": "already_minted",
+        "failure_label": "This credential level has already been minted",
+        "tasks": [
+          {
+            "key": "follow_x",
+            "label": "Follow X",
+            "required": 1,
+            "progress": 1,
+            "completed": true
+          },
+          {
+            "key": "join_discord",
+            "label": "Join Discord",
+            "required": 1,
+            "progress": 1,
+            "completed": true
+          },
+          {
+            "key": "valid_prediction",
+            "label": "Complete valid interaction on the 0G chain",
+            "required": 2,
+            "progress": 1839,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "wallet": "0x6b7cfad1915767d17f2c0821FFFc3285F2CCc362",
+        "level": 2,
+        "eligible": true,
+        "can_mint": false,
+        "minted": true,
+        "failure_code": "already_minted",
+        "failure_label": "This credential level has already been minted",
+        "tasks": [
+          {
+            "key": "hold_orbit",
+            "label": "Hold Orbit SBT",
+            "required": 1,
+            "progress": 1,
+            "completed": true
+          },
+          {
+            "key": "valid_invitations",
+            "label": "Complete valid invitations on evoevo",
+            "required": 8,
+            "progress": 5,
+            "completed": false
+          },
+          {
+            "key": "valid_predictions",
+            "label": "Complete 5 valid interactions on the 0G chain",
+            "required": 5,
+            "progress": 1839,
+            "completed": true
+          }
+        ]
+      },
+      {
+        "wallet": "0x6b7cfad1915767d17f2c0821FFFc3285F2CCc362",
+        "level": 3,
+        "eligible": true,
+        "can_mint": false,
+        "minted": true,
+        "reserved": true,
+        "failure_code": "already_minted",
+        "failure_label": "This credential level has already been minted",
+        "tasks": [
+          {
+            "key": "hold_vector",
+            "label": "Hold Vector SBT",
+            "required": 1,
+            "progress": 1,
+            "completed": true,
+            "reason": "reserved"
+          },
+          {
+            "key": "zenith_whitelist",
+            "label": "Be selected into the Zenith whitelist",
+            "required": 1,
+            "progress": 1,
+            "completed": true,
+            "reason": "reserved"
+          }
+        ]
+      }
+    ],
+    "wallet": "0x6b7cfad1915767d17f2c0821FFFc3285F2CCc362"
+  }
+}

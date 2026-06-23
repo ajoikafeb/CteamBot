@@ -1,0 +1,4782 @@
+[
+  {
+    "opinion_id": 4358173,
+    "prediction_id": 837,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 4358173,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4358172,
+    "prediction_id": 837,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68515,
+    "raw_id": 4358172,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4267360,
+    "title": "Will the price of XRP be between $1.10 and $1.20 on June 16?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4267360",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4226687,
+    "title": "Will Egypt win on 2026-06-15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "4226687",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4226154,
+    "title": "Will Bitcoin dip to $64,000 on June 15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4226154",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4226153,
+    "title": "Will Bitcoin dip to $64,000 on June 15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4226153",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4225825,
+    "title": "Will the price of Ethereum be between $1,400 and $1,500 on June 15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4225825",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4225545,
+    "title": "Will the price of Ethereum be between $1,400 and $1,500 on June 15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4225545",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4225291,
+    "title": "Will Egypt win on 2026-06-15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "4225291",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4224972,
+    "title": "Will the price of Ethereum be between $1,400 and $1,500 on June 15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4224972",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4224290,
+    "title": "Will the price of Ethereum be between $1,400 and $1,500 on June 15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4224290",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4224289,
+    "title": "Will the price of Ethereum be between $1,400 and $1,500 on June 15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4224289",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4224271,
+    "title": "Will the price of Ethereum be between $1,400 and $1,500 on June 15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4224271",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4224269,
+    "title": "Will the price of Ethereum be between $1,400 and $1,500 on June 15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4224269",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4224268,
+    "title": "Will the price of Ethereum be between $1,400 and $1,500 on June 15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4224268",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4219731,
+    "title": "Will Ethereum reach $1,800 on June 14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4219731",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4153398,
+    "title": "Will XRP reach $1.40 on June 14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4153398",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4152272,
+    "title": "Will XRP reach $1.40 on June 14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4152272",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4150575,
+    "title": "Will XRP reach $1.40 on June 14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4150575",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4119163,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "4119163",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4110019,
+    "prediction_id": 812,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 4110019,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4109988,
+    "prediction_id": 804,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 4109988,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4096987,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "4096987",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4090986,
+    "title": "Will the price of XRP be less than $0.70 on June 14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4090986",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4090851,
+    "title": "Will the price of XRP be less than $0.70 on June 14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4090851",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4046285,
+    "prediction_id": 761,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 4046285,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4046280,
+    "prediction_id": 798,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 4046280,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4046276,
+    "prediction_id": 772,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68515,
+    "raw_id": 4046276,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4035402,
+    "title": "Will the price of XRP be less than $0.60 on June 13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4035402",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4014945,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "4014945",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4014930,
+    "title": "Will the price of XRP be less than $0.60 on June 13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4014930",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3990224,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3990224",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3990220,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3990220",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3977694,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3977694",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3926238,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3926238",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3926193,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3926193",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3926075,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3926075",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3925633,
+    "prediction_id": 760,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68515,
+    "raw_id": 3925633,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3925597,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3925597",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3925418,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3925418",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3910760,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3910760",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3910756,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3910756",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3910701,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3910701",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3909035,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3909035",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3904560,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3904560",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3904511,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3904511",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3904506,
+    "prediction_id": 793,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 3904506,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3904458,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3904458",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3904330,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3904330",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3904055,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3904055",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3903408,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3903408",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3902822,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3902822",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3902639,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3902639",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3854281,
+    "title": "Will the price of XRP be less than $0.60 on June 12?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3854281",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3835794,
+    "title": "Will the price of XRP be less than $0.60 on June 12?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3835794",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3832530,
+    "title": "Will the price of XRP be less than $0.60 on June 12?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3832530",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3830106,
+    "title": "Will the price of XRP be less than $0.60 on June 12?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3830106",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3828523,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3828523",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3825728,
+    "title": "Will the price of XRP be less than $0.70 on June 11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3825728",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3825711,
+    "title": "Will the price of XRP be less than $0.70 on June 11?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3825711",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3825692,
+    "title": "Will the price of XRP be less than $0.70 on June 11?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3825692",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3825629,
+    "title": "Will the price of XRP be above $0.70 on June 11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3825629",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3789854,
+    "title": "Will the price of XRP be less than $0.70 on June 11?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3789854",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3789800,
+    "title": "Will the price of XRP be less than $0.70 on June 11?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3789800",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3789714,
+    "title": "Will the price of XRP be less than $0.70 on June 11?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3789714",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3780932,
+    "title": "Will Ethereum dip to $1,400 on June 10?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3780932",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3709438,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3709438",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3708473,
+    "prediction_id": 760,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 3708473,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3704254,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3704254",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3704088,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3704088",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3703828,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3703828",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3703822,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3703822",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3633904,
+    "title": "Will Bitcoin reach $67,000 on June 9?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3633904",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3626103,
+    "prediction_id": 752,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 3626103,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3479775,
+    "title": "Will Bitcoin reach $67,000 on June 9?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3479775",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3467088,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3467088",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3467087,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3467087",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3467081,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3467081",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3467059,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3467059",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3467012,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3467012",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3467010,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3467010",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3466899,
+    "title": "Will United States win on 2026-06-12?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3466899",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3466111,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68503,
+    "quality": 0,
+    "raw_id": "3466111",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3465372,
+    "prediction_id": 714,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 3465372,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3463422,
+    "title": "Will United States win on 2026-06-12?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3463422",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3462682,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3462682",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3454737,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3454737",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3312670,
+    "prediction_id": 741,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 3312670,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3157800,
+    "title": "Ethereum above 1,610 on June 8, 12PM ET?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3157800",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3157750,
+    "title": "Ethereum above 1,610 on June 8, 12PM ET?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3157750",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3157748,
+    "title": "Ethereum above 1,610 on June 8, 12PM ET?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "3157748",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3153585,
+    "prediction_id": 294,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 3153585,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 2714415,
+    "title": "Will the price of XRP be less than $0.90 on June 7?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "2714415",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 2610148,
+    "prediction_id": 348,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 2610148,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 2610139,
+    "prediction_id": 724,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 2610139,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 2368646,
+    "prediction_id": 716,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 2368646,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 2210261,
+    "prediction_id": 704,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 2210261,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 2210256,
+    "prediction_id": 717,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 2210256,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 2127455,
+    "title": "Will Ethereum reach $2,150 on June 4?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "2127455",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 2127447,
+    "title": "Will Ethereum reach $2,150 on June 4?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "2127447",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 2120505,
+    "title": "Will Ethereum reach $2,150 on June 4?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "2120505",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1952119,
+    "prediction_id": 708,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 1952119,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1944664,
+    "title": "Will the price of XRP be less than $0.90 on June 4?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1944664",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1912114,
+    "title": "Will the price of XRP be less than $0.90 on June 4?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1912114",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1911956,
+    "title": "Will the price of XRP be less than $0.90 on June 4?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1911956",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1911938,
+    "title": "Will the price of XRP be less than $0.90 on June 4?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1911938",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1911928,
+    "title": "Will the price of XRP be less than $0.90 on June 4?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1911928",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1911924,
+    "title": "Will the price of XRP be less than $0.90 on June 4?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1911924",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1911751,
+    "title": "Will the price of XRP be less than $0.90 on June 4?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1911751",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1910761,
+    "title": "Will the price of XRP be less than $0.90 on June 4?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1910761",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1910465,
+    "title": "Will the price of XRP be less than $0.90 on June 4?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1910465",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1910090,
+    "title": "Will the price of XRP be less than $0.90 on June 4?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1910090",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1894155,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1894155",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1894106,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1894106",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1892766,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1892766",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1892764,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1892764",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1892762,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1892762",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1892358,
+    "prediction_id": 680,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 1892358,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1891896,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1891896",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1891848,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1891848",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1891840,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1891840",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1891798,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1891798",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1891724,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1891724",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1891562,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1891562",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1890249,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1890249",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1890104,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1890104",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1890098,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1890098",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1889771,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1889771",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1889251,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1889251",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1887410,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1887410",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1881897,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1881897",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1881871,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1881871",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1881718,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "1881718",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1785102,
+    "title": "Will Bitcoin reach $73,000 on June 3?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1785102",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1729470,
+    "prediction_id": 696,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 1729470,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1729362,
+    "prediction_id": 292,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 1729362,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1454823,
+    "title": "Will XRP reach $1.50 on June 2?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "1454823",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1298419,
+    "prediction_id": 675,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 1298419,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1298404,
+    "prediction_id": 244,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 1298404,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1031066,
+    "prediction_id": 346,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 1031066,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 1031059,
+    "prediction_id": 642,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 1031059,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 951778,
+    "prediction_id": 628,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 951778,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 951760,
+    "prediction_id": 296,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 951760,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 803398,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "803398",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 793937,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "793937",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 761349,
+    "prediction_id": 574,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 761349,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 761340,
+    "prediction_id": 478,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 761340,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 761279,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "761279",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 714000,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "714000",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 682711,
+    "prediction_id": 580,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 682711,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 667012,
+    "prediction_id": 300,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 667012,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 599022,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "599022",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 509234,
+    "prediction_id": 540,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 509234,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 496485,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "496485",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 482041,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "482041",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 478019,
+    "prediction_id": 304,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 478019,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 468721,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "468721",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 462668,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "462668",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 449812,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "449812",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 443529,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "443529",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 425076,
+    "prediction_id": 516,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 425076,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 425070,
+    "prediction_id": 306,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 425070,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 395967,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "395967",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 365285,
+    "prediction_id": 362,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68503,
+    "raw_id": 365285,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 365276,
+    "prediction_id": 514,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 68487,
+    "raw_id": 365276,
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 292100,
+    "title": "Will Wolves finish in last place in the 2025-26 English Premier League?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "292100",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 292031,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "292031",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 280344,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "280344",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 280322,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "280322",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 276165,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "276165",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 276162,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "276162",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 276078,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "276078",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 276077,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "276077",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 259554,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "259554",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 259532,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "259532",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 259463,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "259463",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 256732,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "256732",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 164122,
+    "title": "Will Bitcoin reach $85,000 on May 22?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "164122",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 158042,
+    "title": "Will Bitcoin reach $85,000 on May 22?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "158042",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 157956,
+    "title": "Will Bitcoin reach $85,000 on May 22?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "157956",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 146890,
+    "title": "Will Arsenal win a trophy this season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "146890",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 124571,
+    "title": "Will Aston Villa finish in the top 4 of the EPL 2025–26 standings?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "124571",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 65029,
+    "title": "Will Nottingham Forest FC win on 2026-05-24?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "65029",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 50549,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "50549",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 49991,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "49991",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 49389,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "49389",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 49372,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "49372",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 46872,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "46872",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 46700,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "46700",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 46288,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "46288",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 30028,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "30028",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4357731,
+    "prediction_id": 837,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 4357731,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4353854,
+    "prediction_id": 837,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63861,
+    "raw_id": 4353854,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4347956,
+    "prediction_id": 837,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 4347956,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4293886,
+    "prediction_id": 839,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 4293886,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4289887,
+    "prediction_id": 839,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63861,
+    "raw_id": 4289887,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4257552,
+    "prediction_id": 839,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 4257552,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4226687,
+    "title": "Will Egypt win on 2026-06-15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "4226687",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4225291,
+    "title": "Will Egypt win on 2026-06-15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "4225291",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4214983,
+    "prediction_id": 814,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 4214983,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4214925,
+    "prediction_id": 815,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63861,
+    "raw_id": 4214925,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4187969,
+    "prediction_id": 815,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 4187969,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4124860,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "4124860",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4122027,
+    "prediction_id": 812,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 4122027,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4120079,
+    "prediction_id": 812,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63861,
+    "raw_id": 4120079,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4119163,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "4119163",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4110313,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "4110313",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4108112,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "4108112",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4096987,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "4096987",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4090917,
+    "prediction_id": 812,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 4090917,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4046699,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "4046699",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4046666,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "4046666",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4046660,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "4046660",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4046659,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "4046659",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4046658,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "4046658",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4046654,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "4046654",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4046576,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "4046576",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4035642,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "4035642",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4035590,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "4035590",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4035453,
+    "title": "Will Sweden win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "4035453",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3990215,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3990215",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3990139,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3990139",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3987796,
+    "prediction_id": 761,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 3987796,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3986169,
+    "prediction_id": 761,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 3986169,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3981615,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3981615",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3980006,
+    "prediction_id": 761,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63861,
+    "raw_id": 3980006,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3977694,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3977694",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3926238,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3926238",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3926193,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3926193",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3926075,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3926075",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3925597,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3925597",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3925418,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3925418",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3910760,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3910760",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3910756,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3910756",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3910701,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3910701",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3909035,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3909035",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3904560,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3904560",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3904511,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3904511",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3904458,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3904458",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3904330,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3904330",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3904055,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3904055",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3903408,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3903408",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3902822,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3902822",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3902639,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3902639",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3832361,
+    "prediction_id": 793,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 3832361,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3828535,
+    "prediction_id": 760,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63861,
+    "raw_id": 3828535,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3828465,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3828465",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3827818,
+    "prediction_id": 712,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 3827818,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3709438,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3709438",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3706063,
+    "prediction_id": 760,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 3706063,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3704254,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3704254",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3704088,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3704088",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3703828,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3703828",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3703822,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3703822",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3479582,
+    "prediction_id": 752,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 3479582,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467088,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3467088",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467087,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3467087",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467085,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3467085",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467083,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3467083",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467082,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3467082",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467081,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3467081",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467079,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3467079",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467078,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3467078",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467075,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3467075",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467072,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3467072",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467071,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3467071",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467065,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3467065",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467060,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3467060",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467059,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3467059",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467058,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3467058",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467055,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3467055",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467054,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3467054",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467046,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3467046",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467045,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3467045",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467038,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3467038",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467034,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3467034",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467012,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3467012",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467010,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "3467010",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3467007,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3467007",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3466899,
+    "title": "Will United States win on 2026-06-12?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3466899",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3466111,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3466111",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3466093,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3466093",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3464340,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3464340",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3463617,
+    "prediction_id": 714,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 3463617,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3463422,
+    "title": "Will United States win on 2026-06-12?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3463422",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3462682,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3462682",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3455010,
+    "title": "Will Scotland win on 2026-06-13?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3455010",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3454737,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3454737",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3150717,
+    "prediction_id": 294,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 3150717,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 2742425,
+    "prediction_id": 724,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 2742425,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 2718014,
+    "prediction_id": 348,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 2718014,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 2379997,
+    "prediction_id": 716,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 2379997,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 2247138,
+    "prediction_id": 717,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 2247138,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1942192,
+    "prediction_id": 708,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 1942192,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1894155,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1894155",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1894106,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1894106",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1892766,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1892766",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1892764,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1892764",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1892762,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1892762",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1891896,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1891896",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1891848,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1891848",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1891840,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "1891840",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1891798,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1891798",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1891724,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1891724",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1891562,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1891562",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1890249,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1890249",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1890104,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1890104",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1890098,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1890098",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1889771,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1889771",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1889251,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1889251",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1887410,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1887410",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1884671,
+    "prediction_id": 680,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 1884671,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1881897,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1881897",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1881871,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1881871",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1881718,
+    "title": "Will Mexico win on 2026-06-11?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "1881718",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1704045,
+    "prediction_id": 292,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 1704045,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1541152,
+    "prediction_id": 690,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 1541152,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1291321,
+    "prediction_id": 244,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 1291321,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1185063,
+    "prediction_id": 679,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 1185063,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1050533,
+    "prediction_id": 642,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 1050533,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 1019966,
+    "prediction_id": 346,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 1019966,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 993503,
+    "prediction_id": 630,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 993503,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 935783,
+    "prediction_id": 474,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 935783,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 803398,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "803398",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 801429,
+    "title": "Will Saudi Arabia win on 2026-06-09?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "801429",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 789744,
+    "prediction_id": 300,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 789744,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 761279,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "761279",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 725993,
+    "prediction_id": 574,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 725993,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 714000,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "714000",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 674632,
+    "prediction_id": 296,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 674632,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 599022,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "599022",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 598638,
+    "prediction_id": 542,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 598638,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 552887,
+    "prediction_id": 540,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 552887,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 496485,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "496485",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 494954,
+    "prediction_id": 304,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 494954,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 482041,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "482041",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 469355,
+    "title": "Will United States win on 2026-06-12?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "469355",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 469351,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "469351",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 468721,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "468721",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 468703,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "468703",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 449812,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "449812",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 443529,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "443529",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 435083,
+    "prediction_id": 306,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 435083,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 395967,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "395967",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 395688,
+    "prediction_id": 516,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 395688,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 370826,
+    "prediction_id": 514,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 370826,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 330966,
+    "prediction_id": 362,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 63844,
+    "raw_id": 330966,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 292100,
+    "title": "Will Wolves finish in last place in the 2025-26 English Premier League?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "292100",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 280344,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "280344",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 280322,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "280322",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 276162,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "276162",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 276078,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "276078",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 276077,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "276077",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 259554,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "259554",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 259532,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "259532",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 256732,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "256732",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 176538,
+    "prediction_id": 388,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 176538,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 170400,
+    "prediction_id": 376,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 170400,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 170397,
+    "prediction_id": 390,
+    "title": "",
+    "tab": "agent_predictions",
+    "source": "source_agent",
+    "agent_id": 3820,
+    "raw_id": 170397,
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 146890,
+    "title": "Will Arsenal win a trophy this season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "146890",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 146123,
+    "title": "Will Arsenal win a trophy this season?",
+    "tab": "recommended",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "146123",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 124571,
+    "title": "Will Aston Villa finish in the top 4 of the EPL 2025–26 standings?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "124571",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 83754,
+    "title": "Will Japan win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "83754",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 65029,
+    "title": "Will Nottingham Forest FC win on 2026-05-24?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "65029",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 52171,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "52171",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 50549,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "50549",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 49991,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "49991",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 49389,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "49389",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 49372,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "49372",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 49059,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "49059",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 48710,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "48710",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 48631,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "48631",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 46872,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "46872",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 46700,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "46700",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 46288,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "46288",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 41579,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "41579",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 37443,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "37443",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 33080,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "33080",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 30028,
+    "title": "Will Arsenal FC win on 2026-05-18?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "30028",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 3981615,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "3981615",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3910756,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63844,
+    "quality": 0,
+    "raw_id": "3910756",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 4224267,
+    "title": "Will the price of Ethereum be between $1,400 and $1,500 on June 15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68487,
+    "quality": 0,
+    "raw_id": "4224267",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 3828742,
+    "title": "Will Türkiye win on 2026-06-14?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "3828742",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 616196,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "616196",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 495866,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "495866",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 469799,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "469799",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 468062,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "468062",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 443242,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "443242",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 442889,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "442889",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 396025,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "396025",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 292026,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "292026",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 291881,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "291881",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 146966,
+    "title": "Will Arsenal win a trophy this season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "146966",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 141819,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "141819",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 124601,
+    "title": "Will Aston Villa finish in the top 4 of the EPL 2025–26 standings?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "124601",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 70893,
+    "title": "Will RCD Espanyol de Barcelona win on 2026-05-23?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "70893",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 69961,
+    "title": "Will Manchester United FC win on 2026-05-24?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "69961",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 62069,
+    "title": "Will AFC Bournemouth win on 2026-05-19?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "62069",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 44484,
+    "title": "Will Nottingham Forest FC win on 2026-05-24?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "44484",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 616196,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "616196",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 495866,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "495866",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 469799,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "469799",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 468062,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "468062",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 467751,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "467751",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 467749,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "467749",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 467388,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "467388",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 467387,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "467387",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 466980,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "466980",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 465771,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "465771",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 464343,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "464343",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 464058,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "464058",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 443242,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "443242",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 442889,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "442889",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 396025,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "396025",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 388536,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "388536",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 358088,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "358088",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 292115,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "292115",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 292026,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "292026",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 291881,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "291881",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 280472,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "280472",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 280332,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "280332",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 220716,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "220716",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 146966,
+    "title": "Will Arsenal win a trophy this season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "146966",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 141819,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "141819",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 124601,
+    "title": "Will Aston Villa finish in the top 4 of the EPL 2025–26 standings?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "124601",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 124558,
+    "title": "Will Aston Villa finish in the top 4 of the EPL 2025–26 standings?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "124558",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 92199,
+    "title": "Will Crystal Palace win the 2025-26 UEFA Europa Conference League?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "92199",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 70893,
+    "title": "Will RCD Espanyol de Barcelona win on 2026-05-23?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "70893",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 69961,
+    "title": "Will Manchester United FC win on 2026-05-24?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "69961",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 62069,
+    "title": "Will AFC Bournemouth win on 2026-05-19?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "62069",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 44484,
+    "title": "Will Nottingham Forest FC win on 2026-05-24?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "44484",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 467751,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "467751",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 495866,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "495866",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 396237,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "396237",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 292026,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "292026",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 220716,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "220716",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 467749,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "467749",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 467388,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "467388",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 396118,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "396118",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 388105,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "388105",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 467749,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "467749",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 92199,
+    "title": "Will Crystal Palace win the 2025-26 UEFA Europa Conference League?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "92199",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 465771,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "465771",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 353370,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "353370",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 464343,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "464343",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 291976,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "291976",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 467388,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "467388",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 467387,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "467387",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 465771,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "465771",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 464343,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "464343",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 358088,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "358088",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 466980,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "466980",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 464058,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "464058",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 370469,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "370469",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 102723,
+    "title": "Will Crystal Palace win the 2025-26 UEFA Europa Conference League?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "102723",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 464058,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "464058",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 280472,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "280472",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 280332,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "280332",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 124558,
+    "title": "Will Aston Villa finish in the top 4 of the EPL 2025–26 standings?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "124558",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 388536,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "388536",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 388536,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "388536",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 358789,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "358789",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 146747,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "146747",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 292115,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "292115",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 4014945,
+    "title": "Will Saudi Arabia win on 2026-06-15?",
+    "tab": "weekly_best",
+    "source": "platform",
+    "agent_id": 68515,
+    "quality": 0,
+    "raw_id": "4014945",
+    "wallet_name": "delong_neo"
+  },
+  {
+    "opinion_id": 51147,
+    "title": "Will Nottingham Forest FC win on 2026-05-24?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "51147",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 761286,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "761286",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 661974,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "661974",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 483083,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "483083",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 442399,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "442399",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 291931,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "291931",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 182197,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "182197",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 181881,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "181881",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 89795,
+    "title": "Will Crystal Palace win the 2025-26 UEFA Europa Conference League?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "89795",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 395497,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "395497",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 71157,
+    "title": "Will Nottingham Forest FC win on 2026-05-24?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "71157",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 230071,
+    "title": "Will Paris Saint-Germain FC win on 2026-05-30?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 63861,
+    "quality": 0,
+    "raw_id": "230071",
+    "wallet_name": "neosoul"
+  },
+  {
+    "opinion_id": 396237,
+    "title": "Will Nottingham Forest place 17th for the 2025-26 English Premier League season?",
+    "tab": "monthly_best",
+    "source": "platform",
+    "agent_id": 3820,
+    "quality": 0,
+    "raw_id": "396237",
+    "wallet_name": "neosoul"
+  }
+]

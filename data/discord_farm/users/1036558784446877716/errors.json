@@ -1,0 +1,10 @@
+[
+  {
+    "time": "2026-06-17T02:44:21.157557+00:00",
+    "where": "farm add add_wallet_from_values exception",
+    "error": "TypeError('Object of type Session is not JSON serializable')",
+    "extra": {
+      "wallet_name": "AjoikaAf6"
+    }
+  }
+]

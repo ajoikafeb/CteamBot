@@ -1,0 +1,1371 @@
+{
+  "1036558784446877716": {
+    "0xa8dab875eb73173c8c96215445263aa6a6851af6": {
+      "last": {
+        "address": "0xa8dab875eb73173c8c96215445263aa6a6851af6",
+        "checked_at": "2026-06-23T16:05:45.438077+00:00",
+        "agents": 4,
+        "agent_ids": [
+          868477,
+          128928,
+          128077,
+          128006
+        ],
+        "tx_count": 18017,
+        "balance_0g": "2.9007",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": 15,
+        "total_points": 709324,
+        "worldcup_rank": 15,
+        "worldcup_points": 150150
+      },
+      "now": {
+        "address": "0xa8dab875eb73173c8c96215445263aa6a6851af6",
+        "checked_at": "2026-06-23T16:45:51.396664+00:00",
+        "agents": 4,
+        "agent_ids": [
+          868477,
+          128928,
+          128077,
+          128006
+        ],
+        "tx_count": 18017,
+        "balance_0g": "2.9007",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": 15,
+        "total_points": 709374,
+        "worldcup_rank": 15,
+        "worldcup_points": 150150
+      }
+    },
+    "0x526301b93273858a1cab97543564e63147447275": {
+      "last": null,
+      "now": {
+        "address": "0x526301b93273858a1cab97543564e63147447275",
+        "checked_at": "2026-06-16T08:23:58.391301+00:00",
+        "agents": 3,
+        "agent_ids": [
+          162724,
+          162717,
+          145986
+        ],
+        "tx_count": 12360,
+        "balance_0g": "0.3008",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": 20,
+        "total_points": 558330,
+        "worldcup_rank": 28,
+        "worldcup_points": 20420
+      }
+    },
+    "0x734c106e166f2f4b7c93e146a4b656a7fb78208f": {
+      "last": null,
+      "now": {
+        "address": "0x734c106e166f2f4b7c93e146a4b656a7fb78208f",
+        "checked_at": "2026-06-16T08:59:45.146033+00:00",
+        "agents": 0,
+        "agent_ids": [],
+        "tx_count": 1162,
+        "balance_0g": "0.0003",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": 31,
+        "worldcup_points": 18220
+      }
+    },
+    "0x6a3895e386f8829a4572659a7837ebc939c70d82": {
+      "last": {
+        "address": "0x6a3895e386f8829a4572659a7837ebc939c70d82",
+        "checked_at": "2026-06-18T05:03:47.820503+00:00",
+        "agents": 3,
+        "agent_ids": [
+          584410,
+          584377,
+          128196
+        ],
+        "tx_count": 6255,
+        "balance_0g": "0",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": 46,
+        "worldcup_points": 18450
+      },
+      "now": {
+        "address": "0x6a3895e386f8829a4572659a7837ebc939c70d82",
+        "checked_at": "2026-06-18T05:56:56.405215+00:00",
+        "agents": 3,
+        "agent_ids": [
+          584410,
+          584377,
+          128196
+        ],
+        "tx_count": 6258,
+        "balance_0g": "0.0074",
+        "sbt_orbit": true,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": null,
+        "worldcup_points": 0
+      }
+    },
+    "0x71eb5eda5b64077af93915550bcda8c000e91f5b": {
+      "last": null,
+      "now": {
+        "address": "0x71eb5eda5b64077af93915550bcda8c000e91f5b",
+        "checked_at": "2026-06-18T07:10:48.598545+00:00",
+        "agents": 0,
+        "agent_ids": [],
+        "tx_count": 0,
+        "balance_0g": "0",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": null,
+        "worldcup_points": 0
+      }
+    }
+  },
+  "1141565721273434182": {
+    "0x715d4eb4a21e2e50f4f0083e3c05d1042b8fac05": {
+      "last": {
+        "address": "0x715d4eb4a21e2e50f4f0083e3c05d1042b8fac05",
+        "checked_at": "2026-06-19T12:05:40.452698+00:00",
+        "agents": 3,
+        "agent_ids": [
+          2765,
+          2764,
+          2756
+        ],
+        "tx_count": 5423,
+        "balance_0g": "2.066",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": 83,
+        "daily_points": 8620,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": 21,
+        "worldcup_points": 52710
+      },
+      "now": {
+        "address": "0x715d4eb4a21e2e50f4f0083e3c05d1042b8fac05",
+        "checked_at": "2026-06-19T12:14:41.482480+00:00",
+        "agents": 3,
+        "agent_ids": [
+          2765,
+          2764,
+          2756
+        ],
+        "tx_count": 5451,
+        "balance_0g": "2.0367",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": 83,
+        "daily_points": 8620,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": 21,
+        "worldcup_points": 52710
+      }
+    },
+    "0x0b1ee41f0501478edbce72f21c9160edff46d0b7": {
+      "last": null,
+      "now": {
+        "address": "0x0b1ee41f0501478edbce72f21c9160edff46d0b7",
+        "checked_at": "2026-06-17T11:23:03.570535+00:00",
+        "agents": 3,
+        "agent_ids": [
+          675896,
+          675877,
+          47665
+        ],
+        "tx_count": 20314,
+        "balance_0g": "1.9151",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": 21,
+        "daily_points": 19400,
+        "weekly_rank": 2,
+        "weekly_points": 166050,
+        "total_rank": 35,
+        "total_points": 450873,
+        "worldcup_rank": 6,
+        "worldcup_points": 83000
+      }
+    },
+    "0x8d50ae5d0ace74e5306ac1101161cf218cd8f6b4": {
+      "last": null,
+      "now": {
+        "address": "0x8d50ae5d0ace74e5306ac1101161cf218cd8f6b4",
+        "checked_at": "2026-06-18T11:28:34.441919+00:00",
+        "agents": 0,
+        "agent_ids": [],
+        "tx_count": 0,
+        "balance_0g": "0",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": null,
+        "worldcup_points": 0
+      }
+    }
+  },
+  "901092180133806100": {
+    "0xeb3ab854e5923464f67967d9fdec4bd1c0da466d": {
+      "last": {
+        "address": "0xeb3ab854e5923464f67967d9fdec4bd1c0da466d",
+        "checked_at": "2026-06-16T08:48:54.121004+00:00",
+        "agents": 3,
+        "agent_ids": [
+          4637,
+          4636,
+          4624
+        ],
+        "tx_count": 18645,
+        "balance_0g": "2.8741",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": 5,
+        "total_points": 769905,
+        "worldcup_rank": 24,
+        "worldcup_points": 27630
+      },
+      "now": {
+        "address": "0xeb3ab854e5923464f67967d9fdec4bd1c0da466d",
+        "checked_at": "2026-06-23T13:29:19.016011+00:00",
+        "agents": 3,
+        "agent_ids": [
+          4637,
+          4636,
+          4624
+        ],
+        "tx_count": 19334,
+        "balance_0g": "0.2256",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": 44,
+        "daily_points": 9723,
+        "weekly_rank": 25,
+        "weekly_points": 55690,
+        "total_rank": 5,
+        "total_points": 1050377,
+        "worldcup_rank": 13,
+        "worldcup_points": 166740
+      }
+    }
+  },
+  "367691732545961989": {
+    "0x10d493cd7aa810a2aff0095de8b288180affd4f1": {
+      "last": null,
+      "now": {
+        "address": "0x10d493cd7aa810a2aff0095de8b288180affd4f1",
+        "checked_at": "2026-06-16T08:52:53.251250+00:00",
+        "agents": 3,
+        "agent_ids": [
+          72471,
+          72448,
+          44930
+        ],
+        "tx_count": 23551,
+        "balance_0g": "2.1049",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 17,
+        "weekly_points": 25783,
+        "total_rank": 7,
+        "total_points": 724521,
+        "worldcup_rank": 8,
+        "worldcup_points": 54850
+      }
+    }
+  },
+  "1329464890590760970": {
+    "0x0b066ba24cdb6f815dd4c2fe35341a2a9c0cc5aa": {
+      "last": null,
+      "now": {
+        "address": "0x0b066ba24cdb6f815dd4c2fe35341a2a9c0cc5aa",
+        "checked_at": "2026-06-16T09:28:52.513657+00:00",
+        "agents": 3,
+        "agent_ids": [
+          199144,
+          71489,
+          65536
+        ],
+        "tx_count": 659,
+        "balance_0g": "2.6408",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": 180,
+        "worldcup_points": 3050
+      }
+    }
+  },
+  "1174499152038735899": {
+    "0x02857b9c4d7d3e5d0cdcde3497f052554e0e1b3b": {
+      "last": {
+        "address": "0x02857b9c4d7d3e5d0cdcde3497f052554e0e1b3b",
+        "checked_at": "2026-06-18T09:51:09.992177+00:00",
+        "agents": 3,
+        "agent_ids": [
+          206960,
+          206920,
+          124047
+        ],
+        "tx_count": 8100,
+        "balance_0g": "0.5812",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 42,
+        "weekly_points": 51850,
+        "total_rank": 65,
+        "total_points": 340050,
+        "worldcup_rank": 36,
+        "worldcup_points": 28000
+      },
+      "now": {
+        "address": "0x02857b9c4d7d3e5d0cdcde3497f052554e0e1b3b",
+        "checked_at": "2026-06-18T10:07:41.908186+00:00",
+        "agents": 3,
+        "agent_ids": [
+          206960,
+          206920,
+          124047
+        ],
+        "tx_count": 8109,
+        "balance_0g": "1.5767",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 41,
+        "weekly_points": 52600,
+        "total_rank": 65,
+        "total_points": 340050,
+        "worldcup_rank": 35,
+        "worldcup_points": 28350
+      }
+    },
+    "0xbe592efb9a127c3665ec7b11a46a73264bffcb90": {
+      "last": {
+        "address": "0xbe592efb9a127c3665ec7b11a46a73264bffcb90",
+        "checked_at": "2026-06-18T09:51:09.992259+00:00",
+        "agents": 3,
+        "agent_ids": [
+          206726,
+          206648,
+          123973
+        ],
+        "tx_count": 6891,
+        "balance_0g": "1.0924",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": 80,
+        "total_points": 281120,
+        "worldcup_rank": 66,
+        "worldcup_points": 12900
+      },
+      "now": {
+        "address": "0xbe592efb9a127c3665ec7b11a46a73264bffcb90",
+        "checked_at": "2026-06-18T10:07:41.908326+00:00",
+        "agents": 3,
+        "agent_ids": [
+          206726,
+          206648,
+          123973
+        ],
+        "tx_count": 6895,
+        "balance_0g": "1.0907",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": 80,
+        "total_points": 281120,
+        "worldcup_rank": 66,
+        "worldcup_points": 12950
+      }
+    },
+    "0xfe8b91dfa870c03dce88ff2d8c5f07b2c0fee8fa": {
+      "last": {
+        "address": "0xfe8b91dfa870c03dce88ff2d8c5f07b2c0fee8fa",
+        "checked_at": "2026-06-18T09:51:09.992290+00:00",
+        "agents": 3,
+        "agent_ids": [
+          185367,
+          185345,
+          123751
+        ],
+        "tx_count": 8674,
+        "balance_0g": "0.4339",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 35,
+        "weekly_points": 54550,
+        "total_rank": 49,
+        "total_points": 408170,
+        "worldcup_rank": 39,
+        "worldcup_points": 24900
+      },
+      "now": {
+        "address": "0xfe8b91dfa870c03dce88ff2d8c5f07b2c0fee8fa",
+        "checked_at": "2026-06-18T10:07:41.908399+00:00",
+        "agents": 3,
+        "agent_ids": [
+          185367,
+          185345,
+          123751
+        ],
+        "tx_count": 8678,
+        "balance_0g": "1.4315",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 35,
+        "weekly_points": 55350,
+        "total_rank": 49,
+        "total_points": 408170,
+        "worldcup_rank": 41,
+        "worldcup_points": 24900
+      }
+    },
+    "0x5f58714cd514885a2dd2438e89e1c32ee4945324": {
+      "last": {
+        "address": "0x5f58714cd514885a2dd2438e89e1c32ee4945324",
+        "checked_at": "2026-06-18T09:51:09.992319+00:00",
+        "agents": 3,
+        "agent_ids": [
+          206486,
+          206436,
+          206387
+        ],
+        "tx_count": 8173,
+        "balance_0g": "0.5288",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 27,
+        "weekly_points": 58970,
+        "total_rank": 63,
+        "total_points": 349530,
+        "worldcup_rank": 14,
+        "worldcup_points": 63020
+      },
+      "now": {
+        "address": "0x5f58714cd514885a2dd2438e89e1c32ee4945324",
+        "checked_at": "2026-06-18T10:07:41.908470+00:00",
+        "agents": 3,
+        "agent_ids": [
+          206486,
+          206436,
+          206387
+        ],
+        "tx_count": 8183,
+        "balance_0g": "1.5238",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 29,
+        "weekly_points": 60220,
+        "total_rank": 63,
+        "total_points": 349530,
+        "worldcup_rank": 14,
+        "worldcup_points": 63220
+      }
+    },
+    "0xd63841b3503445fa378811acfca92e355f75d83e": {
+      "last": {
+        "address": "0xd63841b3503445fa378811acfca92e355f75d83e",
+        "checked_at": "2026-06-18T09:51:09.992346+00:00",
+        "agents": 3,
+        "agent_ids": [
+          185279,
+          185262,
+          128033
+        ],
+        "tx_count": 8668,
+        "balance_0g": "0.4142",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 31,
+        "weekly_points": 56900,
+        "total_rank": 50,
+        "total_points": 405580,
+        "worldcup_rank": 44,
+        "worldcup_points": 22950
+      },
+      "now": {
+        "address": "0xd63841b3503445fa378811acfca92e355f75d83e",
+        "checked_at": "2026-06-18T10:07:41.908566+00:00",
+        "agents": 3,
+        "agent_ids": [
+          185279,
+          185262,
+          128033
+        ],
+        "tx_count": 8675,
+        "balance_0g": "1.4106",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 32,
+        "weekly_points": 57650,
+        "total_rank": 50,
+        "total_points": 405580,
+        "worldcup_rank": 45,
+        "worldcup_points": 23000
+      }
+    },
+    "0xa001b52f44c6fed90fda3744a7e8668b52265adc": {
+      "last": {
+        "address": "0xa001b52f44c6fed90fda3744a7e8668b52265adc",
+        "checked_at": "2026-06-18T09:51:09.992371+00:00",
+        "agents": 3,
+        "agent_ids": [
+          176442,
+          176425,
+          128085
+        ],
+        "tx_count": 8617,
+        "balance_0g": "0.4553",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 32,
+        "weekly_points": 56150,
+        "total_rank": 53,
+        "total_points": 399530,
+        "worldcup_rank": 43,
+        "worldcup_points": 24050
+      },
+      "now": {
+        "address": "0xa001b52f44c6fed90fda3744a7e8668b52265adc",
+        "checked_at": "2026-06-18T10:07:41.908658+00:00",
+        "agents": 3,
+        "agent_ids": [
+          176442,
+          176425,
+          128085
+        ],
+        "tx_count": 8625,
+        "balance_0g": "1.451",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 33,
+        "weekly_points": 57050,
+        "total_rank": 53,
+        "total_points": 399530,
+        "worldcup_rank": 44,
+        "worldcup_points": 24050
+      }
+    },
+    "0x381532905ec7c69679f6a1ba8e5eeb43fee0b104": {
+      "last": {
+        "address": "0x381532905ec7c69679f6a1ba8e5eeb43fee0b104",
+        "checked_at": "2026-06-18T09:51:09.992399+00:00",
+        "agents": 3,
+        "agent_ids": [
+          161954,
+          161939,
+          128069
+        ],
+        "tx_count": 8139,
+        "balance_0g": "0.7062",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 39,
+        "weekly_points": 52900,
+        "total_rank": 34,
+        "total_points": 467110,
+        "worldcup_rank": 40,
+        "worldcup_points": 24850
+      },
+      "now": {
+        "address": "0x381532905ec7c69679f6a1ba8e5eeb43fee0b104",
+        "checked_at": "2026-06-18T10:07:41.908687+00:00",
+        "agents": 3,
+        "agent_ids": [
+          161954,
+          161939,
+          128069
+        ],
+        "tx_count": 8143,
+        "balance_0g": "0.7044",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 38,
+        "weekly_points": 53600,
+        "total_rank": 34,
+        "total_points": 467110,
+        "worldcup_rank": 42,
+        "worldcup_points": 24850
+      }
+    },
+    "0x3d663cba422fbe2738f43b3a10882ce883ad0555": {
+      "last": {
+        "address": "0x3d663cba422fbe2738f43b3a10882ce883ad0555",
+        "checked_at": "2026-06-18T09:51:09.992424+00:00",
+        "agents": 3,
+        "agent_ids": [
+          159957,
+          159943,
+          124056
+        ],
+        "tx_count": 7199,
+        "balance_0g": "0.0897",
+        "sbt_orbit": true,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 43,
+        "weekly_points": 51800,
+        "total_rank": 30,
+        "total_points": 482460,
+        "worldcup_rank": 41,
+        "worldcup_points": 24250
+      },
+      "now": {
+        "address": "0x3d663cba422fbe2738f43b3a10882ce883ad0555",
+        "checked_at": "2026-06-18T10:07:41.908712+00:00",
+        "agents": 3,
+        "agent_ids": [
+          159957,
+          159943,
+          124056
+        ],
+        "tx_count": 7207,
+        "balance_0g": "1.0856",
+        "sbt_orbit": true,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 42,
+        "weekly_points": 52500,
+        "total_rank": 30,
+        "total_points": 482460,
+        "worldcup_rank": 43,
+        "worldcup_points": 24250
+      }
+    },
+    "0xa2cdfe663a3dd6b854519e7acb3046f28f3440a6": {
+      "last": {
+        "address": "0xa2cdfe663a3dd6b854519e7acb3046f28f3440a6",
+        "checked_at": "2026-06-18T09:51:09.992450+00:00",
+        "agents": 3,
+        "agent_ids": [
+          157267,
+          150793,
+          50020
+        ],
+        "tx_count": 9747,
+        "balance_0g": "1.1553",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 36,
+        "weekly_points": 54545,
+        "total_rank": 26,
+        "total_points": 516161,
+        "worldcup_rank": 92,
+        "worldcup_points": 8800
+      },
+      "now": {
+        "address": "0xa2cdfe663a3dd6b854519e7acb3046f28f3440a6",
+        "checked_at": "2026-06-18T10:07:41.908737+00:00",
+        "agents": 3,
+        "agent_ids": [
+          157267,
+          150793,
+          50020
+        ],
+        "tx_count": 9747,
+        "balance_0g": "1.1553",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 36,
+        "weekly_points": 54780,
+        "total_rank": 26,
+        "total_points": 516161,
+        "worldcup_rank": 94,
+        "worldcup_points": 8800
+      }
+    },
+    "0xebec346993b3095f408044be0c22fa990d7e1212": {
+      "last": {
+        "address": "0xebec346993b3095f408044be0c22fa990d7e1212",
+        "checked_at": "2026-06-18T09:51:09.992472+00:00",
+        "agents": 3,
+        "agent_ids": [
+          350471,
+          350052,
+          3270
+        ],
+        "tx_count": 3662,
+        "balance_0g": "1.284",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 19,
+        "weekly_points": 67869,
+        "total_rank": 68,
+        "total_points": 335931,
+        "worldcup_rank": 102,
+        "worldcup_points": 7650
+      },
+      "now": {
+        "address": "0xebec346993b3095f408044be0c22fa990d7e1212",
+        "checked_at": "2026-06-18T10:07:41.908759+00:00",
+        "agents": 3,
+        "agent_ids": [
+          350471,
+          350052,
+          3270
+        ],
+        "tx_count": 3662,
+        "balance_0g": "1.284",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 19,
+        "weekly_points": 67869,
+        "total_rank": 68,
+        "total_points": 335931,
+        "worldcup_rank": 104,
+        "worldcup_points": 7650
+      }
+    },
+    "0xfafca17debfb46c9893db15444e556feaefb99fa": {
+      "last": null,
+      "now": {
+        "address": "0xfafca17debfb46c9893db15444e556feaefb99fa",
+        "checked_at": "2026-06-18T09:51:38.256630+00:00",
+        "agents": 3,
+        "agent_ids": [
+          207183,
+          207148,
+          124076
+        ],
+        "tx_count": 8020,
+        "balance_0g": "0.6192",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 46,
+        "weekly_points": 50800,
+        "total_rank": 67,
+        "total_points": 339070,
+        "worldcup_rank": 37,
+        "worldcup_points": 26250
+      }
+    },
+    "0xab54bd48b02f8fac219f2730468ac6cf9c05e6d2": {
+      "last": null,
+      "now": {
+        "address": "0xab54bd48b02f8fac219f2730468ac6cf9c05e6d2",
+        "checked_at": "2026-06-18T09:51:38.256703+00:00",
+        "agents": 3,
+        "agent_ids": [
+          817370,
+          817330,
+          817303
+        ],
+        "tx_count": 2532,
+        "balance_0g": "1.9197",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 60,
+        "weekly_points": 42250,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": null,
+        "worldcup_points": 0
+      }
+    }
+  },
+  "760185122020130829": {
+    "0x9935eaa74e7bfa87d50d51df8646965816676b76": {
+      "last": {
+        "address": "0x9935eaa74e7bfa87d50d51df8646965816676b76",
+        "checked_at": "2026-06-18T18:36:28.205001+00:00",
+        "agents": 3,
+        "agent_ids": [
+          6670,
+          6669,
+          6664
+        ],
+        "tx_count": 20539,
+        "balance_0g": "0.8811",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": 55,
+        "daily_points": 23995,
+        "weekly_rank": 7,
+        "weekly_points": 127350,
+        "total_rank": 5,
+        "total_points": 863068,
+        "worldcup_rank": 1,
+        "worldcup_points": 154930
+      },
+      "now": {
+        "address": "0x9935eaa74e7bfa87d50d51df8646965816676b76",
+        "checked_at": "2026-06-21T18:00:27.308219+00:00",
+        "agents": 3,
+        "agent_ids": [
+          6670,
+          6669,
+          6664
+        ],
+        "tx_count": 22454,
+        "balance_0g": "7.886",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": 23,
+        "daily_points": 30452,
+        "weekly_rank": 6,
+        "weekly_points": 266833,
+        "total_rank": 4,
+        "total_points": 1004927,
+        "worldcup_rank": 1,
+        "worldcup_points": 227570
+      }
+    }
+  },
+  "1299069814857535488": {
+    "0x6b6381f2cad74d84c5822aeb5e2a22912d8b5105": {
+      "last": {
+        "address": "0x6b6381f2cad74d84c5822aeb5e2a22912d8b5105",
+        "checked_at": "2026-06-19T13:50:49.702473+00:00",
+        "agents": 3,
+        "agent_ids": [
+          4295,
+          4293,
+          4276
+        ],
+        "tx_count": 16113,
+        "balance_0g": "7.5313",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": 6,
+        "daily_points": 35602,
+        "weekly_rank": 5,
+        "weekly_points": 178406,
+        "total_rank": 7,
+        "total_points": 795761,
+        "worldcup_rank": 2,
+        "worldcup_points": 177010
+      },
+      "now": {
+        "address": "0x6b6381f2cad74d84c5822aeb5e2a22912d8b5105",
+        "checked_at": "2026-06-20T05:35:21.675991+00:00",
+        "agents": 3,
+        "agent_ids": [
+          4295,
+          4293,
+          4276
+        ],
+        "tx_count": 16670,
+        "balance_0g": "7.2967",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": 12,
+        "daily_points": 11869,
+        "weekly_rank": 5,
+        "weekly_points": 214926,
+        "total_rank": 8,
+        "total_points": 836082,
+        "worldcup_rank": 1,
+        "worldcup_points": 206870
+      }
+    }
+  },
+  "1405054962903421062": {
+    "0x57e8207e2fa11396a625fc3558ecbac1cb011eed": {
+      "last": {
+        "address": "0x57e8207e2fa11396a625fc3558ecbac1cb011eed",
+        "checked_at": "2026-06-18T11:53:30.440714+00:00",
+        "agents": 3,
+        "agent_ids": [
+          46692,
+          46529,
+          46515
+        ],
+        "tx_count": 8592,
+        "balance_0g": "2.4054",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": 16,
+        "daily_points": 20700,
+        "weekly_rank": 6,
+        "weekly_points": 129580,
+        "total_rank": 59,
+        "total_points": 361501,
+        "worldcup_rank": 7,
+        "worldcup_points": 99580
+      },
+      "now": {
+        "address": "0x57e8207e2fa11396a625fc3558ecbac1cb011eed",
+        "checked_at": "2026-06-19T03:56:55.015116+00:00",
+        "agents": 3,
+        "agent_ids": [
+          46692,
+          46529,
+          46515
+        ],
+        "tx_count": 9057,
+        "balance_0g": "2.2016",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 6,
+        "weekly_points": 153030,
+        "total_rank": 58,
+        "total_points": 387141,
+        "worldcup_rank": 8,
+        "worldcup_points": 103730
+      }
+    }
+  },
+  "1391836876930945264": {
+    "0x1d705a0cdef9c26042aef80cd468c85503689235": {
+      "last": null,
+      "now": {
+        "address": "0x1d705a0cdef9c26042aef80cd468c85503689235",
+        "checked_at": "2026-06-17T03:51:24.580186+00:00",
+        "agents": 3,
+        "agent_ids": [
+          9555,
+          9482,
+          5426
+        ],
+        "tx_count": 13468,
+        "balance_0g": "0.605",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": 30,
+        "daily_points": 3551,
+        "weekly_rank": 16,
+        "weekly_points": 38943,
+        "total_rank": 9,
+        "total_points": 729282,
+        "worldcup_rank": 20,
+        "worldcup_points": 41250
+      }
+    }
+  },
+  "1227520422329978961": {
+    "0x90c794da37063db217e3592dc2bc211172e91d41": {
+      "last": null,
+      "now": {
+        "address": "0x90c794da37063db217e3592dc2bc211172e91d41",
+        "checked_at": "2026-06-17T04:32:31.101384+00:00",
+        "agents": 2,
+        "agent_ids": [
+          120865,
+          2833
+        ],
+        "tx_count": 52,
+        "balance_0g": "1.4737",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": null,
+        "worldcup_points": 0
+      }
+    }
+  },
+  "1196300679682195546": {
+    "0x5bd511fdf28c1c873e3d508b9bb5145d5350ee7b": {
+      "last": {
+        "address": "0x5bd511fdf28c1c873e3d508b9bb5145d5350ee7b",
+        "checked_at": "2026-06-17T13:58:13.940132+00:00",
+        "agents": 3,
+        "agent_ids": [
+          3348,
+          2662,
+          2567
+        ],
+        "tx_count": 10965,
+        "balance_0g": "1.1704",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": 64,
+        "daily_points": 10490,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": 50,
+        "total_points": 394443,
+        "worldcup_rank": 106,
+        "worldcup_points": 6040
+      },
+      "now": {
+        "address": "0x5bd511fdf28c1c873e3d508b9bb5145d5350ee7b",
+        "checked_at": "2026-06-19T00:25:45.678972+00:00",
+        "agents": 3,
+        "agent_ids": [
+          3348,
+          2662,
+          2567
+        ],
+        "tx_count": 12315,
+        "balance_0g": "1.6041",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": true,
+        "daily_rank": 8,
+        "daily_points": 1110,
+        "weekly_rank": 26,
+        "weekly_points": 80770,
+        "total_rank": 37,
+        "total_points": 461433,
+        "worldcup_rank": 14,
+        "worldcup_points": 71390
+      }
+    }
+  },
+  "251914002253348865": {
+    "0x9ad479e987f0b440853ee05ab53a75654482469a": {
+      "last": null,
+      "now": {
+        "address": "0x9ad479e987f0b440853ee05ab53a75654482469a",
+        "checked_at": "2026-06-18T05:34:49.390262+00:00",
+        "agents": 3,
+        "agent_ids": [
+          4177,
+          2876,
+          2767
+        ],
+        "tx_count": 23524,
+        "balance_0g": "0.2894",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 16,
+        "weekly_points": 67880,
+        "total_rank": 6,
+        "total_points": 789177,
+        "worldcup_rank": 26,
+        "worldcup_points": 38020
+      }
+    }
+  },
+  "1352776567868358699": {
+    "0xc7c35fd4f0d20ff873ff8a79230a9c012fc36bb8": {
+      "last": null,
+      "now": {
+        "address": "0xc7c35fd4f0d20ff873ff8a79230a9c012fc36bb8",
+        "checked_at": "2026-06-18T05:50:49.556816+00:00",
+        "agents": 0,
+        "agent_ids": [],
+        "tx_count": 2575,
+        "balance_0g": "2.5505",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": null,
+        "worldcup_points": 0
+      }
+    }
+  },
+  "958343094170955776": {
+    "0x34116ae0ae656aac69a9b2ba84462d9b5084d684": {
+      "last": {
+        "address": "0x34116ae0ae656aac69a9b2ba84462d9b5084d684",
+        "checked_at": "2026-06-18T06:22:33.049534+00:00",
+        "agents": 3,
+        "agent_ids": [
+          8375,
+          8373,
+          3443
+        ],
+        "tx_count": 2206,
+        "balance_0g": "5.1372",
+        "sbt_orbit": false,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": 3824,
+        "worldcup_points": 490
+      },
+      "now": {
+        "address": "0x34116ae0ae656aac69a9b2ba84462d9b5084d684",
+        "checked_at": "2026-06-18T07:37:08.084009+00:00",
+        "agents": 3,
+        "agent_ids": [
+          8375,
+          8373,
+          3443
+        ],
+        "tx_count": 2206,
+        "balance_0g": "5.1372",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": 3829,
+        "worldcup_points": 490
+      }
+    },
+    "0xe1733a0c1a44b1e87452313db027ecd2c777f068": {
+      "last": null,
+      "now": {
+        "address": "0xe1733a0c1a44b1e87452313db027ecd2c777f068",
+        "checked_at": "2026-06-18T07:33:03.707658+00:00",
+        "agents": 3,
+        "agent_ids": [
+          4579,
+          4576,
+          4572
+        ],
+        "tx_count": 350,
+        "balance_0g": "5.9149",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": 298,
+        "worldcup_points": 3340
+      }
+    }
+  },
+  "413768136572010497": {
+    "0xbe1a6e3da42891e6a37c948b1c4b74813a6ea3ba": {
+      "last": {
+        "address": "0xbe1a6e3da42891e6a37c948b1c4b74813a6ea3ba",
+        "checked_at": "2026-06-22T07:44:19.371574+00:00",
+        "agents": 3,
+        "agent_ids": [
+          122539,
+          108713,
+          48771
+        ],
+        "tx_count": 272,
+        "balance_0g": "0.7823",
+        "sbt_orbit": true,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": 1615,
+        "worldcup_points": 3210
+      },
+      "now": {
+        "address": "0xbe1a6e3da42891e6a37c948b1c4b74813a6ea3ba",
+        "checked_at": "2026-06-23T13:24:07.574873+00:00",
+        "agents": 3,
+        "agent_ids": [
+          122539,
+          108713,
+          48771
+        ],
+        "tx_count": 277,
+        "balance_0g": "0.7779",
+        "sbt_orbit": true,
+        "sbt_vector": false,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": null,
+        "weekly_points": 0,
+        "total_rank": null,
+        "total_points": 0,
+        "worldcup_rank": 1332,
+        "worldcup_points": 4340
+      }
+    }
+  },
+  "432797963153309706": {
+    "0x4e546dc8500060f439e2011727950879400c1e64": {
+      "last": null,
+      "now": {
+        "address": "0x4e546dc8500060f439e2011727950879400c1e64",
+        "checked_at": "2026-06-23T04:45:37.123090+00:00",
+        "agents": 3,
+        "agent_ids": [
+          3132,
+          3131,
+          3129
+        ],
+        "tx_count": 23604,
+        "balance_0g": "0.568",
+        "sbt_orbit": true,
+        "sbt_vector": true,
+        "sbt_zenith": false,
+        "daily_rank": null,
+        "daily_points": 0,
+        "weekly_rank": 7,
+        "weekly_points": 80945,
+        "total_rank": 4,
+        "total_points": 1056897,
+        "worldcup_rank": 6,
+        "worldcup_points": 205920
+      }
+    }
+  }
+}

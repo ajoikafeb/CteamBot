@@ -1,0 +1,2546 @@
+{
+  "4226687": {
+    "time": "2026-06-17T04:21:55.117871+00:00",
+    "row": {
+      "time": "2026-06-17T04:21:55.117635+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4226687,
+      "tx_hash": "4b58a36d904dce3bd7083522c7b254ec34d980629bd8f23eafd97d03763c2f81",
+      "gas_used": 105040
+    }
+  },
+  "4225545": {
+    "time": "2026-06-17T04:23:10.309546+00:00",
+    "row": {
+      "time": "2026-06-17T04:23:10.308183+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4225545,
+      "tx_hash": "3946305c53e460e50dba89486e6afd9f978ae59dfa14b23371fb24f586413569",
+      "gas_used": 105052
+    }
+  },
+  "4225291": {
+    "time": "2026-06-17T04:24:16.513627+00:00",
+    "row": {
+      "time": "2026-06-17T04:24:16.513005+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4225291,
+      "tx_hash": "d4b9849f4235a71482642fa430fe7d90cdd3bfff63557600c5429d2efe401bde",
+      "gas_used": 105028
+    }
+  },
+  "4224975": {
+    "time": "2026-06-17T04:25:27.642426+00:00",
+    "row": {
+      "time": "2026-06-17T04:25:27.641731+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4224975,
+      "tx_hash": "a824483ea9d8cfa13a8c3d376dde161670b7293c785e8860ea5bbd80c0e047c6",
+      "gas_used": 105052
+    }
+  },
+  "4224502": {
+    "time": "2026-06-17T04:26:06.704915+00:00",
+    "row": {
+      "time": "2026-06-17T04:26:06.704297+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 4224502,
+      "tx_hash": "93f7487f7f16db9e1883f60dd7a6548b41a6d0a5e764371d8d7ffae0b9c7126c",
+      "gas_used": 105052
+    }
+  },
+  "4224291": {
+    "time": "2026-06-17T04:27:05.802510+00:00",
+    "row": {
+      "time": "2026-06-17T04:27:05.801951+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 4224291,
+      "tx_hash": "946cc243927e1aa3be6c52f8606e854179a5326af8e8ca66411abed950007b53",
+      "gas_used": 105052
+    }
+  },
+  "4224290": {
+    "time": "2026-06-17T04:29:11.988188+00:00",
+    "row": {
+      "time": "2026-06-17T04:29:11.987479+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4224290,
+      "tx_hash": "d09893d6f473e8097fb13469500ceafd90272d8c49bedad9b695c1b0dacc0136",
+      "gas_used": 105040
+    }
+  },
+  "4224289": {
+    "time": "2026-06-17T04:29:56.872026+00:00",
+    "row": {
+      "time": "2026-06-17T04:29:56.870975+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4224289,
+      "tx_hash": "fdd746f95709fd9cb64e8f24ec660dc22a484933cf856a0bf36d32a4801d75b0",
+      "gas_used": 105052
+    }
+  },
+  "4224271": {
+    "time": "2026-06-17T04:30:28.584352+00:00",
+    "row": {
+      "time": "2026-06-17T04:30:28.583426+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4224271,
+      "tx_hash": "0b6f891681fdbad64b8c05461fce45a0f9e56e5b34648cb053d03d7edf202c2b",
+      "gas_used": 105052
+    }
+  },
+  "4224269": {
+    "time": "2026-06-17T04:31:44.387645+00:00",
+    "row": {
+      "time": "2026-06-17T04:31:44.386401+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4224269,
+      "tx_hash": "66f83888db39e82b6f1727840aea16ae22f7af8df525a31e322093f04bda30ce",
+      "gas_used": 105052
+    }
+  },
+  "4224268": {
+    "time": "2026-06-17T04:32:31.108583+00:00",
+    "row": {
+      "time": "2026-06-17T04:32:31.107748+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 4224268,
+      "tx_hash": "48a82b594a96b96a27e11ad558368ff487429a026e368fce17c43f0c268d4b9f",
+      "gas_used": 105028
+    }
+  },
+  "4224267": {
+    "time": "2026-06-17T04:33:43.232997+00:00",
+    "row": {
+      "time": "2026-06-17T04:33:43.231698+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 4224267,
+      "tx_hash": "3fee5ff8d18889b18b3b925382425a77a93feca6183b20ad31b442c85be9036d",
+      "gas_used": 105052
+    }
+  },
+  "4219731": {
+    "time": "2026-06-17T04:35:39.234979+00:00",
+    "row": {
+      "time": "2026-06-17T04:35:39.234136+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4219731,
+      "tx_hash": "63d74e37a4f19e0e244e27810e7f85d0571cf097f44c69c4fc629100123fa706",
+      "gas_used": 105052
+    }
+  },
+  "4153398": {
+    "time": "2026-06-17T04:36:14.332013+00:00",
+    "row": {
+      "time": "2026-06-17T04:36:14.331136+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4153398,
+      "tx_hash": "89d877a1d62c17f13a31ce24f8837ae7cf456ed088f65e844a62c5c09b6160c4",
+      "gas_used": 105040
+    }
+  },
+  "4152272": {
+    "time": "2026-06-17T04:37:30.159604+00:00",
+    "row": {
+      "time": "2026-06-17T04:37:30.158584+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4152272,
+      "tx_hash": "3ef7117701fbda48e8596191e10383c093bd424c22cb92c87eddabd560576f41",
+      "gas_used": 105052
+    }
+  },
+  "4150575": {
+    "time": "2026-06-17T04:38:18.259653+00:00",
+    "row": {
+      "time": "2026-06-17T04:38:18.258675+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4150575,
+      "tx_hash": "23811ef701e6beb01cd3b3f1f6f99bc3b21929a9e34ad8ff164ffd897c0d4348",
+      "gas_used": 105028
+    }
+  },
+  "4125179": {
+    "time": "2026-06-17T04:39:28.431023+00:00",
+    "row": {
+      "time": "2026-06-17T04:39:28.430112+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 4125179,
+      "tx_hash": "cd20434bc3f7e3232f22608deec9fc500b6a82b96963eaa9301f87d03802722f",
+      "gas_used": 105052
+    }
+  },
+  "4119393": {
+    "time": "2026-06-17T04:40:23.432910+00:00",
+    "row": {
+      "time": "2026-06-17T04:40:23.431968+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 4119393,
+      "tx_hash": "6a10572a89b5c7d3fcde9479d8d618183d9f5665088cebb3598a529a2c8e37dd",
+      "gas_used": 105052
+    }
+  },
+  "4119163": {
+    "time": "2026-06-17T04:42:18.436388+00:00",
+    "row": {
+      "time": "2026-06-17T04:42:18.435451+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4119163,
+      "tx_hash": "bc6a2a80333bcdd0c767f7e9a65e74256529c7f6a21db73a37c6208fca38ba67",
+      "gas_used": 105052
+    }
+  },
+  "4100451": {
+    "time": "2026-06-17T04:42:54.638682+00:00",
+    "row": {
+      "time": "2026-06-17T04:42:54.637910+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4100451,
+      "tx_hash": "294fba10b4798c4a02e69dc4a041e8bd905a197a5f4b34d2105d5a79e905ac5b",
+      "gas_used": 105040
+    }
+  },
+  "4096987": {
+    "time": "2026-06-17T04:44:07.670355+00:00",
+    "row": {
+      "time": "2026-06-17T04:44:07.669551+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4096987,
+      "tx_hash": "1c1e04f0e667ca1c931e3f38c5aff796dbf22908e391745b5f613244cc17e253",
+      "gas_used": 105052
+    }
+  },
+  "4046533": {
+    "time": "2026-06-17T04:45:13.357114+00:00",
+    "row": {
+      "time": "2026-06-17T04:45:13.356169+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4046533,
+      "tx_hash": "ecbc1bf5d2f117e53fe055971de0b58f41d8c72980d52f6fa8713ad0f2bf3f9f",
+      "gas_used": 105040
+    }
+  },
+  "4035402": {
+    "time": "2026-06-17T04:46:00.396490+00:00",
+    "row": {
+      "time": "2026-06-17T04:46:00.395143+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 4035402,
+      "tx_hash": "9e9a25906848f656fec79c6ef120f66727ac45aa4d2817e8f7b87d0c2e875db4",
+      "gas_used": 105028
+    }
+  },
+  "3977694": {
+    "time": "2026-06-17T04:47:18.889668+00:00",
+    "row": {
+      "time": "2026-06-17T04:47:18.888588+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3977694,
+      "tx_hash": "79dcf2b314aecc3611f78d889c5dc888780d91b521b18f3de7004bf9ffc32288",
+      "gas_used": 105052
+    }
+  },
+  "4146169": {
+    "time": "2026-06-17T04:48:54.377303+00:00",
+    "row": {
+      "time": "2026-06-17T04:48:54.376501+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4146169,
+      "tx_hash": "7cd106abe36acce42d224d97bef6f7639ba3ed08f36468097815bd064ea4e927",
+      "gas_used": 105052
+    }
+  },
+  "3981615": {
+    "time": "2026-06-17T04:50:05.479824+00:00",
+    "row": {
+      "time": "2026-06-17T04:50:05.478902+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3981615,
+      "tx_hash": "b1e1427037d18f24a1cfa5f466d91dacddf7412795781d649762aa38d48685fb",
+      "gas_used": 105052
+    }
+  },
+  "3926238": {
+    "time": "2026-06-17T04:51:03.532009+00:00",
+    "row": {
+      "time": "2026-06-17T04:51:03.531015+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3926238,
+      "tx_hash": "d18a6e887caa9e7be6e7b342c01b384ec3f6c73c3b3542ef4318fffc0baf27cc",
+      "gas_used": 105040
+    }
+  },
+  "3925418": {
+    "time": "2026-06-17T04:52:05.618546+00:00",
+    "row": {
+      "time": "2026-06-17T04:52:05.617523+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3925418,
+      "tx_hash": "6898550a311cd79def2bb5e82e0f121e10e38a925d08db8f273bb044a37ee752",
+      "gas_used": 105040
+    }
+  },
+  "3910756": {
+    "time": "2026-06-17T04:53:23.640003+00:00",
+    "row": {
+      "time": "2026-06-17T04:53:23.638949+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3910756,
+      "tx_hash": "e874357a69261e5dc5ec045adc653330072f108b80856622300d6ce36b23341c",
+      "gas_used": 105052
+    }
+  },
+  "3910701": {
+    "time": "2026-06-17T04:53:51.374452+00:00",
+    "row": {
+      "time": "2026-06-17T04:53:51.372736+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3910701,
+      "tx_hash": "3fce2126d6242c2188b940683873b1ba28505b5897afc332471a10fa3fa2060a",
+      "gas_used": 105040
+    }
+  },
+  "3910760": {
+    "time": "2026-06-17T04:55:42.372033+00:00",
+    "row": {
+      "time": "2026-06-17T04:55:42.371075+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3910760,
+      "tx_hash": "3754861baacf3ce1337497dc0c222d38668d3307b6fd174fc048c39343a4a71d",
+      "gas_used": 105040
+    }
+  },
+  "3909035": {
+    "time": "2026-06-17T04:56:42.533008+00:00",
+    "row": {
+      "time": "2026-06-17T04:56:42.531466+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3909035,
+      "tx_hash": "d65fd334333940b1bafbbfd7b4faa5fa48f207f676147312c67374aff2a31527",
+      "gas_used": 105052
+    }
+  },
+  "3904584": {
+    "time": "2026-06-17T04:57:15.192979+00:00",
+    "row": {
+      "time": "2026-06-17T04:57:15.191646+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3904584,
+      "tx_hash": "6f4a4add2c76a081f220744a1d621fe4fed8184de77882e2955008a84d95b92e",
+      "gas_used": 105052
+    }
+  },
+  "3904560": {
+    "time": "2026-06-17T04:58:24.248329+00:00",
+    "row": {
+      "time": "2026-06-17T04:58:24.247460+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3904560,
+      "tx_hash": "426d65c94be9a90f74d19004fe1f193c2cee4073ba8f69c20f57bf6bd08a7051",
+      "gas_used": 105052
+    }
+  },
+  "3904511": {
+    "time": "2026-06-17T04:59:40.282844+00:00",
+    "row": {
+      "time": "2026-06-17T04:59:40.281366+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3904511,
+      "tx_hash": "fd63a99ebbb63b85505ed7541ed4c4749338bdca53352491e99dbeaadbe0abd8",
+      "gas_used": 105052
+    }
+  },
+  "3904458": {
+    "time": "2026-06-17T05:00:47.055250+00:00",
+    "row": {
+      "time": "2026-06-17T05:00:47.054304+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3904458,
+      "tx_hash": "86ef2943e94c783ee67578527b70b922caf5daf6dd9c094a36bc588d74ed291e",
+      "gas_used": 105052
+    }
+  },
+  "3903408": {
+    "time": "2026-06-17T05:02:14.210127+00:00",
+    "row": {
+      "time": "2026-06-17T05:02:14.209147+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3903408,
+      "tx_hash": "8e00f91880d659e93792e4e13cbc694fe90f1dd2424c04547a76286c29d3f947",
+      "gas_used": 105040
+    }
+  },
+  "3902822": {
+    "time": "2026-06-17T05:02:47.332705+00:00",
+    "row": {
+      "time": "2026-06-17T05:02:47.331755+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3902822,
+      "tx_hash": "64071cc186af812bb687668073b49610b39dd6da054471d9509dc1981d790e00",
+      "gas_used": 105028
+    }
+  },
+  "3902639": {
+    "time": "2026-06-17T05:03:53.117731+00:00",
+    "row": {
+      "time": "2026-06-17T05:03:53.116244+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3902639,
+      "tx_hash": "3e03e1ba2edd7a996c1cf66b43cdc14040092d3e9a22f02f3d3787079282a67c",
+      "gas_used": 105040
+    }
+  },
+  "3835532": {
+    "time": "2026-06-17T05:04:54.481280+00:00",
+    "row": {
+      "time": "2026-06-17T05:04:54.479672+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3835532,
+      "tx_hash": "6a332596530f83774e1f1e2ba7d40235903a45fe07dc1d39c2cd77b41c588604",
+      "gas_used": 105040
+    }
+  },
+  "3854281": {
+    "time": "2026-06-17T05:05:27.688473+00:00",
+    "row": {
+      "time": "2026-06-17T05:05:27.687450+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3854281,
+      "tx_hash": "cae82bb7f11ddf2b2d8cedc124835223f9426aab4c0e779845701c6eaf8d02fd",
+      "gas_used": 105052
+    }
+  },
+  "3825739": {
+    "time": "2026-06-17T05:06:09.254474+00:00",
+    "row": {
+      "time": "2026-06-17T05:06:09.252472+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3825739,
+      "tx_hash": "d8356ea14305a4d63f2583074195d2b7ad495f4f91550fc314f00fc7cb8f6645",
+      "gas_used": 105052
+    }
+  },
+  "3925597": {
+    "time": "2026-06-17T05:07:56.526674+00:00",
+    "row": {
+      "time": "2026-06-17T05:07:56.525640+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3925597,
+      "tx_hash": "cb3a44be6073bfce5593741d95e6f20f0bc4d2765a3ca40770a593caab82d7a9",
+      "gas_used": 105052
+    }
+  },
+  "3832530": {
+    "time": "2026-06-17T05:08:27.602663+00:00",
+    "row": {
+      "time": "2026-06-17T05:08:27.601148+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3832530,
+      "tx_hash": "fb6326372cfe39cff4c72cc7e2332906a52af38f52491baf42456ed7e95552ac",
+      "gas_used": 105052
+    }
+  },
+  "3828465": {
+    "time": "2026-06-17T05:09:17.570339+00:00",
+    "row": {
+      "time": "2026-06-17T05:09:17.569335+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3828465,
+      "tx_hash": "c570558ff3447c951908b4d3a46475a2e833ca339a6e9c04fbbb6d4ad58b1b11",
+      "gas_used": 105052
+    }
+  },
+  "3825730": {
+    "time": "2026-06-17T05:10:23.347225+00:00",
+    "row": {
+      "time": "2026-06-17T05:10:23.346104+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3825730,
+      "tx_hash": "798495083b53798b5ef45d225406a9bc402101fde735658f26fcbcf8be2a2902",
+      "gas_used": 105052
+    }
+  },
+  "3825728": {
+    "time": "2026-06-17T05:11:06.337028+00:00",
+    "row": {
+      "time": "2026-06-17T05:11:06.335240+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3825728,
+      "tx_hash": "089bd9abc73abb60c85edcb6d1b1aeeec8599400438a309936a64f62ca7d8730",
+      "gas_used": 105040
+    }
+  },
+  "3825711": {
+    "time": "2026-06-17T05:11:54.424863+00:00",
+    "row": {
+      "time": "2026-06-17T05:11:54.423121+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3825711,
+      "tx_hash": "9dfcabf15e4f0de1b231b4dc6a5035a5e871127df5d62051e3efee7d5b9478c6",
+      "gas_used": 105028
+    }
+  },
+  "3910502": {
+    "time": "2026-06-17T05:13:23.756185+00:00",
+    "row": {
+      "time": "2026-06-17T05:13:23.755051+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3910502,
+      "tx_hash": "1c4f87461b0461859520640c06873389f6d7685549616618d7433477ff599c1f",
+      "gas_used": 105040
+    }
+  },
+  "3825692": {
+    "time": "2026-06-17T05:14:26.791001+00:00",
+    "row": {
+      "time": "2026-06-17T05:14:26.790146+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3825692,
+      "tx_hash": "12725c69eb23eccc8d74ee45935da54538cd06dbac9418b988afe0fe7e09b109",
+      "gas_used": 105052
+    }
+  },
+  "4014945": {
+    "time": "2026-06-17T05:14:57.438091+00:00",
+    "row": {
+      "time": "2026-06-17T05:14:57.437028+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4014945,
+      "tx_hash": "6cdab27642e10acbf638cd9d5711f566e577f53269c87216f966694292e046c1",
+      "gas_used": 105028
+    }
+  },
+  "3825629": {
+    "time": "2026-06-17T05:15:26.063573+00:00",
+    "row": {
+      "time": "2026-06-17T05:15:26.062500+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3825629,
+      "tx_hash": "6fa436abba4af701ef9747995fe78f17cdedb227a341b3c5fe17d2e71785c7d2",
+      "gas_used": 105040
+    }
+  },
+  "3824129": {
+    "time": "2026-06-17T05:16:30.107354+00:00",
+    "row": {
+      "time": "2026-06-17T05:16:30.106236+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3824129,
+      "tx_hash": "64995143dccad50c7af24c5a704beaeed46628924b528d05258fa3fb40146b6d",
+      "gas_used": 105040
+    }
+  },
+  "3823584": {
+    "time": "2026-06-17T05:17:08.234452+00:00",
+    "row": {
+      "time": "2026-06-17T05:17:08.232746+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3823584,
+      "tx_hash": "78110affec5f5d2d18cdbf2c3ed0e4994f5e110e07988ff11c96740f96322bf3",
+      "gas_used": 105052
+    }
+  },
+  "4137705": {
+    "time": "2026-06-17T05:19:03.422758+00:00",
+    "row": {
+      "time": "2026-06-17T05:19:03.421263+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4137705,
+      "tx_hash": "7092c63b66208f0017c8de8bc68773de2a0a3407f3dbd3a0f31894259eb5e5f7",
+      "gas_used": 105040
+    }
+  },
+  "4125196": {
+    "time": "2026-06-17T05:19:57.558366+00:00",
+    "row": {
+      "time": "2026-06-17T05:19:57.554224+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4125196,
+      "tx_hash": "b12c625e260a0ffeb02539eea7fa64421600aef17d9439c68168b7e511af1391",
+      "gas_used": 105052
+    }
+  },
+  "3789882": {
+    "time": "2026-06-17T05:20:34.831324+00:00",
+    "row": {
+      "time": "2026-06-17T05:20:34.830159+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3789882,
+      "tx_hash": "6463da51ed02588e5294203cf111ca6b3a72a89346fc6f5dbe0f440001fe7e11",
+      "gas_used": 105052
+    }
+  },
+  "3789854": {
+    "time": "2026-06-17T05:21:28.963032+00:00",
+    "row": {
+      "time": "2026-06-17T05:21:28.960916+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3789854,
+      "tx_hash": "f224998c91c91127ee18a11142298f9cea400a414ec5fce4329ca493c6c1f427",
+      "gas_used": 105052
+    }
+  },
+  "3789714": {
+    "time": "2026-06-17T05:22:25.181478+00:00",
+    "row": {
+      "time": "2026-06-17T05:22:25.180273+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3789714,
+      "tx_hash": "4dce593c1e8034bd28a6672e9ba3b8f60f02c6bc6e87eaabe8f48a2ce44d7cc5",
+      "gas_used": 105052
+    }
+  },
+  "3788827": {
+    "time": "2026-06-17T05:23:05.214835+00:00",
+    "row": {
+      "time": "2026-06-17T05:23:05.213582+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3788827,
+      "tx_hash": "76924c81268a17ced58892babdddc93aab26782641537c98454c9dafa543abc2",
+      "gas_used": 105040
+    }
+  },
+  "4121041": {
+    "time": "2026-06-17T05:25:14.371329+00:00",
+    "row": {
+      "time": "2026-06-17T05:25:14.369968+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4121041,
+      "tx_hash": "bb759c98166ad0a4a66c1c77b533c6427418af45345913c524b74bdbc8e61109",
+      "gas_used": 105052
+    }
+  },
+  "4091082": {
+    "time": "2026-06-17T05:25:46.529816+00:00",
+    "row": {
+      "time": "2026-06-17T05:25:46.528474+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4091082,
+      "tx_hash": "3d4d540d4ef72d91d5aee61db2d61f7963eb86f979e31e20c6ad790e823f5862",
+      "gas_used": 105052
+    }
+  },
+  "3789840": {
+    "time": "2026-06-17T05:26:42.415661+00:00",
+    "row": {
+      "time": "2026-06-17T05:26:42.414378+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3789840,
+      "tx_hash": "04bb9d955c8003129485aaf3d0ab8103fc5a37ec2a5b2a3c536fdb98a1f20ef7",
+      "gas_used": 105052
+    }
+  },
+  "3789800": {
+    "time": "2026-06-17T05:27:53.472154+00:00",
+    "row": {
+      "time": "2026-06-17T05:27:53.470051+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3789800,
+      "tx_hash": "184308e6ec3bb908008674286cd9701282ae38e5eccebe3e27bc540a3a7e98ad",
+      "gas_used": 105052
+    }
+  },
+  "3780932": {
+    "time": "2026-06-17T05:28:32.687899+00:00",
+    "row": {
+      "time": "2026-06-17T05:28:32.686090+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3780932,
+      "tx_hash": "bb5ea286be6d03c0c5cc0a02d58d0ebdf634aae77587ea602848cb8f91e0f178",
+      "gas_used": 105016
+    }
+  },
+  "3704254": {
+    "time": "2026-06-17T05:29:41.774408+00:00",
+    "row": {
+      "time": "2026-06-17T05:29:41.772258+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3704254,
+      "tx_hash": "b94f0b04b977cd98ce3b96d6821703a04bd936593f1e156a67e71825e91982d8",
+      "gas_used": 105052
+    }
+  },
+  "4153190": {
+    "time": "2026-06-17T05:30:39.357910+00:00",
+    "row": {
+      "time": "2026-06-17T05:30:39.356365+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4153190,
+      "tx_hash": "76721596f1fa628401087a03b8b93298dc4c5a95dc5c8807e939036d41821fdd",
+      "gas_used": 105028
+    }
+  },
+  "4090539": {
+    "time": "2026-06-17T05:31:23.341987+00:00",
+    "row": {
+      "time": "2026-06-17T05:31:23.340532+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4090539,
+      "tx_hash": "62e3b82f98f1d0f44c34daa2b89d902c71f671b59e5d0f3ee76b1340581bd10d",
+      "gas_used": 105052
+    }
+  },
+  "3704088": {
+    "time": "2026-06-17T05:32:34.514118+00:00",
+    "row": {
+      "time": "2026-06-17T05:32:34.512657+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3704088,
+      "tx_hash": "c895584c2764ae73b0b6db77adb6e8c8ad944a51d2d20e24dd0b284d84144cf7",
+      "gas_used": 105052
+    }
+  },
+  "3630343": {
+    "time": "2026-06-17T05:33:31.980739+00:00",
+    "row": {
+      "time": "2026-06-17T05:33:31.979354+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3630343,
+      "tx_hash": "53ce1951ab73dc3443a95fde68c5174a874c913a417c3604bcbcdaa4e6682ebc",
+      "gas_used": 105052
+    }
+  },
+  "3633692": {
+    "time": "2026-06-17T05:34:37.072794+00:00",
+    "row": {
+      "time": "2026-06-17T05:34:37.071192+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3633692,
+      "tx_hash": "eb5dd9fb4a805875862e13a70830c5d5d7d7e400c2bdac01396fd0e13184b72d",
+      "gas_used": 105040
+    }
+  },
+  "3479775": {
+    "time": "2026-06-17T05:35:48.852240+00:00",
+    "row": {
+      "time": "2026-06-17T05:35:48.850850+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3479775,
+      "tx_hash": "3d104ce1816f6931ee327ce57ab59e8d223a547a617bc149ad20fcb8c305e585",
+      "gas_used": 105028
+    }
+  },
+  "4224972": {
+    "time": "2026-06-17T05:37:40.837074+00:00",
+    "row": {
+      "time": "2026-06-17T05:37:40.835855+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4224972,
+      "tx_hash": "a6370834d8f194adfba7baf75ef4897bc51f3d2ee464fdb5c3a0baa05c8e5fb8",
+      "gas_used": 105052
+    }
+  },
+  "4224288": {
+    "time": "2026-06-17T05:38:17.116558+00:00",
+    "row": {
+      "time": "2026-06-17T05:38:17.115096+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4224288,
+      "tx_hash": "ef8119060592611b57269f3c97dd1f5534c59d695ec03c435799b5dc50141710",
+      "gas_used": 105052
+    }
+  },
+  "3926193": {
+    "time": "2026-06-17T05:38:48.375420+00:00",
+    "row": {
+      "time": "2026-06-17T05:38:48.373830+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3926193,
+      "tx_hash": "c07ce7e5fe8d665e6986176bf6072dd40a62769eae00afa3585289e4c2746537",
+      "gas_used": 105052
+    }
+  },
+  "3467081": {
+    "time": "2026-06-17T05:39:52.466828+00:00",
+    "row": {
+      "time": "2026-06-17T05:39:52.465243+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3467081,
+      "tx_hash": "74ce82779d5e9053a9c1065f86fa0eaff2eb8f883995a8344617a4bc6c91fc6c",
+      "gas_used": 105040
+    }
+  },
+  "3467059": {
+    "time": "2026-06-17T05:41:02.620992+00:00",
+    "row": {
+      "time": "2026-06-17T05:41:02.619631+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3467059,
+      "tx_hash": "2d5e2041b2f1b6da483f0d8da7d6fcbe1fb6d2fe704f6ea24e27c26e458cd42d",
+      "gas_used": 105052
+    }
+  },
+  "3467012": {
+    "time": "2026-06-17T05:41:56.345441+00:00",
+    "row": {
+      "time": "2026-06-17T05:41:56.343982+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3467012,
+      "tx_hash": "73df56648ede2dff8c1c46cb74ee3e8f8d94c6aa7dc0bd28cb78c6c9ddf9e745",
+      "gas_used": 105052
+    }
+  },
+  "4125769": {
+    "time": "2026-06-17T05:44:03.279833+00:00",
+    "row": {
+      "time": "2026-06-17T05:44:03.278200+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4125769,
+      "tx_hash": "0cc52c2ae3ed7da50536264461e44ae031e70eb7f48fce10c1fc5761495792d1",
+      "gas_used": 105040
+    }
+  },
+  "3926075": {
+    "time": "2026-06-17T05:44:49.505026+00:00",
+    "row": {
+      "time": "2026-06-17T05:44:49.503566+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3926075,
+      "tx_hash": "21b998e7ed5848ffc7963010dcf72d9cfe777d60fb5ec8c9b7be160a9736d237",
+      "gas_used": 105040
+    }
+  },
+  "3828523": {
+    "time": "2026-06-17T05:45:34.900733+00:00",
+    "row": {
+      "time": "2026-06-17T05:45:34.899039+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3828523,
+      "tx_hash": "1d4c9f3adb5ce5e3ec99a87615d2b366a2bff39a7a8ec78c17b95c6fbd620fcd",
+      "gas_used": 105052
+    }
+  },
+  "3467010": {
+    "time": "2026-06-17T05:46:07.697105+00:00",
+    "row": {
+      "time": "2026-06-17T05:46:07.694989+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3467010,
+      "tx_hash": "475bd70ea6b671d9b91c971276551b6948c1f23dc70ab93e6ea3ad18cd8328c2",
+      "gas_used": 105028
+    }
+  },
+  "3832304": {
+    "time": "2026-06-17T05:46:44.877488+00:00",
+    "row": {
+      "time": "2026-06-17T05:46:44.875950+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3832304,
+      "tx_hash": "d24c3b84d35de131c78f781f081087982c5af304220f1a0335c5c34278fb323d",
+      "gas_used": 105040
+    }
+  },
+  "3466111": {
+    "time": "2026-06-17T05:47:16.190099+00:00",
+    "row": {
+      "time": "2026-06-17T05:47:16.188393+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3466111,
+      "tx_hash": "4360b652d549c093f0b5a833b851d8127ff5795af0f3935b452430ed518b81ce",
+      "gas_used": 105052
+    }
+  },
+  "3904330": {
+    "time": "2026-06-17T05:48:58.956440+00:00",
+    "row": {
+      "time": "2026-06-17T05:48:58.954870+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3904330,
+      "tx_hash": "caf95bdc707a3bec265395e555ca7ecac962ac90cfc91112e2104838891a4ca1",
+      "gas_used": 105052
+    }
+  },
+  "3466894": {
+    "time": "2026-06-17T05:50:13.085579+00:00",
+    "row": {
+      "time": "2026-06-17T05:50:13.084012+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3466894,
+      "tx_hash": "4ca841a7a2e9df250acd02dea4c844fa409c9cdb6ab39fddfb2fa043707731e9",
+      "gas_used": 105040
+    }
+  },
+  "3466093": {
+    "time": "2026-06-17T05:51:02.385645+00:00",
+    "row": {
+      "time": "2026-06-17T05:51:02.384097+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3466093,
+      "tx_hash": "f658b908958f0080337fdc89790a211695a65c305720388d1ab1a9ceb4d286dd",
+      "gas_used": 105052
+    }
+  },
+  "3466067": {
+    "time": "2026-06-17T05:51:54.501419+00:00",
+    "row": {
+      "time": "2026-06-17T05:51:54.499070+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3466067,
+      "tx_hash": "a6f7623fd4f3860559cb319241f7d3b2a3066c450291acfcc5d2cd50aba9b8af",
+      "gas_used": 105052
+    }
+  },
+  "3464333": {
+    "time": "2026-06-17T05:52:58.485140+00:00",
+    "row": {
+      "time": "2026-06-17T05:52:58.484127+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3464333,
+      "tx_hash": "f4ea3a528fd42ec77b7133d0fc6e6b047111173b3aecec1437585e31ac564d68",
+      "gas_used": 105052
+    }
+  },
+  "3463422": {
+    "time": "2026-06-17T05:53:36.746523+00:00",
+    "row": {
+      "time": "2026-06-17T05:53:36.745034+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3463422,
+      "tx_hash": "d60eaad4511ec72f5d2c272fefeb665513e731635da6947a52444ae2018b3c8c",
+      "gas_used": 105040
+    }
+  },
+  "4046592": {
+    "time": "2026-06-17T05:54:38.994874+00:00",
+    "row": {
+      "time": "2026-06-17T05:54:38.992681+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4046592,
+      "tx_hash": "e4fabc3dd166464b816aeeda7b22320415263ff032ca30c75beba4675d595ca6",
+      "gas_used": 105040
+    }
+  },
+  "3990220": {
+    "time": "2026-06-17T05:55:49.759132+00:00",
+    "row": {
+      "time": "2026-06-17T05:55:49.757538+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3990220,
+      "tx_hash": "924e469eaf3d70182593d39e60c323eea336dc6e66a900185abd7899dfe353e3",
+      "gas_used": 105040
+    }
+  },
+  "3464313": {
+    "time": "2026-06-17T05:57:02.006521+00:00",
+    "row": {
+      "time": "2026-06-17T05:57:02.004853+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3464313,
+      "tx_hash": "3618b18f0ae50afa25801d98222963d55513738da4dafa516160c579347ff252",
+      "gas_used": 105052
+    }
+  },
+  "3462682": {
+    "time": "2026-06-17T05:57:33.964634+00:00",
+    "row": {
+      "time": "2026-06-17T05:57:33.962074+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3462682,
+      "tx_hash": "bb0a3ddf3ff34797db96c6083424690777a54f4f80da050a318ccc4f11b8fd93",
+      "gas_used": 105040
+    }
+  },
+  "3454737": {
+    "time": "2026-06-17T05:58:01.643283+00:00",
+    "row": {
+      "time": "2026-06-17T05:58:01.640445+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3454737,
+      "tx_hash": "c79d203838f48e2fbf6f5691b13e6083b0566aef474496b5828489755c7980b0",
+      "gas_used": 105040
+    }
+  },
+  "3319340": {
+    "time": "2026-06-17T05:58:55.470736+00:00",
+    "row": {
+      "time": "2026-06-17T05:58:55.468568+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3319340,
+      "tx_hash": "0a3501925ba7d414c6e94dd371130b813b5963e5d58cd222f4db4416c12e2c7e",
+      "gas_used": 105052
+    }
+  },
+  "3904055": {
+    "time": "2026-06-17T06:00:42.432015+00:00",
+    "row": {
+      "time": "2026-06-17T06:00:42.430424+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3904055,
+      "tx_hash": "df94d6b692ebb8a85405e44793b0aa18ecd28f35e5259c0d3cd2a1018ad80f6a",
+      "gas_used": 105052
+    }
+  },
+  "3467060": {
+    "time": "2026-06-17T06:01:54.639108+00:00",
+    "row": {
+      "time": "2026-06-17T06:01:54.637521+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3467060,
+      "tx_hash": "21ded16ad7b0e5b6ce70ad1ec2dccda03a6257bc223a23e0294e9b9dfbd93872",
+      "gas_used": 105040
+    }
+  },
+  "3316470": {
+    "time": "2026-06-17T06:03:12.778257+00:00",
+    "row": {
+      "time": "2026-06-17T06:03:12.776670+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3316470,
+      "tx_hash": "3c286658c1212652310140c65a7f3c2a47e0510e29ad27daf7877fa3ab91750b",
+      "gas_used": 105040
+    }
+  },
+  "761279": {
+    "time": "2026-06-17T06:04:35.232088+00:00",
+    "row": {
+      "time": "2026-06-17T06:04:35.229402+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 761279,
+      "tx_hash": "c605210282956c03ebf115d7ab81a14ef466bb6c7cbcbe048364f2e80da8725e",
+      "gas_used": 105028
+    }
+  },
+  "3157800": {
+    "time": "2026-06-17T06:05:26.279258+00:00",
+    "row": {
+      "time": "2026-06-17T06:05:26.277205+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3157800,
+      "tx_hash": "1600e95a27722e075796caea09e33bc842bd859a6c035be96fbde9a030bcef4d",
+      "gas_used": 105052
+    }
+  },
+  "3100679": {
+    "time": "2026-06-17T06:06:40.335886+00:00",
+    "row": {
+      "time": "2026-06-17T06:06:40.333677+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3100679,
+      "tx_hash": "db0ec2384cba97ec7dad960a03ff2c5856594e4c0574ee2ab394afef1937de52",
+      "gas_used": 105052
+    }
+  },
+  "4124860": {
+    "time": "2026-06-17T06:07:54.595143+00:00",
+    "row": {
+      "time": "2026-06-17T06:07:54.592005+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4124860,
+      "tx_hash": "3599b2ba778e97f282c77a2aa967485bdf3fd0c5a1b5715c6097a66ac558921c",
+      "gas_used": 105052
+    }
+  },
+  "3065260": {
+    "time": "2026-06-17T06:08:55.762920+00:00",
+    "row": {
+      "time": "2026-06-17T06:08:55.761283+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3065260,
+      "tx_hash": "4820ceedd16297366fe933c77cb5fea83fec950314e732571a118a19f0700021",
+      "gas_used": 105040
+    }
+  },
+  "2630233": {
+    "time": "2026-06-17T06:09:33.869282+00:00",
+    "row": {
+      "time": "2026-06-17T06:09:33.867569+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 2630233,
+      "tx_hash": "64195ad7f8818287131c41f8d613be25112e4c6c09ca42c9f46671dadfb0b239",
+      "gas_used": 105040
+    }
+  },
+  "2129071": {
+    "time": "2026-06-17T06:10:17.228489+00:00",
+    "row": {
+      "time": "2026-06-17T06:10:17.226495+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 2129071,
+      "tx_hash": "061e82a09d2a1844ecc9f749c75240f40c2a6c17f8df406a495e7034579b58a0",
+      "gas_used": 105040
+    }
+  },
+  "2230489": {
+    "time": "2026-06-17T06:11:30.447981+00:00",
+    "row": {
+      "time": "2026-06-17T06:11:30.445656+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 2230489,
+      "tx_hash": "171c037b3150ef6c571dfd92d986e90e46065ffaefb429021125c161b0a77423",
+      "gas_used": 105052
+    }
+  },
+  "2127479": {
+    "time": "2026-06-17T06:12:27.570958+00:00",
+    "row": {
+      "time": "2026-06-17T06:12:27.569364+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 2127479,
+      "tx_hash": "b789070b2c14127a4a4b3caf09a77544b0d83d866e3ffd15117ed2d191a8fae3",
+      "gas_used": 105052
+    }
+  },
+  "2693508": {
+    "time": "2026-06-17T06:14:10.633241+00:00",
+    "row": {
+      "time": "2026-06-17T06:14:10.631430+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 2693508,
+      "tx_hash": "35f97e71766708a39fb5a88d136138d57da5beb025ae3e5fcab171e13393fcc4",
+      "gas_used": 105052
+    }
+  },
+  "2127462": {
+    "time": "2026-06-17T06:15:24.789885+00:00",
+    "row": {
+      "time": "2026-06-17T06:15:24.788257+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 2127462,
+      "tx_hash": "99398fc9478f18d2d43961cca80cfa03bec5739b5b9e9d1718a674f4374b057f",
+      "gas_used": 105052
+    }
+  },
+  "1944664": {
+    "time": "2026-06-17T06:16:11.229965+00:00",
+    "row": {
+      "time": "2026-06-17T06:16:11.227201+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1944664,
+      "tx_hash": "175ffa43446818c1e4c2d344a6055e20e0b47c1843506ca37d61122eb80ccc72",
+      "gas_used": 105040
+    }
+  },
+  "1911433": {
+    "time": "2026-06-17T06:17:11.053649+00:00",
+    "row": {
+      "time": "2026-06-17T06:17:11.051260+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1911433,
+      "tx_hash": "00a5abc1a886ebcf2d14d2d567dc3842e3543a8b4393c41c80e7950ae8365bf7",
+      "gas_used": 105040
+    }
+  },
+  "2127455": {
+    "time": "2026-06-17T06:18:00.891554+00:00",
+    "row": {
+      "time": "2026-06-17T06:18:00.889391+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 2127455,
+      "tx_hash": "5f9e175e5d03962bd3fba4145cb81dcd0d59b266c8a95cf983b861c9e1863bb6",
+      "gas_used": 105052
+    }
+  },
+  "2127447": {
+    "time": "2026-06-17T06:18:43.118587+00:00",
+    "row": {
+      "time": "2026-06-17T06:18:43.116742+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 2127447,
+      "tx_hash": "7f7ca84b889f5231ce2bb99c24bb94328f62b68abea6e0ddcec10df676676f25",
+      "gas_used": 105040
+    }
+  },
+  "4051097": {
+    "time": "2026-06-17T06:20:42.350245+00:00",
+    "row": {
+      "time": "2026-06-17T06:20:42.348452+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4051097,
+      "tx_hash": "a278242474650fa6304516fd8d73bb45d4cefc91590cfe419a538dc78c508001",
+      "gas_used": 105040
+    }
+  },
+  "4014943": {
+    "time": "2026-06-17T06:21:53.564406+00:00",
+    "row": {
+      "time": "2026-06-17T06:21:53.562708+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4014943,
+      "tx_hash": "12d214f5803e5ab27b5d5668e14e8bb740222b1160837037af58c13aa4e5da30",
+      "gas_used": 105052
+    }
+  },
+  "1910465": {
+    "time": "2026-06-17T06:22:22.627102+00:00",
+    "row": {
+      "time": "2026-06-17T06:22:22.624955+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1910465,
+      "tx_hash": "03414716df23428db5e2d0e9401cfd941cba458894e1fa618b0f0997078c8b23",
+      "gas_used": 105052
+    }
+  },
+  "1910090": {
+    "time": "2026-06-17T06:23:31.716214+00:00",
+    "row": {
+      "time": "2026-06-17T06:23:31.713908+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1910090,
+      "tx_hash": "6c5081e1e27b7761d43bc293258f32e2c1335374d3d4f4f8598cebf2a343c41d",
+      "gas_used": 105040
+    }
+  },
+  "2120505": {
+    "time": "2026-06-17T06:24:45.804674+00:00",
+    "row": {
+      "time": "2026-06-17T06:24:45.802701+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 2120505,
+      "tx_hash": "5a9ed2c1d14e0852413fe1e63087a3a309feca1be5303f2fc8ab8c9dec00cf52",
+      "gas_used": 105052
+    }
+  },
+  "2120502": {
+    "time": "2026-06-17T06:25:52.019733+00:00",
+    "row": {
+      "time": "2026-06-17T06:25:52.017851+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 2120502,
+      "tx_hash": "954ccaadf32ffb98e83ab94622e14d6cf8247b59efa2075f8d8b44d720e2112c",
+      "gas_used": 105052
+    }
+  },
+  "4116467": {
+    "time": "2026-06-17T06:27:18.268246+00:00",
+    "row": {
+      "time": "2026-06-17T06:27:18.266373+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4116467,
+      "tx_hash": "87ef12e05d6c695a68cb0189b66cffaf17730ffe05a6254e57d68f2986fe3945",
+      "gas_used": 105052
+    }
+  },
+  "3793923": {
+    "time": "2026-06-17T06:28:23.417925+00:00",
+    "row": {
+      "time": "2026-06-17T06:28:23.415474+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3793923,
+      "tx_hash": "1d73b6b2a0987e182d3829cdf8f17bb2981ef3beb506c427aced24fb0deef0a5",
+      "gas_used": 105040
+    }
+  },
+  "1910087": {
+    "time": "2026-06-17T06:28:54.286996+00:00",
+    "row": {
+      "time": "2026-06-17T06:28:54.285122+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1910087,
+      "tx_hash": "c7547e664a79cbab46c6cf46d7bfb6a53dfef0880a83fc5b42c1c33aea5d7d4f",
+      "gas_used": 105040
+    }
+  },
+  "1909340": {
+    "time": "2026-06-17T06:29:29.726668+00:00",
+    "row": {
+      "time": "2026-06-17T06:29:29.723862+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1909340,
+      "tx_hash": "aecb829327d63920a71017a21ff44d88a870bebad7a5b209928daa6d93c80ab4",
+      "gas_used": 105052
+    }
+  },
+  "2120322": {
+    "time": "2026-06-17T06:30:23.795218+00:00",
+    "row": {
+      "time": "2026-06-17T06:30:23.792456+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 2120322,
+      "tx_hash": "b26af942fe860c13722617e65c179261a299d81e9262df68f06509d93e40f1f2",
+      "gas_used": 105028
+    }
+  },
+  "1960017": {
+    "time": "2026-06-17T06:30:53.986981+00:00",
+    "row": {
+      "time": "2026-06-17T06:30:53.985080+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 1960017,
+      "tx_hash": "8e7a43017bf9dea3edb296803dd4971548728b225ee3cecbfcc43848ea03eb47",
+      "gas_used": 105040
+    }
+  },
+  "4089988": {
+    "time": "2026-06-17T06:31:49.850212+00:00",
+    "row": {
+      "time": "2026-06-17T06:31:49.848158+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4089988,
+      "tx_hash": "0dd89b4668ad64b1e46d939dfea837ba091b9e1f8f262a2afd86ce8ea1362ce3",
+      "gas_used": 105040
+    }
+  },
+  "3479481": {
+    "time": "2026-06-17T06:32:40.997660+00:00",
+    "row": {
+      "time": "2026-06-17T06:32:40.995565+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3479481,
+      "tx_hash": "60c67d04a54eb42408d0c65ad4ef4023ae7ef70a2e19f8fd26e309fcc7611f97",
+      "gas_used": 105040
+    }
+  },
+  "1894155": {
+    "time": "2026-06-17T06:33:30.555120+00:00",
+    "row": {
+      "time": "2026-06-17T06:33:30.553086+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1894155,
+      "tx_hash": "5b16f610eba332d296f6900ae4a3f53cd4f31481fb97d2d9411017443b5f16ae",
+      "gas_used": 105052
+    }
+  },
+  "1891896": {
+    "time": "2026-06-17T06:34:25.560189+00:00",
+    "row": {
+      "time": "2026-06-17T06:34:25.558374+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1891896,
+      "tx_hash": "2d330c38d1299e6a1f6797f94dcbd08945eb80a9444dc30cefe04d54a86c66ca",
+      "gas_used": 105052
+    }
+  },
+  "1959684": {
+    "time": "2026-06-17T06:35:04.724172+00:00",
+    "row": {
+      "time": "2026-06-17T06:35:04.721690+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 1959684,
+      "tx_hash": "9fa937dab1d9c2a65ddf5fa263df01c8a11bc1b8f2d8cdea4f772d1756cd520d",
+      "gas_used": 105052
+    }
+  },
+  "1910034": {
+    "time": "2026-06-17T06:35:48.859368+00:00",
+    "row": {
+      "time": "2026-06-17T06:35:48.857000+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 1910034,
+      "tx_hash": "efb251fa466e5d4b228b5775199156cc548f1599d11337c75867be8041da6feb",
+      "gas_used": 105052
+    }
+  },
+  "3632131": {
+    "time": "2026-06-17T06:37:09.033714+00:00",
+    "row": {
+      "time": "2026-06-17T06:37:09.031123+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3632131,
+      "tx_hash": "6f12052f0820929a2885d5005e8ed364180d9682344cd6db1aaa968c75715505",
+      "gas_used": 105040
+    }
+  },
+  "3467075": {
+    "time": "2026-06-17T06:37:39.115891+00:00",
+    "row": {
+      "time": "2026-06-17T06:37:39.113245+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3467075,
+      "tx_hash": "8787fcc3319d1fb03b5c8b50992e038a7b05a86204685c85b6b6d4c21d7649cb",
+      "gas_used": 105040
+    }
+  },
+  "2633534": {
+    "time": "2026-06-17T06:38:41.215952+00:00",
+    "row": {
+      "time": "2026-06-17T06:38:41.213855+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 2633534,
+      "tx_hash": "0c8c954d755615b3fab74ad1a472e6f9df6e1d9c9d9ba9da416bb5366181c4ad",
+      "gas_used": 105052
+    }
+  },
+  "1891848": {
+    "time": "2026-06-17T06:39:43.314003+00:00",
+    "row": {
+      "time": "2026-06-17T06:39:43.311726+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1891848,
+      "tx_hash": "1460e213d35f6ad12902d92d295969d892f138cf4c71fb679b46b11ee3f8c278",
+      "gas_used": 105052
+    }
+  },
+  "1891840": {
+    "time": "2026-06-17T06:40:15.386792+00:00",
+    "row": {
+      "time": "2026-06-17T06:40:15.384605+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 1891840,
+      "tx_hash": "254be0a5de0ebc51a7788bee35f7dc95f5b310e75a66329a0c4a72509d4d99d9",
+      "gas_used": 105016
+    }
+  },
+  "1891798": {
+    "time": "2026-06-17T06:41:32.443805+00:00",
+    "row": {
+      "time": "2026-06-17T06:41:32.441266+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 1891798,
+      "tx_hash": "0d35894e200971acab1037af383b616430c45e013c29822ba71afc00bb229857",
+      "gas_used": 105040
+    }
+  },
+  "3479845": {
+    "time": "2026-06-17T06:43:50.495859+00:00",
+    "row": {
+      "time": "2026-06-17T06:43:50.493057+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3479845,
+      "tx_hash": "69c78b7d6e79e58a8d7b94d6d168d9c29478322fb8b985a9ce3cc2d670e10ef9",
+      "gas_used": 105052
+    }
+  },
+  "3467071": {
+    "time": "2026-06-17T06:44:39.634089+00:00",
+    "row": {
+      "time": "2026-06-17T06:44:39.631303+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3467071,
+      "tx_hash": "329156db071e6888d7f6b1173a8163d518327c4693481326c1ebac398fc10b00",
+      "gas_used": 105052
+    }
+  },
+  "1891724": {
+    "time": "2026-06-17T06:45:21.721126+00:00",
+    "row": {
+      "time": "2026-06-17T06:45:21.718436+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1891724,
+      "tx_hash": "1c987c9cee65a3cfa3b1594eb28104d8ef30391ed4b84c58a9a7889dcb9f3c0e",
+      "gas_used": 105052
+    }
+  },
+  "1891562": {
+    "time": "2026-06-17T06:46:37.776993+00:00",
+    "row": {
+      "time": "2026-06-17T06:46:37.775467+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1891562,
+      "tx_hash": "527b03aa470f8f46afd36a316155cef5721db6d8c99c0842d878228b37741df0",
+      "gas_used": 105052
+    }
+  },
+  "1890249": {
+    "time": "2026-06-17T06:47:48.879085+00:00",
+    "row": {
+      "time": "2026-06-17T06:47:48.876583+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 1890249,
+      "tx_hash": "7a7bd523e9be5ed20417b6006a3f9ffa4a7d6338429ed67ac78dbfb869e6c2fe",
+      "gas_used": 105016
+    }
+  },
+  "1890104": {
+    "time": "2026-06-17T06:48:59.035011+00:00",
+    "row": {
+      "time": "2026-06-17T06:48:59.033007+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 1890104,
+      "tx_hash": "a4bdd86eaaa65fc5c57d28fd331c755c238ee5c154369b8c260405df93cd8da7",
+      "gas_used": 105052
+    }
+  },
+  "3832373": {
+    "time": "2026-06-17T06:50:20.552194+00:00",
+    "row": {
+      "time": "2026-06-17T06:50:20.549866+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3832373,
+      "tx_hash": "8c89e6d8a7e223881c44f9dccd78b85c0d8deb7c3e2db88555a278692af4126d",
+      "gas_used": 105052
+    }
+  },
+  "1881897": {
+    "time": "2026-06-17T06:50:57.793704+00:00",
+    "row": {
+      "time": "2026-06-17T06:50:57.791217+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 1881897,
+      "tx_hash": "0af5774b78b88381005a38ff0d5e74e26e13c493f0e6a384020f91bcaa3a3f37",
+      "gas_used": 105040
+    }
+  },
+  "4035642": {
+    "time": "2026-06-17T06:52:12.848849+00:00",
+    "row": {
+      "time": "2026-06-17T06:52:12.846711+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4035642,
+      "tx_hash": "b0ba45526fc193b80c7dc326b0c938a6dfd6c4733a0202d5415933305a5f822a",
+      "gas_used": 105040
+    }
+  },
+  "4035453": {
+    "time": "2026-06-17T06:52:44.911214+00:00",
+    "row": {
+      "time": "2026-06-17T06:52:44.909018+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4035453,
+      "tx_hash": "a5643876c1c0088e5cc78110e380023c51c3c948a23a6537ef66cf7f634757e4",
+      "gas_used": 105052
+    }
+  },
+  "1881871": {
+    "time": "2026-06-17T06:53:28.186854+00:00",
+    "row": {
+      "time": "2026-06-17T06:53:28.184684+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 1881871,
+      "tx_hash": "156e90c0aebbb2bff241917ee98993d4f8d882364205e79776259f0dc90159ea",
+      "gas_used": 105052
+    }
+  },
+  "1570854": {
+    "time": "2026-06-17T06:54:25.427364+00:00",
+    "row": {
+      "time": "2026-06-17T06:54:25.425377+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 1570854,
+      "tx_hash": "6590be9f2262d98d3da943757c30450ffbdbbbd6e86907fcf97c73dfadb0fbee",
+      "gas_used": 105040
+    }
+  },
+  "3832295": {
+    "time": "2026-06-17T06:56:01.088344+00:00",
+    "row": {
+      "time": "2026-06-17T06:56:01.085994+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3832295,
+      "tx_hash": "60f267d8df7baa6dc382248922be8d81a6b28486d303db1a8d38977c29f91baf",
+      "gas_used": 105052
+    }
+  },
+  "1710763": {
+    "time": "2026-06-17T06:57:05.349709+00:00",
+    "row": {
+      "time": "2026-06-17T06:57:05.345832+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 1710763,
+      "tx_hash": "071c4ed2237283b2166f52f89efeb5c2a9b87d6a36b894dc890293b1bc495fcd",
+      "gas_used": 105052
+    }
+  },
+  "3990224": {
+    "time": "2026-06-17T06:57:46.512396+00:00",
+    "row": {
+      "time": "2026-06-17T06:57:46.509823+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3990224,
+      "tx_hash": "df74ee9ce615af679687cf061bcda7b0ffa450197004b702f29c18ac4a0c15ab",
+      "gas_used": 105052
+    }
+  },
+  "1190580": {
+    "time": "2026-06-17T06:58:29.613465+00:00",
+    "row": {
+      "time": "2026-06-17T06:58:29.609101+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 1190580,
+      "tx_hash": "4bab3dd8f540cad6bceb1d0967270b37883c0005449a4c51639c84370e5121e1",
+      "gas_used": 105052
+    }
+  },
+  "1062494": {
+    "time": "2026-06-17T06:59:39.824739+00:00",
+    "row": {
+      "time": "2026-06-17T06:59:39.822452+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 1062494,
+      "tx_hash": "8bfcf904dcb989c3e7649c4e3e4afff7a87cba7c1a7369d13c35530f5e11c355",
+      "gas_used": 105040
+    }
+  },
+  "870178": {
+    "time": "2026-06-17T07:00:45.215792+00:00",
+    "row": {
+      "time": "2026-06-17T07:00:45.214229+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 870178,
+      "tx_hash": "b9cd3fb1c6d0985e99afbb9b3384d274b157e59ddfdba25a0308e40b2181a16e",
+      "gas_used": 105052
+    }
+  },
+  "3711172": {
+    "time": "2026-06-17T07:02:03.755468+00:00",
+    "row": {
+      "time": "2026-06-17T07:02:03.753566+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3711172,
+      "tx_hash": "674e1638e04cc5b18a25b83816ac418a88b9c54174f5602375d3d0cb8d75c17f",
+      "gas_used": 105040
+    }
+  },
+  "3467083": {
+    "time": "2026-06-17T07:02:44.859336+00:00",
+    "row": {
+      "time": "2026-06-17T07:02:44.857054+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3467083,
+      "tx_hash": "853289821cfbfdfb9782337f2b1c640e670dbd8413ce059944eef1947a1e2d67",
+      "gas_used": 105052
+    }
+  },
+  "897318": {
+    "time": "2026-06-17T07:03:54.867443+00:00",
+    "row": {
+      "time": "2026-06-17T07:03:54.865261+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 897318,
+      "tx_hash": "0cb9e9b1eaed2d797a24d6ae70501a722c8e1f48970879fb8c0b6207831382ba",
+      "gas_used": 105040
+    }
+  },
+  "811521": {
+    "time": "2026-06-17T07:04:42.261599+00:00",
+    "row": {
+      "time": "2026-06-17T07:04:42.259116+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 811521,
+      "tx_hash": "4fe05352557e8306411568b5054b28668c9e4168323538dc799b8cb07b75b093",
+      "gas_used": 105052
+    }
+  },
+  "696470": {
+    "time": "2026-06-17T07:05:27.487462+00:00",
+    "row": {
+      "time": "2026-06-17T07:05:27.484667+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 696470,
+      "tx_hash": "8213b92a25c155f10e65c9f951301e0d226ebc28cce38711a71c8c6d809f4285",
+      "gas_used": 105052
+    }
+  },
+  "574492": {
+    "time": "2026-06-17T07:05:57.495573+00:00",
+    "row": {
+      "time": "2026-06-17T07:05:57.492826+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 574492,
+      "tx_hash": "aa3037b88a1d7c0149631ad8f30fe35a9bc40d21d9fe4e9b487c01cb6f041f8e",
+      "gas_used": 105040
+    }
+  },
+  "3467082": {
+    "time": "2026-06-17T07:08:01.672493+00:00",
+    "row": {
+      "time": "2026-06-17T07:08:01.669930+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3467082,
+      "tx_hash": "1fc9dd3fc2058ae9eeadbe9938aa40bc8e933e35d4d7f124f8589dfdbb74761e",
+      "gas_used": 105040
+    }
+  },
+  "2693764": {
+    "time": "2026-06-17T07:09:15.792517+00:00",
+    "row": {
+      "time": "2026-06-17T07:09:15.790316+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 2693764,
+      "tx_hash": "0beeb84c601a630e767dc93d79bfd62073f34de234afd451aae716f56b967812",
+      "gas_used": 105052
+    }
+  },
+  "801429": {
+    "time": "2026-06-17T07:10:15.821308+00:00",
+    "row": {
+      "time": "2026-06-17T07:10:15.818722+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 801429,
+      "tx_hash": "8f64ed450ac85fe206898ccfd5b9c77d43255daa057f55ee5e766e5ffd54ae5a",
+      "gas_used": 105040
+    }
+  },
+  "793937": {
+    "time": "2026-06-17T07:11:17.879611+00:00",
+    "row": {
+      "time": "2026-06-17T07:11:17.877163+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 793937,
+      "tx_hash": "7d119e5360a5b499cf2109a60e531efb07f67dec0c2e05f1ee96a876e266cbc1",
+      "gas_used": 105040
+    }
+  },
+  "449100": {
+    "time": "2026-06-17T07:12:33.884295+00:00",
+    "row": {
+      "time": "2026-06-17T07:12:33.881280+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 449100,
+      "tx_hash": "7c1f18a51a0fa73ec4426134c50b2b8df9f13ab71170d17d1df90c0ece90d2e2",
+      "gas_used": 105052
+    }
+  },
+  "357267": {
+    "time": "2026-06-17T07:13:16.021360+00:00",
+    "row": {
+      "time": "2026-06-17T07:13:16.019086+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 357267,
+      "tx_hash": "2ee580e9026e18307405c21f679781b63fa72c4f1cb27e94f726929286408276",
+      "gas_used": 105052
+    }
+  },
+  "3467079": {
+    "time": "2026-06-17T07:14:48.968908+00:00",
+    "row": {
+      "time": "2026-06-17T07:14:48.966829+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3467079,
+      "tx_hash": "da4f55c2600bda3cf4b1b0a530d491751560f0aacf95879e5ca01202ac7e0971",
+      "gas_used": 105040
+    }
+  },
+  "3467065": {
+    "time": "2026-06-17T07:15:57.100449+00:00",
+    "row": {
+      "time": "2026-06-17T07:15:57.098148+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3467065,
+      "tx_hash": "4729db41ad9c55d05ae29b969a978ce24e9a848b870bc072aee5cfe8376f314f",
+      "gas_used": 105040
+    }
+  },
+  "2983518": {
+    "time": "2026-06-17T07:16:39.284290+00:00",
+    "row": {
+      "time": "2026-06-17T07:16:39.281942+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 2983518,
+      "tx_hash": "02022765f39d91727b5bf28096b45f3b39a2320731b60b01e2750e36bd674d2f",
+      "gas_used": 105040
+    }
+  },
+  "188428": {
+    "time": "2026-06-17T07:17:38.425274+00:00",
+    "row": {
+      "time": "2026-06-17T07:17:38.422876+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 188428,
+      "tx_hash": "0a89f4026e53a549310c0cc3d2fe812834ed099535929e3543c3f434189081d4",
+      "gas_used": 105052
+    }
+  },
+  "188426": {
+    "time": "2026-06-17T07:18:32.549061+00:00",
+    "row": {
+      "time": "2026-06-17T07:18:32.544158+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 188426,
+      "tx_hash": "2bf595cfb3da82da5e72d493ecafd19f0908aa858df403f0619a4ed8b4c2d7ee",
+      "gas_used": 105040
+    }
+  },
+  "120372": {
+    "time": "2026-06-17T07:19:08.672746+00:00",
+    "row": {
+      "time": "2026-06-17T07:19:08.669676+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 120372,
+      "tx_hash": "1db115bd8a46ad717d854fd1add17e702f19c86bd2bdd154a772e6d302e03776",
+      "gas_used": 105052
+    }
+  },
+  "116642": {
+    "time": "2026-06-17T07:20:52.997809+00:00",
+    "row": {
+      "time": "2026-06-17T07:20:52.994937+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 116642,
+      "tx_hash": "b938c4eb543e4cdfb5b61cf2a223201291383019cfb6baf8b17ad815f8b7f032",
+      "gas_used": 105040
+    }
+  },
+  "116640": {
+    "time": "2026-06-17T07:21:32.185060+00:00",
+    "row": {
+      "time": "2026-06-17T07:21:32.181832+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 116640,
+      "tx_hash": "b20a6484eb56b883f085d0bc0908d5f477a1485278d923bef51936b56be91736",
+      "gas_used": 105052
+    }
+  },
+  "100279": {
+    "time": "2026-06-17T07:22:21.388832+00:00",
+    "row": {
+      "time": "2026-06-17T07:22:21.386502+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 100279,
+      "tx_hash": "78f1c625beafbce881b4112c3458e7f47c0a3210a012e08dc473f43bc5b07d21",
+      "gas_used": 105040
+    }
+  },
+  "75203": {
+    "time": "2026-06-17T07:23:00.572193+00:00",
+    "row": {
+      "time": "2026-06-17T07:23:00.569861+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 75203,
+      "tx_hash": "fb184d8da00b08778544324b2b0e8d7cb88bcb078dfabb0ca69cfe46c7e38bff",
+      "gas_used": 105052
+    }
+  },
+  "61482": {
+    "time": "2026-06-17T07:24:03.601452+00:00",
+    "row": {
+      "time": "2026-06-17T07:24:03.598900+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 61482,
+      "tx_hash": "211fb7d9588cedbed1d118ecadf32d7eedb4e4b960324d19a8d879e84ece9766",
+      "gas_used": 105028
+    }
+  },
+  "61479": {
+    "time": "2026-06-17T07:24:37.636854+00:00",
+    "row": {
+      "time": "2026-06-17T07:24:37.634085+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 61479,
+      "tx_hash": "6c72ac6fec3afb18bb93b96ea436d26378faa9c8b3a41d6c8d3f1653c5afae0d",
+      "gas_used": 105028
+    }
+  },
+  "54053": {
+    "time": "2026-06-17T07:26:37.376717+00:00",
+    "row": {
+      "time": "2026-06-17T07:26:37.374241+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 54053,
+      "tx_hash": "2e34e05f6bc83d39456d9664037ef02f2329527739a0a90e3109014f6895cb9e",
+      "gas_used": 105040
+    }
+  },
+  "53352": {
+    "time": "2026-06-17T07:27:53.927688+00:00",
+    "row": {
+      "time": "2026-06-17T07:27:53.923218+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 53352,
+      "tx_hash": "16f28b7faa38492e8ec3354a1f1bdeae6d02da48fa95ce8b5fa7bd19cfcc8113",
+      "gas_used": 105040
+    }
+  },
+  "124557": {
+    "time": "2026-06-17T07:29:08.097062+00:00",
+    "row": {
+      "time": "2026-06-17T07:29:08.095261+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 124557,
+      "tx_hash": "a7ea8253ab02626a01aeb9bc0705afce665009afb9a615e2621ba5ad080d1ddb",
+      "gas_used": 105040
+    }
+  },
+  "53350": {
+    "time": "2026-06-17T07:30:18.262436+00:00",
+    "row": {
+      "time": "2026-06-17T07:30:18.259740+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 53350,
+      "tx_hash": "527775aab20a7a567ea9671bb0bc42888cd3f193bb69aab637568b7a83736fed",
+      "gas_used": 105040
+    }
+  },
+  "3467055": {
+    "time": "2026-06-17T07:32:05.271594+00:00",
+    "row": {
+      "time": "2026-06-17T07:32:05.268947+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3467055,
+      "tx_hash": "bc02eb12a570351e912945341e8150a1e531417b35146c23e423205246a90f7c",
+      "gas_used": 105040
+    }
+  },
+  "4258655": {
+    "time": "2026-06-17T08:49:39.392973+00:00",
+    "row": {
+      "time": "2026-06-17T08:49:39.390289+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4258655,
+      "tx_hash": "614fe53b07d2f7db25e1b7c4ca87aa90b48125e5f6dccaa99162eeb68111fd19",
+      "gas_used": 105040
+    }
+  },
+  "4205774": {
+    "time": "2026-06-17T08:51:16.144347+00:00",
+    "row": {
+      "time": "2026-06-17T08:51:16.140866+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4205774,
+      "tx_hash": "19af68ceaeaef94d6545c4e7724a50c5dedbfabf089d2025f7b103c60be6bcc7",
+      "gas_used": 105040
+    }
+  },
+  "4325527": {
+    "time": "2026-06-17T08:52:22.966193+00:00",
+    "row": {
+      "time": "2026-06-17T08:52:22.962889+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4325527,
+      "tx_hash": "3dc038219f7927a772fec0ec0fb7faeabe45491ddfb4f42b8fbfb9a61643020f",
+      "gas_used": 105028
+    }
+  },
+  "4046571": {
+    "time": "2026-06-17T08:53:17.804265+00:00",
+    "row": {
+      "time": "2026-06-17T08:53:17.801325+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4046571,
+      "tx_hash": "2b2ab31b5ee716a1b641b65943b3d586841fbbd0c92a829373595c8dce931435",
+      "gas_used": 105040
+    }
+  },
+  "3828395": {
+    "time": "2026-06-17T08:55:14.941352+00:00",
+    "row": {
+      "time": "2026-06-17T08:55:14.938954+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3828395,
+      "tx_hash": "6c79935f096dca0cf22f33655aa9bf1e3efe234b2d5ae2ca62b999bd63d5dcff",
+      "gas_used": 105052
+    }
+  },
+  "3703297": {
+    "time": "2026-06-17T08:55:50.232020+00:00",
+    "row": {
+      "time": "2026-06-17T08:55:50.227835+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3703297,
+      "tx_hash": "9a2aa6d32c6143c187fa373fcc06c9833774751c8a124b0244beccf040fff2b3",
+      "gas_used": 105016
+    }
+  },
+  "4325663": {
+    "time": "2026-06-17T09:02:32.040692+00:00",
+    "row": {
+      "time": "2026-06-17T09:02:32.038156+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4325663,
+      "tx_hash": "5a6102896a37fbff6f71846a9761298d8ca6b673efa4aeb1507d9e5e801321f3",
+      "gas_used": 105040
+    }
+  },
+  "4258854": {
+    "time": "2026-06-17T09:03:37.882346+00:00",
+    "row": {
+      "time": "2026-06-17T09:03:37.879228+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4258854,
+      "tx_hash": "f09b98d6272088d03dfb846a24282de1cbad71c13903ba15a337a2ba4691bd25",
+      "gas_used": 105052
+    }
+  },
+  "4100178": {
+    "time": "2026-06-17T09:05:18.588494+00:00",
+    "row": {
+      "time": "2026-06-17T09:05:18.585501+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 4100178,
+      "tx_hash": "025218b55233b10f29bdf7a1d75e5b29a3c006bd6588d35923617a6d8e6f1b11",
+      "gas_used": 105040
+    }
+  },
+  "3989843": {
+    "time": "2026-06-17T09:06:44.521226+00:00",
+    "row": {
+      "time": "2026-06-17T09:06:44.518561+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3989843,
+      "tx_hash": "ccbf9e2078c31c6b40ef02dbb2ef527bc7cd0c2de85cfc53ae9466ae0c4a12e1",
+      "gas_used": 105052
+    }
+  },
+  "4035590": {
+    "time": "2026-06-17T09:08:26.813715+00:00",
+    "row": {
+      "time": "2026-06-17T09:08:26.811119+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 4035590,
+      "tx_hash": "136c4da899c11c17a9093c5c9f5a5e2933ae4ed47fcdb2284dcc95c87f5f485e",
+      "gas_used": 105052
+    }
+  },
+  "3828444": {
+    "time": "2026-06-17T09:10:06.361111+00:00",
+    "row": {
+      "time": "2026-06-17T09:10:06.358540+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3828444,
+      "tx_hash": "6b319ef0bc10080f635da43e75c9930f6121701693bd51f78c578520a9951b13",
+      "gas_used": 105052
+    }
+  },
+  "1910084": {
+    "time": "2026-06-17T10:07:51.921539+00:00",
+    "row": {
+      "time": "2026-06-17T10:07:51.917872+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 1910084,
+      "tx_hash": "780bc2c59cc6d2831a8e06542d3183384fce4e815638bc9fe2923584efb9b366",
+      "gas_used": 105052
+    }
+  },
+  "4099211": {
+    "time": "2026-06-17T10:33:10.766074+00:00",
+    "row": {
+      "time": "2026-06-17T10:33:10.763208+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4099211,
+      "tx_hash": "4f4c83a2b41922fc16187a63bcc4954ee3c2b47a8b9f4154d483343d7ed036cf",
+      "gas_used": 105052
+    }
+  },
+  "3989659": {
+    "time": "2026-06-17T10:33:46.264838+00:00",
+    "row": {
+      "time": "2026-06-17T10:33:46.262185+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3989659,
+      "tx_hash": "f28e1d94ad8de8a69e605a89ab06f15f2070d7db9e7c0d169cb46b302ee695b4",
+      "gas_used": 105052
+    }
+  },
+  "3828742": {
+    "time": "2026-06-17T10:34:20.444591+00:00",
+    "row": {
+      "time": "2026-06-17T10:34:20.442016+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3828742,
+      "tx_hash": "fab0da227145e8ffa5fad70072158f1f22ec8d16e367a88bb77fddc713918d7c",
+      "gas_used": 105052
+    }
+  },
+  "3451983": {
+    "time": "2026-06-17T10:35:09.476455+00:00",
+    "row": {
+      "time": "2026-06-17T10:35:09.473420+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3451983,
+      "tx_hash": "366c143e950dd1b60cb5930b2a7fe9e2a75140f7423a84f8b10a41f432023c3d",
+      "gas_used": 105052
+    }
+  },
+  "127933": {
+    "time": "2026-06-17T10:36:08.028101+00:00",
+    "row": {
+      "time": "2026-06-17T10:36:08.022880+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 127933,
+      "tx_hash": "15e70f4711aaf427c7a0af29c3ab7c517eb68bfac558a48b4072ad2ef500ec7b",
+      "gas_used": 105040
+    }
+  },
+  "3467085": {
+    "time": "2026-06-17T10:45:47.652006+00:00",
+    "row": {
+      "time": "2026-06-17T10:45:47.646614+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 3467085,
+      "tx_hash": "ebcae04b85e5d8f5137ae74ac76b8b53fa744db267ab9119dc30cd25114fad9a",
+      "gas_used": 105016
+    }
+  },
+  "3464340": {
+    "time": "2026-06-17T10:47:08.494647+00:00",
+    "row": {
+      "time": "2026-06-17T10:47:08.491507+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3464340,
+      "tx_hash": "d6abcc222955912f07170887b90683774f1424e4a5a7b67593ce9607a1e82334",
+      "gas_used": 105028
+    }
+  },
+  "3157694": {
+    "time": "2026-06-17T10:48:10.766551+00:00",
+    "row": {
+      "time": "2026-06-17T10:48:10.763701+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9482,
+      "opinion_id": 3157694,
+      "tx_hash": "ea7ccf564c44e826cf8519f9da0886ed4bb1fd36802e9143a0fc849363413654",
+      "gas_used": 105052
+    }
+  },
+  "3467078": {
+    "time": "2026-06-17T10:48:43.762717+00:00",
+    "row": {
+      "time": "2026-06-17T10:48:43.760130+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 5426,
+      "opinion_id": 3467078,
+      "tx_hash": "272feabff4b1d24624a8e578b1ef06a89150302b364af5c9fc39bf4d0ee5e198",
+      "gas_used": 105052
+    }
+  },
+  "4294301": {
+    "time": "2026-06-17T14:38:11.772790+00:00",
+    "row": {
+      "time": "2026-06-17T14:38:11.770095+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4294301,
+      "tx_hash": "52aa6833448914e17fdc6957332638e9eb856691fe95e30ce0eec383efa4458d",
+      "gas_used": 105052
+    }
+  },
+  "4294303": {
+    "time": "2026-06-17T15:17:45.388455+00:00",
+    "row": {
+      "time": "2026-06-17T15:17:45.385341+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 4294303,
+      "tx_hash": "06b77a7ab083127f9c03f370ec5f23874d92fed87c92a9c11a69fbd609aaff71",
+      "gas_used": 105052
+    }
+  },
+  "2714615": {
+    "time": "2026-06-17T17:58:08.175845+00:00",
+    "row": {
+      "time": "2026-06-17T17:58:08.173279+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 2714615,
+      "tx_hash": "c45aa1ceed61ef98e4b66f559e73703c0fd7d0e8bf1255b3295c654404e54dce",
+      "gas_used": 105052
+    }
+  },
+  "2693765": {
+    "time": "2026-06-18T03:02:49.685600+00:00",
+    "row": {
+      "time": "2026-06-18T03:02:49.682559+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 2693765,
+      "tx_hash": "7326a2a91179552a2d4f13b671f4b141757a563f72f105083e7f21688b9f813e",
+      "gas_used": 105052
+    }
+  },
+  "2714381": {
+    "time": "2026-06-18T14:54:31.327862+00:00",
+    "row": {
+      "time": "2026-06-18T14:54:31.324138+00:00",
+      "wallet": "bebek",
+      "wallet_address": "0x1D705A0cDeF9c26042AEF80cD468c85503689235",
+      "agent_id": 9555,
+      "opinion_id": 2714381,
+      "tx_hash": "f894d9a661f8075b5b4d472b1ad8a8a41ef62d1585283547e29bf160074803e3",
+      "gas_used": 105028
+    }
+  }
+}

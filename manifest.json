@@ -1,0 +1,13 @@
+{
+  "generated": "2026-06-17 02:22:46 UTC",
+  "version": "discord-simple-v1.1-addfix",
+  "compile_results": {
+    "evo_farm_core.py": "OK",
+    "cogs/evo_farm.py": "OK",
+    "main_minimal_example.py": "OK"
+  },
+  "commands_added": [
+    "/farm add_raw",
+    "/farm errors"
+  ]
+}

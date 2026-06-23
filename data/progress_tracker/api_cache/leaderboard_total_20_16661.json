@@ -1,0 +1,209 @@
+{
+  "saved_at": 1782230820,
+  "saved_at_iso": "2026-06-23T16:07:00.630486+00:00",
+  "data": {
+    "items": [
+      {
+        "rank": 1,
+        "rank_label": "1",
+        "wallet_address": "0xfa549de53ee0ed608fc67cad66b37dd73a1e12fc",
+        "nickname": "0xfa54...12fc",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0xfa549de53ee0ed608fc67cad66b37dd73a1e12fc",
+        "total_points": 1475333,
+        "user_points": 1475033,
+        "agent_points": 300
+      },
+      {
+        "rank": 2,
+        "rank_label": "2",
+        "wallet_address": "0x22a5212d9de8f2670839462a92cb1cd81060f8d9",
+        "nickname": "0x22a5...f8d9",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x22a5212d9de8f2670839462a92cb1cd81060f8d9",
+        "total_points": 1165153,
+        "user_points": 1157503,
+        "agent_points": 7650
+      },
+      {
+        "rank": 3,
+        "rank_label": "3",
+        "wallet_address": "0x9935eaa74e7bfa87d50d51df8646965816676b76",
+        "nickname": "0x9935...6b76",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x9935eaa74e7bfa87d50d51df8646965816676b76",
+        "total_points": 1067988,
+        "user_points": 1061688,
+        "agent_points": 6300
+      },
+      {
+        "rank": 4,
+        "rank_label": "4",
+        "wallet_address": "0x4e546dc8500060f439e2011727950879400c1e64",
+        "nickname": "0x4e54...1e64",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x4e546dc8500060f439e2011727950879400c1e64",
+        "total_points": 1061077,
+        "user_points": 1058577,
+        "agent_points": 2500
+      },
+      {
+        "rank": 5,
+        "rank_label": "5",
+        "wallet_address": "0xeb3ab854e5923464f67967d9fdec4bd1c0da466d",
+        "nickname": "0xeb3a...466d",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0xeb3ab854e5923464f67967d9fdec4bd1c0da466d",
+        "total_points": 1050377,
+        "user_points": 1045827,
+        "agent_points": 4550
+      },
+      {
+        "rank": 6,
+        "rank_label": "6",
+        "wallet_address": "0x10d493cd7aa810a2aff0095de8b288180affd4f1",
+        "nickname": "0x10d4...d4f1",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x10d493cd7aa810a2aff0095de8b288180affd4f1",
+        "total_points": 1045866,
+        "user_points": 1041966,
+        "agent_points": 3900
+      },
+      {
+        "rank": 7,
+        "rank_label": "7",
+        "wallet_address": "0x7c8e91ec5a580189123d0dca042764343b35e3ad",
+        "nickname": "0x7c8e...e3ad",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x7c8e91ec5a580189123d0dca042764343b35e3ad",
+        "total_points": 1044850,
+        "user_points": 1036800,
+        "agent_points": 8050
+      },
+      {
+        "rank": 8,
+        "rank_label": "8",
+        "wallet_address": "0x6b6381f2cad74d84c5822aeb5e2a22912d8b5105",
+        "nickname": "0x6b63...5105",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x6b6381f2cad74d84c5822aeb5e2a22912d8b5105",
+        "total_points": 998263,
+        "user_points": 993663,
+        "agent_points": 4600
+      },
+      {
+        "rank": 9,
+        "rank_label": "9",
+        "wallet_address": "0xc47f5372eddc289e2da9b04a9b97bc898dae9688",
+        "nickname": "0xc47f...9688",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0xc47f5372eddc289e2da9b04a9b97bc898dae9688",
+        "total_points": 904763,
+        "user_points": 900063,
+        "agent_points": 4700
+      },
+      {
+        "rank": 10,
+        "rank_label": "10",
+        "wallet_address": "0xb6ac59d4d602f6cc6de8e15eae3c1b84eddf7de5",
+        "nickname": "0xb6ac...7de5",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0xb6ac59d4d602f6cc6de8e15eae3c1b84eddf7de5",
+        "total_points": 844979,
+        "user_points": 841729,
+        "agent_points": 3250
+      },
+      {
+        "rank": 11,
+        "rank_label": "11",
+        "wallet_address": "0x9ad479e987f0b440853ee05ab53a75654482469a",
+        "nickname": "0x9ad4...469a",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x9ad479e987f0b440853ee05ab53a75654482469a",
+        "total_points": 791797,
+        "user_points": 786847,
+        "agent_points": 4950
+      },
+      {
+        "rank": 12,
+        "rank_label": "12",
+        "wallet_address": "0xb5e058b1d5bdeecba58cc4fd7c38f0156e52d2d2",
+        "nickname": "0xb5e0...d2d2",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0xb5e058b1d5bdeecba58cc4fd7c38f0156e52d2d2",
+        "total_points": 779952,
+        "user_points": 775702,
+        "agent_points": 4250
+      },
+      {
+        "rank": 13,
+        "rank_label": "13",
+        "wallet_address": "0x1d705a0cdef9c26042aef80cd468c85503689235",
+        "nickname": "0x1d70...9235",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x1d705a0cdef9c26042aef80cd468c85503689235",
+        "total_points": 744777,
+        "user_points": 740427,
+        "agent_points": 4350
+      },
+      {
+        "rank": 14,
+        "rank_label": "14",
+        "wallet_address": "0x0b8defb0abd9be821ab4797ffd475ed27665f5a2",
+        "nickname": "0x0b8d...f5a2",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x0b8defb0abd9be821ab4797ffd475ed27665f5a2",
+        "total_points": 716952,
+        "user_points": 714702,
+        "agent_points": 2250
+      },
+      {
+        "rank": 15,
+        "rank_label": "15",
+        "wallet_address": "0xa8dab875eb73173c8c96215445263aa6a6851af6",
+        "nickname": "0xa8da...1af6",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0xa8dab875eb73173c8c96215445263aa6a6851af6",
+        "total_points": 709324,
+        "user_points": 707424,
+        "agent_points": 1900
+      },
+      {
+        "rank": 16,
+        "rank_label": "16",
+        "wallet_address": "0x459c9d687dbc8c26185867063e5b01e1c98c44fd",
+        "nickname": "0x459c...44fd",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x459c9d687dbc8c26185867063e5b01e1c98c44fd",
+        "total_points": 694820,
+        "user_points": 691670,
+        "agent_points": 3150
+      },
+      {
+        "rank": 17,
+        "rank_label": "17",
+        "wallet_address": "0x8665e262680a6fb6cf51553ef282cc20a3337332",
+        "nickname": "0x8665...7332",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x8665e262680a6fb6cf51553ef282cc20a3337332",
+        "total_points": 692804,
+        "user_points": 690854,
+        "agent_points": 1950
+      },
+      {
+        "rank": 18,
+        "rank_label": "18",
+        "wallet_address": "0x1a0ab23ff4e6e1b13782d7a9c52235dd321fd546",
+        "nickname": "0x1a0a...d546",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x1a0ab23ff4e6e1b13782d7a9c52235dd321fd546",
+        "total_points": 690160,
+        "user_points": 677710,
+        "agent_points": 12450
+      },
+      {
+        "rank": 19,
+        "rank_label": "19",
+        "wallet_address": "0xe475d272a2703a22663614b5ba8a5f3c54a10dbc",
+        "nickname": "0xe475...0dbc",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0xe475d272a2703a22663614b5ba8a5f3c54a10dbc",
+        "total_points": 686084,
+        "user_points": 684734,
+        "agent_points": 1350
+      },
+      {
+        "rank": 20,
+        "rank_label": "20",
+        "wallet_address": "0x1dd5af0d5658507e9cda2bc580e483b049fa7047",
+        "nickname": "0x1dd5...7047",
+        "avatar_url": "https://api.dicebear.com/9.x/identicon/svg?seed=0x1dd5af0d5658507e9cda2bc580e483b049fa7047",
+        "total_points": 678151,
+        "user_points": 667001,
+        "agent_points": 11150
+      }
+    ],
+    "period": "total"
+  }
+}

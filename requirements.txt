@@ -1,0 +1,7 @@
+requests
+web3
+python-dotenv
+rich
+discord
+cryptography
+eth-abi
