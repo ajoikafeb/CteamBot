@@ -1,0 +1,133 @@
+# CteamBot — Discord Multi-Purpose Bot
+
+Discord bot serbaguna untuk manajemen wallet crypto, tracking gas fee, reward giveaway, pick winner, dan farm automation.
+
+## Fitur
+
+### 🔐 Wallet Vault
+Simpan alamat wallet crypto terenkripsi per user Discord.
+
+| Command | Fungsi |
+|---------|--------|
+| `/wallet add <address>` | Simpan satu/banyak address |
+| `/wallet view` | Lihat address tersimpan |
+| `/wallet list` | Tampilkan semua address |
+| `/wallet del <address>` | Hapus satu address |
+| `/wallet clear` | Hapus semua address |
+
+> Address disimpan terenkripsi (AES via `cryptography.fernet`).
+
+### ⛽ Gas Tracker
+Cek gas fee real-time + estimasi biaya transaksi dalam USD.
+
+| Command | Fungsi |
+|---------|--------|
+| `/chain gas` | Gas fee + estimasi biaya transfer/contract dalam USD |
+| `/chain calc` | Kalkulasi custom gas units |
+
+**Chain didukung:** BNB Smart Chain, Ethereum, Base, Arbitrum, Optimism, Polygon, Avalanche C-Chain, Fantom, Cronos, zkSync Era, Linea, Scroll, Blast, Berachain, Sonic, Conflux eSpace, 0G.
+
+> Price dari CoinGecko → Binance → OKX → CryptoCompare → DexScreener (fallback chain).
+
+### 🎁 Reward System
+Tracking reward/pembayaran giveaway per user.
+
+| Command | Fungsi |
+|---------|--------|
+| `/reward add` | Daftarkan user reward baru |
+| `/reward edit` | Edit data user |
+| `/reward user` | Lihat data reward user |
+| `/reward give` | Beri reward baru (status pending) |
+| `/reward paid` | Tandai reward pending sebagai paid |
+| `/reward unpaid` | Kembalikan ke pending |
+| `/reward exportaddress` | Export CSV wallet address |
+| `/reward exportdana` | Export CSV nomor Dana |
+| `/reward exportbank` | Export CSV rekening bank |
+| `/reward exportall` | Export semua data user |
+| `/reward top` | Leaderboard total reward |
+
+### 🎯 Giveaway Picker
+Pilih pemenang giveaway dari pesan di channel berdasarkan keyword.
+
+| Command | Fungsi |
+|---------|--------|
+| `/pick` | Pilih pemenang dengan berbagai opsi filter |
+
+Fitur: filter tanggal, max entri per user, unique user, multi-win, channel scope.
+
+### 👤 Evo / On-Chain
+Cek data agent dan portfolio Evo.
+
+| Command | Fungsi |
+|---------|--------|
+| `/evo cekagent` | Cek agent Evo (balance, on-chain, rank, poin) |
+| `/evo portfolio` | Portfolio multi-agent per address |
+| `/evo progress` | Progress tracker Evo |
+
+### 📨 DM Management
+Batasi siapa saja yang bisa menggunakan bot via DM.
+
+| Command | Fungsi |
+|---------|--------|
+| `/dm allow <user>` | Izinkan user DM bot |
+| `/dm deny <user>` | Blokir user DM bot |
+| `/dm list` | Lihat daftar user yang diizinkan |
+
+### 🤖 Farm Automation (`evo_farm_core.py`)
+Auto-farming engine untuk Evo dengan fitur:
+- Encrypted credential store per user
+- Multi-wallet, multi-agent operation
+- Auto-claim, auto-restake
+- On-chain transaction execution
+- Daily progress tracking
+
+## Setup
+
+```bash
+# Clone & install
+pip install -r requirements.txt
+
+# Buat file .env
+echo "DISCORD_TOKEN=token_bot_kamu" >> .env
+echo "WALLET_SECRET=rahasia_enkripsi" >> .env
+
+# Jalanin
+python main.py
+```
+
+### Environment Variables
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `DISCORD_TOKEN` | ✅ | Token bot Discord |
+| `WALLET_SECRET` | ✅ | Kunci enkripsi wallet (min 32 karakter) |
+| `RPC_URL` | ❌ | Custom RPC (default: BSC) |
+| `EVO_API` | ❌ | Evo API base URL |
+
+## Requirements
+
+- Python 3.10+
+- discord.py
+- web3
+- cryptography
+- aiohttp
+- python-dotenv
+- eth-abi
+- requests
+- rich
+
+## Struktur
+
+```
+├── main.py                  # Entry point bot
+├── evo_farm_core.py         # Farm automation engine
+├── cogs/
+│   ├── wallet.py            # Wallet Vault
+│   ├── gastracker.py        # Gas Tracker
+│   ├── reward_vault.py      # Reward System
+│   ├── evoevo.py            # Evo / On-Chain
+│   └── wordpicker.py        # Giveaway Picker
+├── data/                    # Data penyimpanan (JSON)
+├── .env                     # Environment variables
+└── requirements.txt
+```
