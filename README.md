@@ -73,14 +73,6 @@ Batasi siapa saja yang bisa menggunakan bot via DM.
 | `/dm deny <user>` | Blokir user DM bot |
 | `/dm list` | Lihat daftar user yang diizinkan |
 
-### 🤖 Farm Automation (`evo_farm_core.py`)
-Auto-farming engine untuk Evo dengan fitur:
-- Encrypted credential store per user
-- Multi-wallet, multi-agent operation
-- Auto-claim, auto-restake
-- On-chain transaction execution
-- Daily progress tracking
-
 ## Setup
 
 ```bash
@@ -120,7 +112,6 @@ python main.py
 
 ```
 ├── main.py                  # Entry point bot
-├── evo_farm_core.py         # Farm automation engine
 ├── cogs/
 │   ├── wallet.py            # Wallet Vault
 │   ├── gastracker.py        # Gas Tracker
