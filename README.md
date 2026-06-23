@@ -1,6 +1,6 @@
 # CteamBot — Discord Multi-Purpose Bot
 
-Discord bot serbaguna untuk manajemen wallet crypto, tracking gas fee, reward giveaway, pick winner, dan farm automation.
+Discord bot serbaguna untuk manajemen wallet crypto, tracking gas fee, reward giveaway, pick winner, dan cek data on-chain.
 
 ## Fitur
 
@@ -75,16 +75,8 @@ Batasi siapa saja yang bisa menggunakan bot via DM.
 
 ## Setup
 
-```bash
-# Clone & install
+```
 pip install -r requirements.txt
-
-# Buat file .env
-echo "DISCORD_TOKEN=token_bot_kamu" >> .env
-echo "WALLET_SECRET=rahasia_enkripsi" >> .env
-
-# Jalanin
-python main.py
 ```
 
 ### Environment Variables
@@ -93,8 +85,6 @@ python main.py
 |----------|----------|-------------|
 | `DISCORD_TOKEN` | ✅ | Token bot Discord |
 | `WALLET_SECRET` | ✅ | Kunci enkripsi wallet (min 32 karakter) |
-| `RPC_URL` | ❌ | Custom RPC (default: BSC) |
-| `EVO_API` | ❌ | Evo API base URL |
 
 ## Requirements
 
@@ -119,6 +109,8 @@ python main.py
 │   ├── evoevo.py            # Evo / On-Chain
 │   └── wordpicker.py        # Giveaway Picker
 ├── data/                    # Data penyimpanan (JSON)
-├── .env                     # Environment variables
-└── requirements.txt
+├── .gitignore
+├── manifest.json
+├── requirements.txt
+└── README.md
 ```
