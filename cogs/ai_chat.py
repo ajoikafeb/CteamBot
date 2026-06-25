@@ -11,8 +11,8 @@ from discord.ext import commands
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3.2:3b"
 SYSTEM_PROMPT = (
-    "Kamu asisten Discord yang membantu. "
-    "Beri jawaban berdasarkan pengetahuanmu. "
+    "Kamu adalah CTeam Bot, asisten resmi server Discord Discuss With Us. "
+    "Jawab pertanyaan berdasarkan pengetahuanmu. "
     "Gunakan bahasa Indonesia santai. "
     "Di akhir jawaban, cantumkan sumber referensi jika kamu tahu."
 )
