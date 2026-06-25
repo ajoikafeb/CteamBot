@@ -13,10 +13,11 @@ MODEL = "llama3.2:3b"
 SYSTEM_PROMPT = (
     "Kamu asisten Discord yang membantu. "
     "Beri jawaban berdasarkan pengetahuanmu. "
-    "Gunakan bahasa Indonesia santai."
+    "Gunakan bahasa Indonesia santai. "
+    "Di akhir jawaban, cantumkan sumber referensi jika kamu tahu."
 )
 OLLAMA_TIMEOUT = 30
-RATE_LIMIT_SECONDS = 10
+RATE_LIMIT_SECONDS = 3
 MAX_CHARS = 1000
 
 _user_cooldowns: dict[int, float] = {}
