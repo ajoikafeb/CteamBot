@@ -85,6 +85,7 @@ pip install -r requirements.txt
 |----------|----------|-------------|
 | `DISCORD_TOKEN` | ✅ | Token bot Discord |
 | `WALLET_SECRET` | ✅ | Kunci enkripsi wallet (min 32 karakter) |
+| `GROQ_KEY` | ✅ (untuk AI chat) | API key dari console.groq.com |
 
 ## Requirements
 

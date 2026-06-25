@@ -1,18 +1,20 @@
-import json
+import os
 import time
 import re
-import asyncio
-import urllib.request
-import urllib.error
+import aiohttp
 
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
 
 
-OLLAMA_URL = "http://localhost:11434/api/generate"
+load_dotenv()
+
+GROQ_API = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_KEY = os.getenv("GROQ_KEY")
 MODELS = {
-    "primary": {"name": "qwen2.5:3b", "timeout": 45, "num_predict": 512},
-    "fallback": {"name": "qwen2.5:1.5b", "timeout": 30, "num_predict": 256},
+    "primary": "llama3-70b-8192",
+    "fallback": "mixtral-8x7b-32768",
 }
 SYSTEM_PROMPT = (
     "You are a friendly, intelligent, and natural Discord community member. "
@@ -23,17 +25,16 @@ SYSTEM_PROMPT = (
     "Never translate names, projects, brands, tokens, or technical terms. "
     "Keep responses concise unless detail is requested. "
     "Do not overuse emojis. "
-    "IMPORTANT: You are a local AI model without internet access. "
-    "You do NOT have current data about stock prices, IPO schedules, crypto prices, or real-time events. "
-    "If asked about current prices, schedules, news, or time-sensitive data, "
-    "clearly state that you don't have real-time access and cannot provide accurate current information. "
-    "Never make up facts, company names, financial data, or crypto prices. "
-    "When uncertain, say so — never invent facts. "
+    "You do NOT have real-time data access. If asked about current prices, IPO schedules, "
+    "or time-sensitive data, clearly state you don't have real-time access. "
+    "Never make up facts, company names, or financial data. "
+    "When uncertain, say so — never invent. "
     "You are an experienced developer — help with Python, JS, TS, Discord bots, APIs, blockchain, debugging. "
     "Act like a helpful server member participating naturally in the community."
 )
 RATE_LIMIT_SECONDS = 3
-MAX_CHARS = 1000
+MAX_CHARS = 2000
+GROQ_TIMEOUT = 30
 
 _user_cooldowns: dict[int, float] = {}
 
@@ -48,34 +49,38 @@ def is_suspicious(text: str) -> bool:
     return bool(INJECTION_PATTERNS.search(text))
 
 
-def ask_ollama(prompt: str, model_cfg: dict) -> str:
-    payload = json.dumps({
-        "model": model_cfg["name"],
-        "system": SYSTEM_PROMPT,
-        "prompt": prompt,
-        "stream": False,
-        "options": {
-            "num_predict": model_cfg["num_predict"],
-            "temperature": 0.9,
-            "top_p": 0.9,
-        }
-    }).encode()
-
-    req = urllib.request.Request(
-        OLLAMA_URL,
-        data=payload,
-        headers={"Content-Type": "application/json"},
-        method="POST",
-    )
-
-    with urllib.request.urlopen(req, timeout=model_cfg["timeout"]) as resp:
-        data = json.loads(resp.read().decode())
-        return data.get("response", "").strip()
-
-
 class AiChatCog(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
+
+    async def ask_groq(self, prompt: str, model: str) -> str | None:
+        headers = {
+            "Authorization": f"Bearer {GROQ_KEY}",
+            "Content-Type": "application/json",
+        }
+        payload = {
+            "model": model,
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ],
+            "max_tokens": 1024,
+            "temperature": 0.7,
+        }
+
+        try:
+            async with aiohttp.ClientSession() as session:
+                async with session.post(
+                    GROQ_API, json=payload, headers=headers, timeout=aiohttp.ClientTimeout(total=GROQ_TIMEOUT)
+                ) as resp:
+                    if resp.status != 200:
+                        text = await resp.text()
+                        return None
+                    data = await resp.json()
+                    content = data["choices"][0]["message"]["content"].strip()
+                    return content
+        except Exception:
+            return None
 
     @commands.Cog.listener()
     async def on_message(self, message: discord.Message):
@@ -117,20 +122,16 @@ class AiChatCog(commands.Cog):
         async with message.channel.typing():
             reply = None
             for tier in ("primary", "fallback"):
-                cfg = MODELS[tier]
+                model = MODELS[tier]
                 try:
-                    reply = await asyncio.wait_for(
-                        self.bot.loop.run_in_executor(None, ask_ollama, content, cfg),
-                        timeout=cfg["timeout"] + 5,
-                    )
+                    reply = await self.ask_groq(content, model)
                     if reply:
                         break
                 except Exception:
-                    if tier == "fallback":
-                        reply = "Maaf, otakku lagi lemot. Coba tanya lagi nanti."
+                    continue
 
         if not reply:
-            reply = "Maaf, otakku lagi lemot. Coba tanya lagi nanti."
+            reply = "Maaf, lagi error. Coba tanya lagi nanti."
 
         if len(reply) > 2000:
             reply = reply[:1997] + "..."
