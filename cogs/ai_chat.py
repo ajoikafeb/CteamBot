@@ -10,14 +10,16 @@ from discord.ext import commands
 
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL = "tinyllama:1.1b"
+MODELS = {
+    "primary": {"name": "llama3.2:3b", "timeout": 15, "num_predict": 64},
+    "fallback": {"name": "tinyllama:1.1b", "timeout": 20, "num_predict": 128},
+}
 SYSTEM_PROMPT = (
     "Kamu CTeam Bot, asisten santai server Discord Discuss With Us. "
     "Jawab dengan santai, bisa becanda. "
     "Pake bahasa Indonesia gaul santai. "
     "Jawab pendek aja, maksimal 2 kalimat."
 )
-OLLAMA_TIMEOUT = 30
 RATE_LIMIT_SECONDS = 3
 MAX_CHARS = 1000
 
@@ -34,14 +36,14 @@ def is_suspicious(text: str) -> bool:
     return bool(INJECTION_PATTERNS.search(text))
 
 
-def ask_ollama(prompt: str) -> str:
+def ask_ollama(prompt: str, model_cfg: dict) -> str:
     payload = json.dumps({
-        "model": MODEL,
+        "model": model_cfg["name"],
         "system": SYSTEM_PROMPT,
         "prompt": prompt,
         "stream": False,
         "options": {
-            "num_predict": 64,
+            "num_predict": model_cfg["num_predict"],
             "temperature": 0.9,
             "top_p": 0.9,
         }
@@ -54,16 +56,9 @@ def ask_ollama(prompt: str) -> str:
         method="POST",
     )
 
-    try:
-        with urllib.request.urlopen(req, timeout=OLLAMA_TIMEOUT) as resp:
-            data = json.loads(resp.read().decode())
-            return data.get("response", "Maaf, aku gak bisa jawab sekarang.").strip()
-    except urllib.error.HTTPError as e:
-        return f"Ollama error (HTTP {e.code}). Cek `ollama serve` sudah jalan?"
-    except urllib.error.URLError:
-        return "Ollama gak bisa diakses. Pastikan `ollama serve` sudah jalan."
-    except Exception as e:
-        return f"Error: {e}"
+    with urllib.request.urlopen(req, timeout=model_cfg["timeout"]) as resp:
+        data = json.loads(resp.read().decode())
+        return data.get("response", "").strip()
 
 
 class AiChatCog(commands.Cog):
@@ -108,13 +103,22 @@ class AiChatCog(commands.Cog):
             return
 
         async with message.channel.typing():
-            try:
-                reply = await asyncio.wait_for(
-                    self.bot.loop.run_in_executor(None, ask_ollama, content),
-                    timeout=OLLAMA_TIMEOUT,
-                )
-            except asyncio.TimeoutError:
-                reply = "Maaf, lama banget nih prosesnya. Coba tanya lagi nanti."
+            reply = None
+            for tier in ("primary", "fallback"):
+                cfg = MODELS[tier]
+                try:
+                    reply = await asyncio.wait_for(
+                        self.bot.loop.run_in_executor(None, ask_ollama, content, cfg),
+                        timeout=cfg["timeout"] + 5,
+                    )
+                    if reply:
+                        break
+                except Exception:
+                    if tier == "fallback":
+                        reply = "Maaf, otakku lagi lemot. Coba tanya lagi nanti."
+
+        if not reply:
+            reply = "Maaf, otakku lagi lemot. Coba tanya lagi nanti."
 
         if len(reply) > 2000:
             reply = reply[:1997] + "..."
