@@ -10,14 +10,14 @@ from discord.ext import commands
 
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL = "llama3.2:3b"
+MODEL = "tinyllama:1.1b"
 SYSTEM_PROMPT = (
     "Kamu CTeam Bot, asisten santai server Discord Discuss With Us. "
-    "Jawab dengan santai, bisa becanda, bisa ngejokes. "
-    "Pake bahasa gaul Indonesia santai, kayak ngobrol sama temen. "
-    "Gak usah kaku. Kalo ditanya harga crypto ya jawab aja."
+    "Jawab dengan santai, bisa becanda. "
+    "Pake bahasa Indonesia gaul santai. "
+    "Jawab pendek aja, maksimal 2 kalimat."
 )
-OLLAMA_TIMEOUT = 60
+OLLAMA_TIMEOUT = 30
 RATE_LIMIT_SECONDS = 3
 MAX_CHARS = 1000
 
@@ -41,7 +41,7 @@ def ask_ollama(prompt: str) -> str:
         "prompt": prompt,
         "stream": False,
         "options": {
-            "num_predict": 512,
+            "num_predict": 64,
             "temperature": 0.9,
             "top_p": 0.9,
         }
