@@ -9,7 +9,7 @@ from discord.ext import commands
 
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL = "qwen2.5:3b"
+MODEL = "llama3.2:3b"
 SYSTEM_PROMPT = (
     "Kamu asisten Discord yang membantu. "
     "Beri jawaban berdasarkan pengetahuanmu. "
