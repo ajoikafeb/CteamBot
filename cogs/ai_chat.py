@@ -1,6 +1,7 @@
 import json
 import time
 import re
+import asyncio
 import urllib.request
 import urllib.error
 
@@ -11,12 +12,12 @@ from discord.ext import commands
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3.2:3b"
 SYSTEM_PROMPT = (
-    "Kamu adalah CTeam Bot, asisten resmi server Discord Discuss With Us. "
-    "Jawab pertanyaan berdasarkan pengetahuanmu. "
-    "Gunakan bahasa Indonesia santai. "
-    "Di akhir jawaban, cantumkan sumber referensi jika kamu tahu."
+    "Kamu CTeam Bot, asisten santai server Discord Discuss With Us. "
+    "Jawab dengan santai, bisa becanda, bisa ngejokes. "
+    "Pake bahasa gaul Indonesia santai, kayak ngobrol sama temen. "
+    "Gak usah kaku. Kalo ditanya harga crypto ya jawab aja."
 )
-OLLAMA_TIMEOUT = 30
+OLLAMA_TIMEOUT = 60
 RATE_LIMIT_SECONDS = 3
 MAX_CHARS = 1000
 
@@ -107,7 +108,13 @@ class AiChatCog(commands.Cog):
             return
 
         async with message.channel.typing():
-            reply = await self.bot.loop.run_in_executor(None, ask_ollama, content)
+            try:
+                reply = await asyncio.wait_for(
+                    self.bot.loop.run_in_executor(None, ask_ollama, content),
+                    timeout=OLLAMA_TIMEOUT,
+                )
+            except asyncio.TimeoutError:
+                reply = "Maaf, lama banget nih prosesnya. Coba tanya lagi nanti."
 
         if len(reply) > 2000:
             reply = reply[:1997] + "..."
