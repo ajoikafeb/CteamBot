@@ -11,14 +11,12 @@ from discord.ext import commands
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODELS = {
-    "primary": {"name": "llama3.2:3b", "timeout": 15, "num_predict": 64},
-    "fallback": {"name": "tinyllama:1.1b", "timeout": 20, "num_predict": 128},
+    "primary": {"name": "qwen2.5:3b", "timeout": 30, "num_predict": 128},
+    "fallback": {"name": "qwen2.5:1.5b", "timeout": 25, "num_predict": 96},
 }
 SYSTEM_PROMPT = (
-    "Kamu CTeam Bot, asisten santai server Discord Discuss With Us. "
-    "Jawab dengan santai, bisa becanda. "
-    "Pake bahasa Indonesia gaul santai. "
-    "Jawab pendek aja, maksimal 2 kalimat."
+    "Kamu CTeam Bot, asisten santai di Discord Discuss With Us. "
+    "Jawab santai aja, pake bahasa Indonesia."
 )
 RATE_LIMIT_SECONDS = 3
 MAX_CHARS = 1000
