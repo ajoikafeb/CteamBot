@@ -11,8 +11,8 @@ from discord.ext import commands
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODELS = {
-    "primary": {"name": "qwen2.5:3b", "timeout": 30, "num_predict": 128},
-    "fallback": {"name": "qwen2.5:1.5b", "timeout": 25, "num_predict": 96},
+    "primary": {"name": "qwen2.5:3b", "timeout": 45, "num_predict": 512},
+    "fallback": {"name": "qwen2.5:1.5b", "timeout": 30, "num_predict": 256},
 }
 SYSTEM_PROMPT = (
     "You are a friendly, intelligent, and natural Discord community member. "
@@ -23,8 +23,12 @@ SYSTEM_PROMPT = (
     "Never translate names, projects, brands, tokens, or technical terms. "
     "Keep responses concise unless detail is requested. "
     "Do not overuse emojis. "
+    "IMPORTANT: You are a local AI model without internet access. "
+    "You do NOT have current data about stock prices, IPO schedules, crypto prices, or real-time events. "
+    "If asked about current prices, schedules, news, or time-sensitive data, "
+    "clearly state that you don't have real-time access and cannot provide accurate current information. "
+    "Never make up facts, company names, financial data, or crypto prices. "
     "When uncertain, say so — never invent facts. "
-    "When providing information from internet search: summarize, include source URLs, mention where info came from. "
     "You are an experienced developer — help with Python, JS, TS, Discord bots, APIs, blockchain, debugging. "
     "Act like a helpful server member participating naturally in the community."
 )
